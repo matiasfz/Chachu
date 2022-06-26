@@ -1,0 +1,16 @@
+.fondo{
+    background-image: url(../Chachu/Imagenes/inicio\ en\ pc\ vieja.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: flex-end;
+
+
+}
