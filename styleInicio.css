@@ -1,0 +1,797 @@
+@font-face {
+    font-family: "Rubik-Italic";
+    src: url(./Fuentes/Rubik-Italic.ttf);
+}
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url(./Fuentes/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url(./Fuentes/Rubik-Medium.ttf);
+}
+
+
+/* BODY */
+body{
+
+    background-image: url(./Imagenes/inicio\ fondo.png);
+    background-color: #454960;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100vw 2818px;
+    color: white;
+
+
+}
+
+/* HEADER */
+header{
+
+    
+    display:flex;
+    position:sticky;
+    z-index: 10000;
+    width: 93vw;
+    height: 200px;
+    top: 0%;
+    gap: 8px;
+    justify-content: flex-end;
+    padding: 40px;
+    font-size: 32px;
+    color: #a19Dad;
+    font-family: "Rubik-Regular";
+    
+
+
+}
+
+
+.fb{
+    width: 28px;
+    height: 28px;
+}
+
+
+.ig{ 
+    width: 28px;
+    height: 28px;
+    
+}
+
+.aig{
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 3%;
+    
+    
+}
+
+.afb{
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 3%;
+
+}
+
+.inicio{
+    font-weight: 600;
+    font-family: "Rubik-Medium";
+}
+
+.aElProyecto{
+    height: 15px;
+    color: #a19Dad;
+    text-decoration: none;
+}
+
+.aElProyecto:hover{
+    color: #ffffff;
+}
+
+.aNosotras{
+    height: 15px;
+    color: #a19Dad;
+    text-decoration: none;
+    
+}
+
+.aNosotras:hover{
+    color: #ffffff;
+}
+
+
+
+/* MAIN */
+main{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    width: 96vw;
+    height: 2260px;
+    justify-content: center;
+    font-family: "Rubik-Regular";
+}
+
+
+
+.fragmentos{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    font-size: 80px;
+    font-family: "Rubik-Medium";
+}
+
+.dolor{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 42%;
+    font-size:38px;
+    color: #a19Dad;
+    
+}
+.cristal{
+    display: flex;
+    position: absolute;
+    top: 29%;
+    left: 51%;
+    width: 120px;
+    height: 120px;
+}
+
+.pFragmentos{
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    text-align: center;
+    font-weight: 599;
+    font-size: 28px;
+
+}
+
+
+
+.aDescargar{
+    display: flex;
+    position: absolute;
+    bottom: 40%;
+    left: 48%;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.descargar{
+    height: 90px;
+    width: 290px;
+    border-radius: 50px;
+    font-size: 50px;
+    background-color:#a19Dad;
+    color:white;
+    border: #ffffff;
+    
+}
+.descargar:hover{
+    color:#a19Dad;
+    background-color: #ffffff
+}
+
+
+
+
+.requisitos{
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+    left: 35%;
+    text-align: center;
+    font-size: 28px;
+    color: #a19Dad;
+    
+    
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 96vw;
+    padding: 20px;
+}
+
+.metropolitano{
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 600px;
+    left: 35%;
+    top: 30%;
+    
+}
+
+@media (max-width: 1680px){
+
+    .fragmentos{
+        left: 36%;
+    }
+
+    .dolor{
+        left: 36%;
+    }
+
+    .cristal{
+        left: 47%;
+    }
+
+    .pFragmentos{
+        left: 20.5%;
+    }
+
+    .aDescargar{
+        left: 41.8%;
+    }
+
+    .requisitos{
+        left: 26.5%;
+    }
+
+    .metropolitano{
+        left: 32%;
+    }
+
+}
+
+@media (max-width: 1600px){
+
+    .fragmentos{
+        left: 36%;
+    }
+
+    .dolor{
+        left: 36%;
+    }
+
+    .cristal{
+        left: 47%;
+    }
+
+    .pFragmentos{
+        left: 20.5%;
+    }
+
+    .aDescargar{
+        left: 41.8%;
+    }
+
+    .requisitos{
+        left: 26.5%;
+    }
+
+    .metropolitano{
+        left: 32%;
+    }
+
+}
+
+@media (max-width: 1366px){
+    
+        
+    header{
+        width: 92vw;
+        font-size: 28px;
+        gap: 6px;
+    }
+
+    .fragmentos{
+        left: 36%;
+        font-size: 72px;
+    }
+
+    .dolor{
+        left: 36%;
+        font-size: 32px;
+        top: 16%;
+    }
+
+    .cristal{
+        left: 46%;
+    }
+
+    .pFragmentos{
+        font-size: 25px;
+        left: 18.5%;
+    }
+
+    .descargar{
+        height: 75px;
+        width: 250px;
+        font-size: 45px;
+    }
+
+    .aDescargar{
+        left: 41%;
+    }
+
+    .requisitos{
+        left: 25.5%;
+        font-size: 23px;
+    }
+
+    .metropolitano{
+        height: 120px;
+        width: 500px;
+        left: 32%;
+    }
+
+    footer{
+        width: 92vw;
+    }
+}
+
+@media (max-width: 1360px){
+
+    
+    header{
+        width: 92vw;
+        font-size: 28px;
+        gap: 6px;
+    }
+
+    .fragmentos{
+        left: 36%;
+        font-size: 72px;
+    }
+
+    .dolor{
+        left: 36%;
+        font-size: 32px;
+        top: 16%;
+    }
+
+    .cristal{
+        left: 46%;
+    }
+
+    .pFragmentos{
+        font-size: 25px;
+        left: 18.5%;
+    }
+
+    .descargar{
+        height: 75px;
+        width: 250px;
+        font-size: 45px;
+    }
+
+    .aDescargar{
+        left: 41%;
+    }
+
+    .requisitos{
+        left: 25.5%;
+        font-size: 23px;
+    }
+
+    .metropolitano{
+        height: 120px;
+        width: 500px;
+        left: 32%;
+    }
+
+    footer{
+        width: 92vw;
+    }
+    
+    
+}
+
+@media (max-width: 1280px){
+
+    
+    header{
+        width: 90vw;
+        font-size: 28px;
+        gap: 6px;
+    }
+
+    .fragmentos{
+        left: 35%;
+        font-size: 72px;
+    }
+
+    .dolor{
+        left: 35%;
+        font-size: 32px;
+        top: 16%;
+    }
+
+    .cristal{
+        left: 45%;
+    }
+
+    .pFragmentos{
+        font-size: 25px;
+        left: 17.5%;
+    }
+
+    .descargar{
+        height: 75px;
+        width: 250px;
+        font-size: 45px;
+    }
+
+    .aDescargar{
+        left: 40%;
+    }
+
+    .requisitos{
+        left: 24.5%;
+        font-size: 23px;
+    }
+
+    .metropolitano{
+        height: 120px;
+        width: 500px;
+        left: 31%;
+    }
+
+    footer{
+        width: 90vw;
+    }
+
+}
+
+@media (max-width: 1024px){
+
+    
+    header{
+        width: 88vw;
+        font-size: 26px;
+        gap: 5px;
+    }
+
+    .fb{
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    .ig{ 
+        width: 25px;
+        height: 25px;
+        
+    }
+
+    .fragmentos{
+        left: 31%;
+        font-size: 65px;
+    }
+
+    .dolor{
+        left: 32%;
+        font-size: 30px;
+        top: 15.3%;
+    }
+
+    .cristal{
+        left: 43%;
+    }
+
+    .pFragmentos{
+        font-size: 21px;
+        left: 13%;
+    }
+
+    .descargar{
+        height: 70px;
+        width: 230px;
+        font-size: 40px;
+    }
+
+    .aDescargar{
+        left: 38%;
+    }
+
+    .requisitos{
+        left: 21%;
+        font-size: 21px;
+    }
+
+    .metropolitano{
+        height: 110px;
+        width: 480px;
+        left: 28%;
+    }
+
+    footer{
+        width: 88vw;
+    }
+
+}
+
+@media (max-width: 800px){
+
+    
+    header{
+        width: 86vw;
+        font-size: 20px;
+        gap: 2px;
+    }
+
+    .inicio{
+        font-weight: 590;
+        font-family: "Rubik-Medium";
+    }
+
+    .fb{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .ig{ 
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .aig{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    }
+    
+    .afb{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    
+    }
+
+    .fragmentos{
+        left: 31%;
+        font-size: 55px;
+    }
+
+    .dolor{
+        left: 32%;
+        font-size: 26px;
+        top: 14.5%;
+    }
+
+    .cristal{
+        left: 42%;
+    }
+
+    .pFragmentos{
+        font-size: 18px;
+        left: 12%;
+    }
+
+    .descargar{
+        height: 60px;
+        width: 200px;
+        font-size: 35px;
+    }
+
+    .aDescargar{
+        left: 36.5%;
+    }
+
+    .requisitos{
+        left: 18.5%;
+        font-size: 18px;
+    }
+
+    .metropolitano{
+        height: 90px;
+        width: 420px;
+        left: 25%;
+    }
+
+    footer{
+        width: 86vw;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 505px){
+
+    
+    header{
+        width: 80vw;
+        font-size: 12px;
+        gap: 1px;
+    }
+
+    .inicio{
+        font-weight: 590;
+        font-family: "Rubik-Medium";
+    }
+
+    .fb{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .ig{ 
+        width: 10px;
+        height: 10px;
+        
+    }
+
+    .aig{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    }
+    
+    .afb{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    .fragmentos{
+        left: 31%;
+        font-size: 38px;
+    }
+
+    .dolor{
+        left: 32%;
+        font-size: 18px;
+        top: 13.2%;
+    }
+
+    .cristal{
+        left: 50%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .pFragmentos{
+        font-size: 8px;
+        left: 25%;
+    }
+
+    .descargar{
+        height: 40px;
+        width: 130px;
+        font-size: 25px;
+    }
+
+    .aDescargar{
+        left: 43%;
+    }
+
+    .requisitos{
+        left: 22%;
+        font-size: 10px;
+    }
+
+    .metropolitano{
+        height: 70px;
+        width: 300px;
+        left: 20%;
+    }
+
+    footer{
+        width: 80vw;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 420px){
+
+    
+    header{
+        width: 70vw;
+        font-size: 10px;
+        gap: 1px;
+    }
+
+    .inicio{
+        font-weight: 590;
+        font-family: "Rubik-Medium";
+    }
+
+    .fb{
+        width: 8px;
+        height: 8px;
+    }
+    
+    .ig{ 
+        width: 8px;
+        height: 8px;
+        
+    }
+
+    .aig{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    }
+    
+    .afb{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 2%;
+    
+    }
+
+    main{
+        width: 90vw;
+    }
+
+    .fragmentos{
+        left: 27%;
+        font-size: 30px;
+    }
+
+    .dolor{
+        left: 28%;
+        font-size: 14px;
+        top: 12.6%;
+    }
+
+    .cristal{
+        left: 42%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .pFragmentos{
+        font-size: 6px;
+        left: 22%;
+    }
+
+    .descargar{
+        height: 30px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .aDescargar{
+        left: 38%;
+    }
+
+    .requisitos{
+        left: 18%;
+        font-size: 8px;
+    }
+
+    .metropolitano{
+        height: 50px;
+        width: 220px;
+        left: 20%;
+    }
+
+    footer{
+        width: 70vw;
+    }
+
+}
+
+
+
+
+
+
+
+

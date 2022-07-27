@@ -1,0 +1,291 @@
+@font-face {
+    font-family: "Rubik-Italic";
+    src: url(./Fuentes/Rubik-Italic.ttf);
+}
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url(./Fuentes/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url(./Fuentes/Rubik-Medium.ttf);
+}
+
+/* BODY */
+body{
+    background-image: url(./Imagenes/nosotras\ fondo.png);
+    background-color: #454960;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100vw 2818px;
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    position:sticky;
+    z-index: 10000;
+    width: 93vw;
+    height: 200px;
+    top: 0%;
+    gap: 8px;
+    justify-content: flex-end;
+    padding: 40px;
+    font-size: 32px;
+    color: #a19Dad;
+    font-family: "Rubik-Regular";
+}
+
+
+.fb{
+    width: 28px;
+    height: 28px;
+}
+
+.ig{
+    
+    width: 28px;
+    height: 28px;
+    
+}
+
+.aig{
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 3%;
+    
+    
+}
+
+.afb{
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 3%;
+
+}
+
+.aInicio{
+    color: #a19Dad;
+    text-decoration: none;
+    height: 15px;
+}
+
+.aInicio:hover{
+    color: white;
+}
+
+.aElProyecto{
+    color: #a19Dad;
+    text-decoration: none;
+    height: 15px;
+}
+
+.aElProyecto:hover{
+    color: white;
+}
+
+.nosotras{
+    font-weight: 800;
+    font-family: "Rubik-Medium" ;
+    
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    position: relative;
+    width: 98vw;
+    height: 2200px;
+    font-family: "Rubik-Regular";
+}
+
+.cristal{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 15%;
+    left: 45%;
+    
+}
+
+.principal{
+    display: flex;
+    position: absolute;
+    width:75vw;
+    height: 1000px;
+    top: 25%;
+    left: 18.5%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.ellas{
+    display: flex;
+    position: absolute;
+    width: 78vw;
+    height: 1300px;
+    bottom: 0%;
+    left: 0%;
+}
+
+
+.cecilia{
+    display: flex;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    top: 0%;
+    left: 28%;
+}
+
+.h2cecilia{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    font-size: 32px;
+}
+
+.pCecilia{
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    font-size: 25px;
+    color: #a19Dad;
+}
+
+
+.ailen{
+    display: flex;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    top: 0%;
+    right: 0%;
+}
+
+.h2ailen{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    right: -1%;
+    font-size: 32px;
+}
+
+.pAilen{
+    display: flex;
+    position: absolute;
+    top: 32%;
+    right: -5%;
+    font-size: 25px;
+    color: #a19Dad;
+}
+
+
+.otros{
+    display: flex;
+    position: absolute;
+    width: 20vw;
+    bottom: 22.5%;
+    left: 44%;
+    font-weight: 550;
+    font-size: 32px;
+    color: #a19Dad;
+}
+
+.proyectos{
+    display: flex;
+    position: absolute;
+    width: 90vw;
+    left: -1.5%;
+    height: 1500px;
+    bottom: 0%;
+    
+}
+
+.jauregui{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    bottom: 10%;
+    left: 14%;
+}
+
+.unDiosQue{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    bottom: 10%;
+    left: 32%;
+}
+
+.aParaQueDios{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    right: 36%;
+}
+
+.paraQueDios{
+    
+    width: 220px;
+    height: 300px;
+    
+}
+
+.aBiologas{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    right: 18%;
+}
+
+.biologas{
+    
+    width: 220px;
+    height: 300px;
+    
+}
+
+.puebloArgentino{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    bottom: 10%;
+    right: 0%;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    position: relative;
+    height: 280px;
+    width: 90vw;
+    padding: 10px;
+    bottom: 0%;
+    
+}
+
+.metropolitano{
+    display: flex;
+    position: absolute;
+    height: 110px;
+    width: 500px;
+    right: 31%;
+    bottom: 0%;
+    
+}
+

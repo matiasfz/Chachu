@@ -1,0 +1,340 @@
+@font-face {
+    font-family: "Rubik-Italic";
+    src: url(./Fuentes/Rubik-Italic.ttf);
+}
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url(./Fuentes/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url(./Fuentes/Rubik-Medium.ttf);
+}
+
+/* BODY */
+body{
+    background-image: url(./Imagenes/el\ proyecto\ fondo.png);
+    background-color: #454960;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100vw 4734px;
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    position: sticky;
+    z-index: 100000;
+    width: 93vw;
+    height: 200px;
+    top: 0%;
+    gap: 8px;
+    justify-content: flex-end;
+    padding: 40px;
+    font-size: 32px;
+    color: #a19Dad;
+    font-family: "Rubik-Regular";
+
+}
+
+
+.fb{
+    width: 28px;
+    height: 28px;
+}
+
+.ig{
+    
+    width: 28px;
+    height: 28px;
+    
+}
+
+.aig{
+    height: 15px;
+    display: flex;
+    position: relative;
+    top: 3%;
+    
+    
+}
+
+.afb{
+    height: 15px;
+    display: flex;
+    position: relative;
+    top: 3%;
+
+}
+
+.aInicio{
+    height: 15px;
+    color: #a19Dad;
+    text-decoration: none;
+}
+
+.aInicio:hover{
+    color:white;
+}
+
+.proyecto{
+    font-weight: 600;
+    font-family: "Rubik-Medium" ;
+}
+
+.aNosotras{
+    height: 15px;
+    color: #a19Dad;
+    text-decoration: none;
+}
+
+.aNosotras:hover{
+    color: white;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    position: relative;
+    width: 98vw;
+    height: 3650px;
+    font-family: "Rubik-Regular";
+}
+
+
+.introduccion{
+    display: flex;
+    position: absolute;
+    width: 40vw;
+    bottom: 74%;
+    left: 34%;
+    font-size: 28px;
+    text-align: center;
+}
+
+.cristal1{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    bottom: 67%;
+    left: 45%;
+    
+}
+
+.reconocimientos{
+    display: flex;
+    position: absolute;
+    width: 40vw;
+    bottom: 63%;
+    left: 36%;
+    font-size: 30px;
+}
+
+.reconocidos{
+    display: flex;
+    position: absolute;
+    width: 92vw;
+    bottom: 46%;
+    left: 1.5%;
+    font-size: 28px;
+    text-align: center;
+    flex-direction: column;
+    color: #a19Dad;
+}
+
+.cristal2{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    bottom: 38%;
+    left: 45%;
+    
+}
+
+.creditos{
+    display: flex;
+    position: absolute;
+    width: 20vw;
+    bottom: 32.5%;
+    left: 45%;
+    font-size: 40px;
+}
+
+.idea{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 31.1%;
+    left: 40%;
+    font-size: 28px;
+    font-weight: 550;
+    color: #a19Dad;
+}
+
+.diseñadoras{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 29.3%;
+    left: 42%;
+    font-size: 28px;
+    text-align: center;
+}
+
+.musica{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 27.5%;
+    left: 47%;
+    font-size: 28px;
+    font-weight: 550;
+    color: #a19Dad;
+}
+
+.musicalista{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 26.8%;
+    left: 43.5%;
+    font-size: 28px;
+}
+
+.sonido{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 24.8%;
+    left: 39.5%;
+    font-size: 28px;
+    color: #a19Dad;
+    font-weight: 550;
+}
+
+.sonidista{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 24%;
+    left: 43%;
+    font-size: 28px;
+}
+
+.programacion{
+    display: flex;
+    position: absolute;
+    width: 20vw;
+    bottom: 22.2%;
+    left: 45.5%;
+    font-size: 28px;
+    color: #a19Dad;
+    font-weight: 550;
+
+}
+
+.programadores{
+    display: flex;
+    position: absolute;
+    width: 25vw;
+    bottom: 19.5%;
+    left: 43.5%;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.testimonios{
+    display: flex;
+    position: absolute;
+    width: 25vw;
+    bottom: 17.7%;
+    left: 46%;
+    font-size: 29px;
+    font-weight: 550;
+    color: #a19Dad;
+}
+
+.testores{
+    display: flex;
+    position: absolute;
+    width: 60vw;
+    bottom: 14%;
+    left: 26%;
+    font-size: 28px;
+    text-align: center;
+}
+
+.agradecemos{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    bottom: 10%;
+    left: 42%;
+    font-size: 28px;
+    color: #a19Dad;
+
+}
+
+.agradecidos{
+    display: flex;
+    position: absolute;
+    width: 76vw;
+    left: 12%;
+    bottom: 2%;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+    
+}
+
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    position: relative;
+    height: 734px;
+    width: 96vw;
+    bottom: 0%;
+    padding: 10px; 
+    font-family: "Rubik-Regular";
+}
+
+.metropolitano{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 430px;
+    top: 0%;
+    left: 38%;
+
+}
+
+.apoyoDelPrograma{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    width: 50vw;
+    height: 100px;
+    top: 10%;
+    left: 30%;
+    color: #a19Dad;
+    font-size: 25px;
+    font-weight:550;
+}
+
+.enMemoria{
+    display: flex;
+    position: absolute;
+    width: 70vw;
+    height: 100px;
+    top: 25%;
+    left: 20%;
+    font-size: 33px;
+}
