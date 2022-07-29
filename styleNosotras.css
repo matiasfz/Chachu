@@ -1210,8 +1210,11 @@ footer{
     }
 
     .aParaQueDios{
-        right: 33.8% ;
+
+        right: 33.8%;
     }
+
+    
 
     .paraQueDios:hover{
         z-index: 100;
@@ -1356,7 +1359,7 @@ footer{
 
     .unDiosQue{
         left: 25.5%;
-        bottom: 2%;
+        bottom: 1%;
         
     }
 
@@ -1375,8 +1378,9 @@ footer{
     }
 
     .aBiologas{
+        
         right: 13.7%;
-        bottom: 2%;
+        bottom: 1%;
     }
 
     .biologas:hover{
@@ -1399,7 +1403,7 @@ footer{
     .metropolitano{
         width: 180px;
         height: 50px;
-        left: 20.5%;
+        left: 20.4%;
         bottom: 8%;
     }
 }
