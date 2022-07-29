@@ -107,9 +107,9 @@ main{
 .introduccion{
     display: flex;
     position: absolute;
-    width: 40vw;
-    bottom: 74%;
-    left: 34%;
+    width: 60vw;
+    top: 5%;
+    left: 20%;
     font-size: 28px;
     text-align: center;
 }
@@ -119,8 +119,8 @@ main{
     position: absolute;
     width: 160px;
     height: 160px;
-    bottom: 67%;
-    left: 45%;
+    top: 16.5%;
+    left: 46%;
     
 }
 
@@ -128,8 +128,8 @@ main{
     display: flex;
     position: absolute;
     width: 40vw;
-    bottom: 63%;
-    left: 36%;
+    top: 26%;
+    left: 37%;
     font-size: 30px;
 }
 
@@ -137,8 +137,8 @@ main{
     display: flex;
     position: absolute;
     width: 92vw;
-    bottom: 46%;
-    left: 1.5%;
+    top: 28%;
+    left: 1%;
     font-size: 28px;
     text-align: center;
     flex-direction: column;
@@ -150,8 +150,8 @@ main{
     position: absolute;
     width: 160px;
     height: 160px;
-    bottom: 38%;
-    left: 45%;
+    bottom: 47%;
+    left: 46%;
     
 }
 
@@ -159,17 +159,17 @@ main{
     display: flex;
     position: absolute;
     width: 20vw;
-    bottom: 32.5%;
-    left: 45%;
-    font-size: 40px;
+    bottom: 39.5%;
+    left: 45.5%;
+    font-size: 45px;
 }
 
 .idea{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 31.1%;
-    left: 40%;
+    bottom: 38%;
+    left: 41.4%;
     font-size: 28px;
     font-weight: 550;
     color: #a19Dad;
@@ -179,8 +179,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 29.3%;
-    left: 42%;
+    bottom: 36%;
+    left: 43%;
     font-size: 28px;
     text-align: center;
 }
@@ -189,8 +189,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 27.5%;
-    left: 47%;
+    bottom: 34.5%;
+    left: 47.8%;
     font-size: 28px;
     font-weight: 550;
     color: #a19Dad;
@@ -200,8 +200,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 26.8%;
-    left: 43.5%;
+    bottom: 33.5%;
+    left: 44.3%;
     font-size: 28px;
 }
 
@@ -209,8 +209,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 24.8%;
-    left: 39.5%;
+    bottom: 32%;
+    left: 40%;
     font-size: 28px;
     color: #a19Dad;
     font-weight: 550;
@@ -220,8 +220,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 24%;
-    left: 43%;
+    bottom: 31%;
+    left: 43.5%;
     font-size: 28px;
 }
 
@@ -229,8 +229,8 @@ main{
     display: flex;
     position: absolute;
     width: 20vw;
-    bottom: 22.2%;
-    left: 45.5%;
+    bottom: 29.6%;
+    left: 45.4%;
     font-size: 28px;
     color: #a19Dad;
     font-weight: 550;
@@ -241,7 +241,7 @@ main{
     display: flex;
     position: absolute;
     width: 25vw;
-    bottom: 19.5%;
+    bottom: 26.7%;
     left: 43.5%;
     font-size: 28px;
     text-align: center;
@@ -252,8 +252,8 @@ main{
     display: flex;
     position: absolute;
     width: 25vw;
-    bottom: 17.7%;
-    left: 46%;
+    bottom: 25.2%;
+    left: 45.9%;
     font-size: 29px;
     font-weight: 550;
     color: #a19Dad;
@@ -263,8 +263,8 @@ main{
     display: flex;
     position: absolute;
     width: 60vw;
-    bottom: 14%;
-    left: 26%;
+    bottom: 21.5%;
+    left: 26.9%;
     font-size: 28px;
     text-align: center;
 }
@@ -273,8 +273,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 10%;
-    left: 42%;
+    bottom: 20.5%;
+    left: 41.2%;
     font-size: 28px;
     color: #a19Dad;
 
@@ -284,8 +284,8 @@ main{
     display: flex;
     position: absolute;
     width: 76vw;
-    left: 12%;
-    bottom: 2%;
+    left: 15%;
+    bottom: 13%;
     font-size: 28px;
     font-weight: 550;
     text-align: center;
@@ -309,10 +309,10 @@ footer{
 .metropolitano{
     display: flex;
     position: absolute;
-    height: 100px;
-    width: 430px;
-    top: 0%;
-    left: 38%;
+    height: 120px;
+    width: 500px;
+    top: -35%;
+    left: 37%;
 
 }
 
@@ -322,8 +322,8 @@ footer{
     text-align: center;
     width: 50vw;
     height: 100px;
-    top: 10%;
-    left: 30%;
+    top: -15%;
+    left: 31%;
     color: #a19Dad;
     font-size: 25px;
     font-weight:550;
@@ -334,7 +334,7 @@ footer{
     position: absolute;
     width: 70vw;
     height: 100px;
-    top: 25%;
-    left: 20%;
+    top: 40%;
+    left: 21.5%;
     font-size: 33px;
 }

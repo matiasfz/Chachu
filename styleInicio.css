@@ -120,8 +120,8 @@ main{
 .fragmentos{
     display: flex;
     position: absolute;
-    top: 10%;
-    left: 42%;
+    top: 4%;
+    left: 39%;
     font-size: 80px;
     font-family: "Rubik-Medium";
 }
@@ -129,8 +129,8 @@ main{
 .dolor{
     display: flex;
     position: absolute;
-    top: 17%;
-    left: 42%;
+    top: 10.5%;
+    left: 39%;
     font-size:38px;
     color: #a19Dad;
     
@@ -138,30 +138,32 @@ main{
 .cristal{
     display: flex;
     position: absolute;
-    top: 29%;
-    left: 51%;
-    width: 120px;
-    height: 120px;
+    top: 25%;
+    left: 48%;
+    width: 130px;
+    height: 130px;
 }
 
 .pFragmentos{
     display: flex;
     position: absolute;
-    bottom: 50%;
-    left: 30%;
+    bottom: 53%;
+    left: 28.5%;
     text-align: center;
     font-weight: 599;
-    font-size: 28px;
+    font-size: 34px;
 
 }
+
+
 
 
 
 .aDescargar{
     display: flex;
     position: absolute;
-    bottom: 40%;
-    left: 48%;
+    bottom: 43%;
+    left: 43.5%;
     font-size: 60px;
     text-decoration: none;
 }
@@ -187,8 +189,8 @@ main{
 .requisitos{
     display: flex;
     position: absolute;
-    bottom: 25%;
-    left: 35%;
+    bottom: 32%;
+    left: 30.5%;
     text-align: center;
     font-size: 28px;
     color: #a19Dad;
@@ -208,7 +210,7 @@ footer{
 .metropolitano{
     display: flex;
     position: absolute;
-    height: 150px;
+    height: 140px;
     width: 600px;
     left: 35%;
     top: 30%;
@@ -218,11 +220,11 @@ footer{
 @media (max-width: 1680px){
 
     .fragmentos{
-        left: 36%;
+        left: 36.5%;
     }
 
     .dolor{
-        left: 36%;
+        left: 36.5%;
     }
 
     .cristal{
@@ -230,7 +232,7 @@ footer{
     }
 
     .pFragmentos{
-        left: 20.5%;
+        left: 26.5%;
     }
 
     .aDescargar{
@@ -238,7 +240,7 @@ footer{
     }
 
     .requisitos{
-        left: 26.5%;
+        left: 27.5%;
     }
 
     .metropolitano{
@@ -250,11 +252,11 @@ footer{
 @media (max-width: 1600px){
 
     .fragmentos{
-        left: 36%;
+        left: 36.5%;
     }
 
     .dolor{
-        left: 36%;
+        left: 36.5%;
     }
 
     .cristal{
@@ -262,7 +264,7 @@ footer{
     }
 
     .pFragmentos{
-        left: 20.5%;
+        left: 26.5%;
     }
 
     .aDescargar{
@@ -270,7 +272,7 @@ footer{
     }
 
     .requisitos{
-        left: 26.5%;
+        left: 27.5%;
     }
 
     .metropolitano{
@@ -289,14 +291,16 @@ footer{
     }
 
     .fragmentos{
+        top: 4%;
         left: 36%;
         font-size: 72px;
     }
 
     .dolor{
-        left: 36%;
+        
+        left: 36.5%;
         font-size: 32px;
-        top: 16%;
+        top: 10%;
     }
 
     .cristal{
@@ -304,8 +308,9 @@ footer{
     }
 
     .pFragmentos{
-        font-size: 25px;
-        left: 18.5%;
+        font-size: 28px;
+        left: 26.5%;
+        bottom: 52%;
     }
 
     .descargar{
@@ -315,12 +320,14 @@ footer{
     }
 
     .aDescargar{
-        left: 41%;
+        left: 41.5%;
+        bottom: 42%;
     }
 
     .requisitos{
-        left: 25.5%;
-        font-size: 23px;
+        left: 24.5%;
+        font-size: 25px;
+        bottom: 32%;
     }
 
     .metropolitano{
@@ -335,8 +342,8 @@ footer{
 }
 
 @media (max-width: 1360px){
-
     
+        
     header{
         width: 92vw;
         font-size: 28px;
@@ -344,14 +351,16 @@ footer{
     }
 
     .fragmentos{
+        top: 4%;
         left: 36%;
         font-size: 72px;
     }
 
     .dolor{
-        left: 36%;
+        
+        left: 36.5%;
         font-size: 32px;
-        top: 16%;
+        top: 10%;
     }
 
     .cristal{
@@ -359,8 +368,9 @@ footer{
     }
 
     .pFragmentos{
-        font-size: 25px;
-        left: 18.5%;
+        font-size: 28px;
+        left: 26.5%;
+        bottom: 52%;
     }
 
     .descargar{
@@ -370,12 +380,14 @@ footer{
     }
 
     .aDescargar{
-        left: 41%;
+        left: 41.5%;
+        bottom: 42%;
     }
 
     .requisitos{
-        left: 25.5%;
-        font-size: 23px;
+        left: 24.5%;
+        font-size: 25px;
+        bottom: 32%;
     }
 
     .metropolitano{
@@ -387,8 +399,6 @@ footer{
     footer{
         width: 92vw;
     }
-    
-    
 }
 
 @media (max-width: 1280px){
@@ -401,14 +411,15 @@ footer{
     }
 
     .fragmentos{
+        top: 3%;
         left: 35%;
         font-size: 72px;
     }
 
     .dolor{
-        left: 35%;
+        left: 35.5%;
         font-size: 32px;
-        top: 16%;
+        top: 9%;
     }
 
     .cristal{
@@ -416,8 +427,8 @@ footer{
     }
 
     .pFragmentos{
-        font-size: 25px;
-        left: 17.5%;
+        font-size: 27px;
+        left: 25%;
     }
 
     .descargar{
@@ -427,12 +438,14 @@ footer{
     }
 
     .aDescargar{
-        left: 40%;
+        left: 41%;
+        bottom: 38%;
     }
 
     .requisitos{
-        left: 24.5%;
-        font-size: 23px;
+        bottom: 30%;
+        left: 23.5%;
+        font-size: 24px;
     }
 
     .metropolitano{
@@ -469,6 +482,7 @@ footer{
     }
 
     .fragmentos{
+        top: 1%;
         left: 31%;
         font-size: 65px;
     }
@@ -476,16 +490,16 @@ footer{
     .dolor{
         left: 32%;
         font-size: 30px;
-        top: 15.3%;
+        top: 6%;
     }
 
     .cristal{
-        left: 43%;
+        left: 44%;
     }
 
     .pFragmentos{
-        font-size: 21px;
-        left: 13%;
+        font-size: 26px;
+        left: 20%;
     }
 
     .descargar{
@@ -495,12 +509,12 @@ footer{
     }
 
     .aDescargar{
-        left: 38%;
+        left: 39%;
     }
 
     .requisitos{
-        left: 21%;
-        font-size: 21px;
+        left: 19%;
+        font-size: 22px;
     }
 
     .metropolitano{
@@ -556,6 +570,7 @@ footer{
     }
 
     .fragmentos{
+        top: 0%;
         left: 31%;
         font-size: 55px;
     }
@@ -563,16 +578,17 @@ footer{
     .dolor{
         left: 32%;
         font-size: 26px;
-        top: 14.5%;
+        top: 4.5%;
     }
 
     .cristal{
+        top: 22%;
         left: 42%;
     }
 
     .pFragmentos{
-        font-size: 18px;
-        left: 12%;
+        font-size: 21px;
+        left: 19%;
     }
 
     .descargar{
@@ -582,12 +598,12 @@ footer{
     }
 
     .aDescargar{
-        left: 36.5%;
+        left: 37.5%;
     }
 
     .requisitos{
-        left: 18.5%;
-        font-size: 18px;
+        left: 16.5%;
+        font-size: 19px;
     }
 
     .metropolitano{
@@ -647,6 +663,7 @@ footer{
     }
 
     .fragmentos{
+        top: 0%;
         left: 31%;
         font-size: 38px;
     }
@@ -654,17 +671,18 @@ footer{
     .dolor{
         left: 32%;
         font-size: 18px;
-        top: 13.2%;
+        top: 3.3%;
     }
 
     .cristal{
+        top: 20%;
         left: 50%;
         height: 80px;
         width: 80px;
     }
 
     .pFragmentos{
-        font-size: 8px;
+        font-size: 11px;
         left: 25%;
     }
 
@@ -676,6 +694,7 @@ footer{
 
     .aDescargar{
         left: 43%;
+        bottom: 34%;
     }
 
     .requisitos{
@@ -740,6 +759,7 @@ footer{
     }
 
     .fragmentos{
+        top: 0%;
         left: 27%;
         font-size: 30px;
     }
@@ -747,7 +767,7 @@ footer{
     .dolor{
         left: 28%;
         font-size: 14px;
-        top: 12.6%;
+        top: 2.5%;
     }
 
     .cristal{
@@ -757,7 +777,7 @@ footer{
     }
 
     .pFragmentos{
-        font-size: 6px;
+        font-size: 8px;
         left: 22%;
     }
 
@@ -769,6 +789,7 @@ footer{
 
     .aDescargar{
         left: 38%;
+        bottom: 33%;
     }
 
     .requisitos{
