@@ -80,7 +80,7 @@ header{
 }
 
 .proyecto{
-    font-weight: 600;
+    
     font-family: "Rubik-Medium" ;
 }
 
@@ -107,10 +107,10 @@ main{
 .introduccion{
     display: flex;
     position: absolute;
-    width: 60vw;
+    width: 75vw;
     top: 5%;
-    left: 20%;
-    font-size: 28px;
+    left: 12%;
+    font-size: 35px;
     text-align: center;
 }
 

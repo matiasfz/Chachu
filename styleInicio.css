@@ -77,7 +77,7 @@ header{
 }
 
 .inicio{
-    font-weight: 600;
+    
     font-family: "Rubik-Medium";
 }
 
@@ -718,9 +718,11 @@ footer{
 
     
     header{
-        width: 70vw;
+        width: 85vw;
         font-size: 10px;
         gap: 1px;
+        padding: 10px;
+        top: 2%;
     }
 
     .inicio{
@@ -743,42 +745,42 @@ footer{
         display: flex;
         position: relative;
         height: 15px;
-        top: 2%;
+        top: 1.5%;
     }
     
     .afb{
         display: flex;
         position: relative;
         height: 15px;
-        top: 2%;
+        top: 1.5%;
     
     }
 
     main{
-        width: 90vw;
+        width: 97vw;
     }
 
     .fragmentos{
         top: 0%;
-        left: 27%;
+        left: 22%;
         font-size: 30px;
     }
 
     .dolor{
-        left: 28%;
+        left: 24%;
         font-size: 14px;
         top: 2.5%;
     }
 
     .cristal{
-        left: 42%;
+        left: 39.4%;
         height: 80px;
         width: 80px;
     }
 
     .pFragmentos{
-        font-size: 8px;
-        left: 22%;
+        font-size:9.4px;
+        left: 12.8%;
     }
 
     .descargar{
@@ -788,19 +790,19 @@ footer{
     }
 
     .aDescargar{
-        left: 38%;
+        left: 32.7%;
         bottom: 33%;
     }
 
     .requisitos{
-        left: 18%;
+        left: 13.5%;
         font-size: 8px;
     }
 
     .metropolitano{
         height: 50px;
         width: 220px;
-        left: 20%;
+        left: 15.2%;
     }
 
     footer{
