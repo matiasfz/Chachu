@@ -30,24 +30,24 @@ header{
     width: 93vw;
     height: 200px;
     top: 0%;
-    gap: 8px;
+    gap: 4px;
     justify-content: flex-end;
     padding: 40px;
-    font-size: 32px;
+    font-size: 25px;
     color: #a19Dad;
     font-family: "Rubik-Regular";
 }
 
 
 .fb{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
 }
 
 .ig{
     
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
     
 }
 
@@ -98,39 +98,29 @@ header{
 main{
     display: flex;
     position: relative;
-    width: 98vw;
+    width: 95vw;
     height: 2200px;
     font-family: "Rubik-Regular";
-}
-
-.cristal{
-    display: flex;
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    top: 0%;
-    left: 45%;
-    
 }
 
 .principal{
     display: flex;
     position: absolute;
-    width:75vw;
-    height: 1000px;
-    top: 15%;
-    left: 18.5%;
-    font-size: 35px;
+    width:60vw;
+    height: 500px;
+    top: 0%;
+    left: 25.6%;
+    font-size: 28px;
     text-align: center;
 }
 
 .ellas{
     display: flex;
     position: absolute;
-    width: 78vw;
+    width: 55vw;
     height: 1300px;
-    bottom: 5%;
-    left: 0%;
+    top: 15%;
+    left: 22.6%;
 }
 
 
@@ -140,23 +130,23 @@ main{
     width: 310px;
     height: 310px;
     top: 0%;
-    left: 28%;
+    left: 0%;
 }
 
 .h2cecilia{
     display: flex;
     position: absolute;
     top: 25%;
-    left: 32%;
-    font-size: 32px;
+    left: 6.5%;
+    font-size: 28px;
 }
 
 .pCecilia{
     display: flex;
     position: absolute;
     top: 32%;
-    left: 30%;
-    font-size: 25px;
+    left: 0%;
+    font-size: 22px;
     color: #a19Dad;
 }
 
@@ -174,16 +164,16 @@ main{
     display: flex;
     position: absolute;
     top: 25%;
-    right: -1%;
-    font-size: 32px;
+    right: 1%;
+    font-size: 28px;
 }
 
 .pAilen{
     display: flex;
     position: absolute;
     top: 32%;
-    right: -5%;
-    font-size: 25px;
+    right: -8%;
+    font-size: 22px;
     color: #a19Dad;
 }
 
@@ -192,100 +182,55 @@ main{
     display: flex;
     position: absolute;
     width: 20vw;
-    bottom: 22.5%;
-    left: 44%;
+    bottom: 36%;
+    left: 46%;
     font-weight: 550;
-    font-size: 32px;
+    font-size: 28px;
     color: #a19Dad;
 }
 
 .proyectos{
     display: flex;
     position: absolute;
-    width: 90vw;
-    left: -1.5%;
-    height: 1500px;
-    bottom: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    left: 9.5%;
+    height: 400px;
+    bottom: 18%;
     
 }
 
-.jauregui{
+.proyectos img{
     display: flex;
-    position: absolute;
     width: 220px;
     height: 300px;
-    bottom: 10%;
-    left: 14%;
     transition: transform .5s;
 }
-.jauregui:hover{
+.proyectos img:hover{
+    z-index: 1000;
     transform: scale(1.7);
-}
-
-.unDiosQue{
-    display: flex;
-    position: absolute;
-    width: 220px;
-    height: 300px;
-    bottom: 10%;
-    left: 33%;
-    transition: transform .5s;
-}
-
-.unDiosQue:hover{
-    transform: scale(1.7)
-}
-
-.aParaQueDios{
-    display: flex;
-    position: absolute;
-    bottom: 10%;
-    right: 36%;
-}
-
-.paraQueDios{
     
-    width: 220px;
-    height: 300px;
-    transition: transform .5s;
 }
 
-.paraQueDios:hover{
-    transform: scale(1.7);
-}
-
-.aBiologas{
+.contacto{
     display: flex;
     position: absolute;
-    bottom: 10%;
-    right: 18%;
+    width: 100px;
+    bottom: 3%;
+    left: 48.5%;
+    font-size: 26px;
 }
 
-.biologas{
-    
-    width: 220px;
-    height: 300px;
-    transition: transform .5s;
-}
-
-.biologas:hover{
-    transform: scale(1.7);
-}
-
-.puebloArgentino{
+.contactoEmail{
+    width: 100px;
     display: flex;
     position: absolute;
-    width: 220px;
-    height: 300px;
-    bottom: 10%;
-    right: 0%;
-    transition: transform .5s;
+    bottom: 2.4%;
+    left: 43.2%;
+    font-size: 22px;
+    color:#a19Dad;
 }
-
-.puebloArgentino:hover{
-    transform: scale(1.7);
-}
-
 
 
 /* FOOTER */
@@ -305,7 +250,7 @@ footer{
     position: absolute;
     height: 110px;
     width: 500px;
-    right: 31%;
+    right: 32%;
     bottom: 0%;
     
 }
@@ -313,139 +258,291 @@ footer{
 
 @media (max-width: 1680px){
 
-    .cristal{
-    left: 44.9%;
-    } 
-
+    
     .principal{
-        font-size: 33px;
-        left: 13.6%;
-    }
-
-    .ellas{
-        left: -1%;
+        font-size: 26px;
+        left: 23.8%;
     }
 
     .pCecilia{
-        left: 28%;
+        font-size: 20px;
     }
 
     .pAilen{
-        right: -9%;
+        right: -6%;
+        font-size: 20px;
     }
 
+
     .otros{
-        left: 42.3%;
+        left: 45.58%;
+        font-size: 25px;
+        bottom: 38%;
     }
 
     .proyectos{
-        left: -2.5%;
+        bottom: 20%;
     }
 
-    .jauregui:hover{
-        z-index: 1000;
+    .proyectos img{
+        width: 200px;
     }
 
-    .unDiosQue{
-        left: 31%;
-        
+    .contacto{
+        font-size: 25px;
+        left: 48.15%;
     }
 
-    .unDiosQue:hover{
-        z-index: 100;
-    }
-
-    .aParaQueDios{
-        right: 35.4% ;
-    }
-
-    .paraQueDios:hover{
-        z-index: 100;
-    }
-
-    .aBiologas{
-        right: 17%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-    }
-
-    .puebloArgentino:hover{
-        z-index: 100;
+    .contactoEmail{
+        font-size: 20px;
+        bottom: 2.8%;
+        left: 42.7%;
     }
 
     .metropolitano{
-        left: 36.5%;
+        left: 39.8%;
+        height: 100px;
+        width: 420px;
     }
 }
 
 @media (max-width: 1600px){
 
-    .cristal{
-    left: 44.9%;
-    } 
-
+    
     .principal{
-        font-size: 33px;
-        left: 13.6%;
+        font-size: 26px;
+        left: 22.4%;
     }
 
     .ellas{
-        left: -1%;
+        top: 14%;
+        left: 22.4%;
     }
 
     .pCecilia{
-        left: 28%;
+        font-size: 20px;
     }
 
     .pAilen{
-        right: -9%;
+        right: -6%;
+        font-size: 20px;
     }
 
+
     .otros{
-        left: 42.3%;
+        left: 45.48%;
+        font-size: 25px;
+        bottom: 38%;
     }
 
     .proyectos{
-        left: -2.5%;
+        bottom: 20%;
     }
 
-    .jauregui:hover{
-        z-index: 1000;
+    .proyectos img{
+        width: 200px;
     }
 
-    .unDiosQue{
-        left: 31%;
-        
+    .contacto{
+        font-size: 25px;
+        left: 48.%;
     }
 
-    .unDiosQue:hover{
-        z-index: 100;
-    }
-
-    .aParaQueDios{
-        right: 35.4% ;
-    }
-
-    .paraQueDios:hover{
-        z-index: 100;
-    }
-
-    .aBiologas{
-        right: 17%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-    }
-
-    .puebloArgentino:hover{
-        z-index: 100;
+    .contactoEmail{
+        font-size: 20px;
+        bottom: 2.8%;
+        left: 42.3%;
     }
 
     .metropolitano{
-        left: 36.5%;
+        left: 39.2%;
+        height: 100px;
+        width: 420px;
+    }
+}
+
+@media (max-width: 1536px){
+
+    body{
+        width: 99vw;
+    }
+
+    header{
+        width: 92vw;
+    }
+
+    main{
+        width: 95vw;
+    }
+    
+    .principal{
+        font-size: 26px;
+        left: 21.9%;
+    }
+
+    .ellas{
+        left: 22.8%;
+    }
+
+    .pCecilia{
+        font-size: 20px;
+    }
+
+    .pAilen{
+        right: -6%;
+        font-size: 20px;
+    }
+
+
+    .otros{
+        left: 45.6%;
+        font-size: 25px;
+        bottom: 38%;
+    }
+
+    .proyectos{
+        bottom: 20%;
+        left: 9.80%;
+    }
+
+    .proyectos img{
+        width: 200px;
+    }
+
+    .contacto{
+        font-size: 25px;
+        left: 48.2%;
+    }
+
+    .contactoEmail{
+        font-size: 20px;
+        bottom: 2.8%;
+        left: 42.55%;
+    }
+
+    footer{
+        width: 90vw;
+    }
+
+    .metropolitano{
+        left: 39.48%;
+        height: 100px;
+        width: 420px;
+    }
+}
+
+@media (max-width: 1440px){
+
+    header{
+        width: 92vw;
+        gap: 3px;
+        font-size: 20px;
+    }
+
+    .fb{
+        width: 20px;
+        height: 20px;
+    }
+
+    .ig{
+        width: 20px;
+        height: 20px;
+    }
+
+    .afb{
+        top: 1.9%;
+    }
+
+    .aig{
+        top: 1.9%;
+    }
+
+    main{
+        height: 1500px;
+    }
+
+    .principal{
+        font-size: 20px;
+        left: 26.45%;
+        top: 0%;
+    }
+
+    .ellas{
+        left: 22.8%;
+        top: 17%;
+    }
+
+    .cecilia{
+        width: 250px;
+        height: 250px;
+    }
+
+    .h2cecilia{
+        left: 7.4%;
+        font-size: 22px;
+        top: 19%;
+    }
+
+    .pCecilia{
+        font-size: 18px;
+        top: 25%;
+    }
+
+    .ailen{
+        width: 250px;
+        height: 250px;
+    }
+
+    .h2ailen{
+        font-size: 22px;
+        top: 19%;
+        right: 1%;
+    }
+
+    .pAilen{
+        font-size: 18px;
+        top: 25%;
+        right: -7%;
+    }
+
+    .otros{
+        left: 46%;
+        bottom: 35%;
+        font-size: 22px;
+    }
+
+    .proyectos{
+        bottom: 10%;
+        left: 9.75%;
+    }
+
+    .proyectos img{
+        width: 180px;
+        height: 250px;
+    }
+
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
+        
+    }
+
+    .contacto{
+        font-size: 22px;
+        left: 48.4%;
+        bottom: 3%;
+    }
+
+    .contactoEmail{
+        font-size: 19px;
+        left: 42.38%;
+        bottom: 2.5%;
+    }
+
+    .metropolitano{
+        height: 85px;
+        width: 360px;
+        left: 40.5%;
     }
 }
 
@@ -453,489 +550,597 @@ footer{
 
     header{
         width: 92vw;
-        gap: 5px;
-        font-size: 28px;
+        gap: 3px;
+        font-size: 20px;
     }
 
     .fb{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
 
     .ig{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
-    .cristal{
-        width: 140px;
-        height: 140px;
-        left: 44.8%;
-    } 
+
+    .afb{
+        top: 1.9%;
+    }
+
+    .aig{
+        top: 1.9%;
+    }
+
+    main{
+        height: 1500px;
+    }
 
     .principal{
-        font-size: 30px;
-        left: 12.2%;
+        font-size: 20px;
+        left: 24%;
+        top: -7%;
     }
 
     .ellas{
-        left: -1.5%;
+        left: 22.3%;
+        top: 7%;
+    }
+
+    .cecilia{
+        width: 250px;
+        height: 250px;
     }
 
     .h2cecilia{
-        left: 32.5%;
+        left: 7.4%;
+        font-size: 22px;
+        top: 19%;
     }
 
     .pCecilia{
-        left: 28.5%;
-        font-size: 22px;
+        font-size: 18px;
+        top: 25%;
+    }
+
+    .ailen{
+        width: 250px;
+        height: 250px;
     }
 
     .h2ailen{
-        right: -2%;
+        font-size: 22px;
+        top: 19%;
+        right: 1%;
     }
 
     .pAilen{
-        font-size: 22px;
-        right: -8.5%;
+        font-size: 18px;
+        top: 25%;
+        right: -7%;
     }
 
     .otros{
-        left: 40.4%;
+        left: 45.1%;
+        bottom: 43%;
+        font-size: 22px;
     }
 
     .proyectos{
-        left: -2.7%;
+        bottom: 18%;
+        left: 9.2%;
     }
 
     .proyectos img{
-        width: 190px;
-        height: 280px;
+        width: 180px;
+        height: 250px;
     }
 
-    .jauregui:hover{
-        z-index: 1000;
-        transform: scale(1.5);
-    }
-
-    .unDiosQue{
-        left: 31%;
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
         
     }
 
-    .unDiosQue:hover{
-        z-index: 100;
-        transform: scale(1.5);
+    .contacto{
+        font-size: 22px;
+        left: 47.7%;
     }
 
-    .aParaQueDios{
-        right: 35.2% ;
+    .contactoEmail{
+        font-size: 19px;
+        left: 41.4%;
     }
 
-    .paraQueDios:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .aBiologas{
-        right: 17%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .puebloArgentino:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
 
     .metropolitano{
-        left: 33.1%;
+        height: 85px;
+        width: 360px;
+        left: 38.9%;
     }
 }
 
 @media (max-width: 1360px){
 
-        header{
-            width: 92vw;
-            gap: 5px;
-            font-size: 28px;
-        }
+    header{
+        width: 92vw;
+        gap: 3px;
+        font-size: 20px;
+    }
 
-        .fb{
-            width: 25px;
-            height: 25px;
-        }
+    .fb{
+        width: 20px;
+        height: 20px;
+    }
 
-        .ig{
-            width: 25px;
-            height: 25px;
-        }
-        .cristal{
-            width: 140px;
-            height: 140px;
-            left: 44.8%;
-        } 
-    
-        .principal{
-            font-size: 30px;
-            left: 12.2%;
-        }
-    
-        .ellas{
-            left: -1.5%;
-        }
+    .ig{
+        width: 20px;
+        height: 20px;
+    }
 
-        .h2cecilia{
-            left: 32.5%;
-        }
-    
-        .pCecilia{
-            left: 28.5%;
-            font-size: 22px;
-        }
+    .afb{
+        top: 1.9%;
+    }
 
-        .h2ailen{
-            right: -2%;
-        }
-    
-        .pAilen{
-            font-size: 22px;
-            right: -8.5%;
-        }
-    
-        .otros{
-            left: 40.4%;
-        }
-    
-        .proyectos{
-            left: -2.7%;
-        }
+    .aig{
+        top: 1.9%;
+    }
 
-        .proyectos img{
-            width: 190px;
-            height: 280px;
-        }
-    
-        .jauregui:hover{
-            z-index: 1000;
-            transform: scale(1.5);
-        }
-    
-        .unDiosQue{
-            left: 31%;
-            
-        }
-    
-        .unDiosQue:hover{
-            z-index: 100;
-            transform: scale(1.5);
-        }
-    
-        .aParaQueDios{
-            right: 35.2% ;
-        }
-    
-        .paraQueDios:hover{
-            z-index: 100;
-            transform: scale(1.5);
-        }
-    
-        .aBiologas{
-            right: 17%;
-        }
-    
-        .biologas:hover{
-            z-index: 100;
-            transform: scale(1.5);
-        }
-    
-        .puebloArgentino:hover{
-            z-index: 100;
-            transform: scale(1.5);
-        }
-    
-        .metropolitano{
-            left: 33.1%;
-        }
+    main{
+        height: 1500px;
+    }
+
+    .principal{
+        font-size: 20px;
+        left: 24%;
+        top: -7%;
+    }
+
+    .ellas{
+        left: 22.1%;
+        top: 7%;
+    }
+
+    .cecilia{
+        width: 250px;
+        height: 250px;
+    }
+
+    .h2cecilia{
+        left: 7.4%;
+        font-size: 22px;
+        top: 19%;
+    }
+
+    .pCecilia{
+        font-size: 18px;
+        top: 25%;
+    }
+
+    .ailen{
+        width: 250px;
+        height: 250px;
+    }
+
+    .h2ailen{
+        font-size: 22px;
+        top: 19%;
+        right: 1%;
+    }
+
+    .pAilen{
+        font-size: 18px;
+        top: 25%;
+        right: -7%;
+    }
+
+    .otros{
+        left: 45%;
+        bottom: 43%;
+        font-size: 22px;
+    }
+
+    .proyectos{
+        bottom: 18%;
+        left: 9.2%;
+    }
+
+    .proyectos img{
+        width: 180px;
+        height: 250px;
+    }
+
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
+        
+    }
+
+    .contacto{
+        font-size: 22px;
+        left: 47.67%;
+    }
+
+    .contactoEmail{
+        font-size: 19px;
+        left: 41%;
+    }
+
+
+    .metropolitano{
+        height: 85px;
+        width: 360px;
+        left: 38.8%;
+    }
 }
 
 @media (max-width: 1280px){
 
     header{
         width: 90vw;
-        gap: 5px;
-        font-size: 26px;
+        gap: 3px;
+        font-size: 21px;
     }
 
     .fb{
-        width: 23px;
-        height: 23px;
+        width: 19px;
+        height: 19px;
     }
 
     .ig{
-        width: 23px;
-        height: 23px;
+        width: 19px;
+        height: 19px;
     }
 
-    .nosotras{
-        font-weight: 600;
-    }
-    .cristal{
-        width: 140px;
-        height: 140px;
-        left: 44.4%;
-    } 
-
-    .principal{
-        font-size: 28px;
-        left: 11.8%;
+    .afb{
+        top: 1.9%;
     }
 
-    .ellas{
-        left: -1.6%;
-    }
-
-    .cecilia{
-        left: 25%;
-    }
-
-    .h2cecilia{
-        font-size: 30px;
-        left: 32%;
-    }
-
-    .pCecilia{
-        left: 27%;
-        font-size: 20px;
-    }
-
-    .ailen{
-        right: -4%;
-    }
-    .h2ailen{
-        font-size: 30px;
-        right: -3.8%;
-    }
-
-    .pAilen{
-        font-size: 20px;
-        right: -8.5%;
-    }
-
-    .otros{
-        left: 40.2%;
-    }
-
-    .proyectos{
-        left: -2.7%;
-    }
-
-    .proyectos img{
-        width: 190px;
-        height: 280px;
-    }
-
-    .jauregui{
-        left: 12%;
-    }
-
-    .jauregui:hover{
-        z-index: 1000;
-        transform: scale(1.5);
-    }
-
-    .unDiosQue{
-        left: 30%;
-        
-    }
-
-    .unDiosQue:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .aParaQueDios{
-        right: 34.8% ;
-    }
-
-    .paraQueDios:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .aBiologas{
-        right: 16.1%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .puebloArgentino{
-        right: -2%;
-    }
-    .puebloArgentino:hover{
-        z-index: 100;
-        transform: scale(1.5);
-    }
-
-    .metropolitano{
-        left: 32%;
-    }
-}
-
-@media (max-width: 1024px){
-
-    header{
-        width: 88vw;
-        gap: 2px;
-        font-size: 24px;
-    }
-
-    .fb{
-        width: 21px;
-        height: 21px;
-    }
-
-    .ig{
-        width: 21px;
-        height: 21px;
-    }
-
-    .nosotras{
-        font-weight: 600;
+    .aig{
+        top: 1.9%;
     }
 
     main{
-        width: 88vw;
+        height: 1500px;
     }
 
-    .cristal{
-        width: 120px;
-        height: 120px;
-        left: 47.9%;
-    } 
-
     .principal{
-        font-size: 22px;
-        left: 12.2%;
+        font-size: 20px;
+        left: 22.3%;
+        top: -7%;
     }
 
     .ellas{
-        left: -1.6%;
+        left: 22.2%;
+        top: 7%;
     }
 
     .cecilia{
         width: 250px;
         height: 250px;
-        left: 20%;
     }
 
     .h2cecilia{
-        font-size: 26px;
-        left: 25.5%;
-        top: 20%;
+        left: 7.4%;
+        font-size: 22px;
+        top: 19%;
     }
 
     .pCecilia{
-        left: 20%;
-        top: 26%;
         font-size: 18px;
+        top: 25%;
     }
 
     .ailen{
         width: 250px;
         height: 250px;
-        right: -6.3%;
     }
+
     .h2ailen{
-        font-size: 26px;
-        right: -7.8%;
-        top: 20%;
+        font-size: 22px;
+        top: 19%;
+        right: 1%;
     }
 
     .pAilen{
         font-size: 18px;
-        right: -12.5%;
-        top: 26%;
+        top: 25%;
+        right: -7%;
     }
 
     .otros{
-        left: 40.2%;
-        font-size: 28px;
-        bottom: 28%;
+        left: 44.65%;
+        bottom: 43%;
+        font-size: 22px;
     }
 
     .proyectos{
-        left: -3%;
-        bottom: 6%;
+        bottom: 18%;
+        left: 9.2%;
     }
 
     .proyectos img{
-        width: 150px;
-        height: 240px;
+        width: 180px;
+        height: 250px;
     }
 
-    .jauregui{
-        left: 12%;
-    }
-
-    .jauregui:hover{
-        z-index: 1000;
-        transform: scale(1.4);
-    }
-
-    .unDiosQue{
-        left: 30%;
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
         
     }
 
-    .unDiosQue:hover{
-        z-index: 100;
-        transform: scale(1.4);
+    .contacto{
+        font-size: 22px;
+        left: 47.35%;
     }
 
-    .aParaQueDios{
-        right: 34.7% ;
+    .contactoEmail{
+        font-size: 19px;
+        left: 40.2%;
     }
 
-    .paraQueDios:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    .aBiologas{
-        right: 15.8%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    .puebloArgentino{
-        right: -2%;
-    }
-    .puebloArgentino:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    footer{
-        width: 88vw;
-    }
 
     .metropolitano{
-        width: 400px;
-        height: 100px;
-        left: 32%;
+        height: 85px;
+        width: 360px;
+        left: 38.05%;
     }
 }
 
 @media (max-width: 800px){
+
+    body{
+        width: 96vw;
+    }
+
+    header{
+        width: 92vw;
+        padding: 15px;
+        gap: 2px;
+        font-size: 18px;
+    }
+
+    .fb{
+        width: 17px;
+        height: 17px;
+    }
+
+    .ig{
+        width: 17px;
+        height: 17px;
+    }
+
+    .afb{
+        top: 1.9%;
+    }
+
+    .aig{
+        top: 1.9%;
+    }
+
+    main{
+        width: 86vw;
+        height: 1100px;
+    }
+
+    .principal{
+        width: 75vw;
+        font-size: 15px;
+        left: 18.05%;
+        top: -7%;
+    }
+
+    .ellas{
+        left: 23.5%;
+        top: 8.2%;
+    }
+
+    .cecilia{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2cecilia{
+        left: 5.3%;
+        font-size: 17px;
+        top: 11.5%;
+    }
+
+    .pCecilia{
+        font-size: 13px;
+        top: 15%;
+    }
+
+    .ailen{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2ailen{
+        font-size: 17px;
+        top: 11.5%;
+        right: -3%;
+    }
+
+    .pAilen{
+        font-size: 13px;
+        top: 15%;
+        right: -17.5%;
+    }
+
+    .otros{
+        left: 46.56%;
+        bottom: 43%;
+        font-size: 17px;
+    }
+
+    .proyectos{
+        bottom: 15%;
+        left: 9.2%;
+    }
+
+    .proyectos img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
+        
+    }
+
+    .contacto{
+        font-size: 18px;
+        left: 50.25%;
+    }
+
+    .contactoEmail{
+        font-size: 16px;
+        left: 40.1%;
+        bottom: 2.8%;
+    }
+
+    footer{
+        width: 86vw;
+    }
+
+    .metropolitano{
+        height: 60px;
+        width: 250px;
+        left: 36.55%;
+        bottom: 1%;
+    }
+}
+
+@media (max-width: 768px){
+
+    body{
+        width: 96vw;
+    }
+
+    header{
+        width: 92vw;
+        padding: 15px;
+        gap: 2px;
+        font-size: 18px;
+    }
+
+    .fb{
+        width: 17px;
+        height: 17px;
+    }
+
+    .ig{
+        width: 17px;
+        height: 17px;
+    }
+
+    .afb{
+        top: 1.9%;
+    }
+
+    .aig{
+        top: 1.9%;
+    }
+
+    main{
+        width: 86vw;
+        height: 1100px;
+    }
+
+    .principal{
+        width: 75vw;
+        font-size: 15px;
+        left: 18%;
+        top: -7%;
+    }
+
+    .ellas{
+        left: 25%;
+        top: 8.2%;
+    }
+
+    .cecilia{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2cecilia{
+        left: 5.3%;
+        font-size: 17px;
+        top: 11.5%;
+    }
+
+    .pCecilia{
+        font-size: 13px;
+        top: 15%;
+    }
+
+    .ailen{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2ailen{
+        font-size: 17px;
+        top: 11.5%;
+        right: -3%;
+    }
+
+    .pAilen{
+        font-size: 13px;
+        top: 15%;
+        right: -18%;
+    }
+
+    .otros{
+        left: 48%;
+        bottom: 44%;
+        font-size: 16px;
+    }
+
+    .proyectos{
+        bottom: 15%;
+        left: 10.2%;
+    }
+
+    .proyectos img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
+        
+    }
+
+    .contacto{
+        font-size: 16px;
+        left: 51.8%;
+    }
+
+    .contactoEmail{
+        font-size: 15px;
+        left: 41%;
+        bottom: 2.8%;
+    }
+
+    footer{
+        width: 86vw;
+    }
+
+    .metropolitano{
+        height: 60px;
+        width: 250px;
+        left: 37%;
+        bottom: 1%;
+    }
+}
+
+@media (min-width: 599px) and (max-width: 601px){
 
     header{
         width: 86vw;
@@ -1092,7 +1297,7 @@ footer{
     }
 }
 
-@media (min-width: 481px) and (max-width: 505px){
+@media (max-width: 412px){
 
     header{
         width: 90vw;
@@ -1250,7 +1455,165 @@ footer{
     }
 }
 
-@media (min-width: 320px) and (max-width: 420px){
+@media (max-width: 385px){
+
+    header{
+        width: 90vw;
+        gap: 1px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .fb{
+        width: 9px;
+        height: 9px;
+    }
+
+    .afb{
+        top: 1.2%;
+    }
+
+    .ig{
+        width: 9px;
+        height: 9px;
+    }
+    
+    .aig{
+        top: 1.2%;
+    }
+
+    main{
+        width: 97vw;
+    }
+
+    .cristal{
+        width: 80px;
+        height: 80px;
+        left: 38%;
+    } 
+
+    .principal{
+        font-size: 13px;
+        left: 10%;
+    }
+
+    .ellas{
+        left: -1.6%;
+    }
+
+    .cecilia{
+        width: 110px;
+        height: 110px;
+        left: 12%;
+    }
+
+    .h2cecilia{
+        font-size: 12px;
+        left: 18%;
+        top: 8.5%;
+    }
+
+    .pCecilia{
+        left: 13%;
+        top: 11%;
+        font-size: 7px;
+    }
+
+    .ailen{
+        width: 110px;
+        height: 110px;
+        right: -13.8%;
+    }
+    .h2ailen{
+        font-size: 12px;
+        right: -16%;
+        top: 8.5%;
+    }
+
+    .pAilen{
+        font-size: 7px;
+        right: -20.7%;
+        top: 11%;
+    }
+
+    .otros{
+        width: 45vw;
+        left: 33.8%;
+        font-size: 16px;
+        bottom: 38%;
+    }
+
+    .proyectos{
+        left: -3%;
+        bottom: 24%;
+    }
+
+    .proyectos img{
+        width: 70px;
+        height: 100px;
+    }
+
+    .jauregui{
+        left: 10%;
+    }
+
+    .jauregui:hover{
+        z-index: 1000;
+        transform: scale(1.4);
+    }
+
+    .unDiosQue{
+        left: 25.5%;
+        bottom: 1%;
+        
+    }
+
+    .unDiosQue:hover{
+        z-index: 100;
+        transform: scale(1.4);
+    }
+
+    .aParaQueDios{
+        right: 31.8% ;
+    }
+
+    .paraQueDios:hover{
+        z-index: 100;
+        transform: scale(1.4);
+    }
+
+    .aBiologas{
+        
+        right: 13.7%;
+        bottom: 1%;
+    }
+
+    .biologas:hover{
+        z-index: 100;
+        transform: scale(1.4);
+    }
+
+    .puebloArgentino{
+        right: -2%;
+    }
+    .puebloArgentino:hover{
+        z-index: 100;
+        transform: scale(1.4);
+    }
+
+    footer{
+        width: 88vw;
+    }
+
+    .metropolitano{
+        width: 180px;
+        height: 50px;
+        left: 20.4%;
+        bottom: 8%;
+    }
+}
+
+@media (max-width: 360px){
 
     header{
         width: 90vw;
