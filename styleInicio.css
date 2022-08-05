@@ -35,10 +35,10 @@ header{
     width: 93vw;
     height: 200px;
     top: 0%;
-    gap: 4px;
+    gap: 2px;
     justify-content: flex-end;
     padding: 40px;
-    font-size: 30px;
+    font-size: 28px;
     color: #a19Dad;
     font-family: "Rubik-Regular";
     
@@ -48,14 +48,14 @@ header{
 
 
 .fb{
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
 }
 
 
 .ig{ 
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     
 }
 
@@ -120,7 +120,7 @@ main{
 .fragmentos{
     display: flex;
     position: absolute;
-    top: 4%;
+    top: 0%;
     left: 40%;
     font-size: 70px;
     font-weight: 200;
@@ -130,7 +130,7 @@ main{
 .dolor{
     display: flex;
     position: absolute;
-    top: 9.71%;
+    top: 5.5%;
     left: 41.3%;
     font-size:30px;
     color: #a19Dad;
@@ -139,16 +139,16 @@ main{
 .cristal{
     display: flex;
     position: absolute;
-    top: 25%;
+    top: 18%;
     left: 47.5%;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
 }
 
 .pFragmentos{
     display: flex;
     position: absolute;
-    bottom: 53%;
+    bottom: 64%;
     left: 32.5%;
     text-align: center;
     font-weight: 599;
@@ -191,9 +191,9 @@ main{
     display: flex;
     position: absolute;
     bottom: 32%;
-    left: 31.5%;
+    left: 31.8%;
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     color: #a19Dad;
     
 }
@@ -213,7 +213,7 @@ main{
     display: flex;
     position: absolute;
     bottom: 25.7%;
-    left: 42.2%;
+    left: 42.1%;
     text-align: center;
     font-size: 24px;
     color: #a19Dad;
@@ -241,405 +241,730 @@ footer{
 @media (max-width: 1680px){
 
     .fragmentos{
-        left: 36.5%;
+        left: 38.35%;
     }
 
     .dolor{
-        left: 36.5%;
+        left: 39.5%;
     }
 
     .cristal{
-        left: 47%;
+        left: 47.1%;
     }
 
     .pFragmentos{
-        left: 26.5%;
+        font-size: 28px;
+        left: 30.65%;
     }
 
     .aDescargar{
-        left: 41.8%;
+        left: 42.35%;
     }
 
     .requisitos{
-        left: 27.5%;
+        font-size: 23px;
+        left: 29.95%;
+    }
+
+    .contacto{
+        font-size: 26px;
+        left: 47.5%;
+    }
+
+    .contactoEmail{
+        font-size: 22px;
+        left: 41.4%;
+
     }
 
     .metropolitano{
-        left: 32%;
+        height: 110px;
+        width: 450px;
+        left: 36%;
     }
 
 }
 
 @media (max-width: 1600px){
 
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+        
+    }
+
+    header{
+        width: 92vw;
+        font-size: 26px;
+    }
+
+    .fb{
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+    .ig{ 
+        width: 24px;
+        height: 24px;
+        
+    }
+
     .fragmentos{
-        left: 36.5%;
+        left: 38.15%;
     }
 
     .dolor{
-        left: 36.5%;
+        left: 39.5%;
     }
 
     .cristal{
-        left: 47%;
+        left: 46.86%;
     }
 
     .pFragmentos{
-        left: 26.5%;
+        font-size: 27px;
+        left: 30.2%;
     }
 
     .aDescargar{
-        left: 41.8%;
+        left: 41.9%;
     }
 
     .requisitos{
-        left: 27.5%;
+        font-size: 22px;
+        left: 30.4%;
+    }
+
+    .contacto{
+        font-size: 25px;
+        left: 47.4%;
+    }
+
+    .contactoEmail{
+        font-size: 21px;
+        left: 41.3%;
+    }
+
+    footer{
+    width: 90vw;
     }
 
     .metropolitano{
-        left: 32%;
+        height: 110px;
+        width: 450px;
+        left: 37.4%;
+    }
+
+}
+
+
+@media (max-width: 1536px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+        
+    }
+
+    header{
+        width: 92vw;
+        font-size: 26px;
+    }
+
+    .fb{
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+    .ig{ 
+        width: 24px;
+        height: 24px;
+        
+    }
+
+    .fragmentos{
+        left: 37.75%;
+    }
+
+    .dolor{
+        left: 39.4%;
+    }
+
+    .cristal{
+        left: 46.86%;
+    }
+
+    .pFragmentos{
+        font-size: 27px;
+        left: 30.2%;
+    }
+
+    .aDescargar{
+        left: 41.9%;
+    }
+
+    .requisitos{
+        font-size: 22px;
+        left: 30.4%;
+    }
+
+    .contacto{
+        font-size: 25px;
+        left: 47.7%;
+    }
+
+    .contactoEmail{
+        font-size: 21px;
+        left: 41.5%;
+    }
+
+    footer{
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height: 110px;
+        width: 450px;
+        left: 37.55%;
+    }
+
+}
+
+@media (max-width: 1440px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+        
+    }
+
+    header{
+        width: 92vw;
+        font-size: 26px;
+    }
+
+    .fb{
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+    .ig{ 
+        width: 24px;
+        height: 24px;
+        
+    }
+
+    .fragmentos{
+        left: 36.7%;
+    }
+
+    .dolor{
+        left: 38.75%;
+    }
+
+    .cristal{
+        left: 46.86%;
+    }
+
+    .pFragmentos{
+        font-size: 27px;
+        left: 30.1%;
+    }
+
+    .aDescargar{
+        left: 41.5%;
+    }
+
+    .requisitos{
+        font-size: 22px;
+        left: 28.8%;
+    }
+
+    .contacto{
+        font-size: 24px;
+        left: 47.7%;
+    }
+
+    .contactoEmail{
+        font-size: 21px;
+        left: 40.8%;
+    }
+
+    footer{
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height: 110px;
+        width: 450px;
+        left: 36.7%;
     }
 
 }
 
 @media (max-width: 1366px){
-    
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
         
+    }
+
     header{
         width: 92vw;
-        font-size: 28px;
-        gap: 6px;
-    }
-
-    .fragmentos{
-        top: 4%;
-        left: 36%;
-        font-size: 72px;
-    }
-
-    .dolor{
-        
-        left: 36.5%;
-        font-size: 32px;
-        top: 10%;
-    }
-
-    .cristal{
-        left: 46%;
-    }
-
-    .pFragmentos{
-        font-size: 28px;
-        left: 26.5%;
-        bottom: 52%;
-    }
-
-    .descargar{
-        height: 75px;
-        width: 250px;
-        font-size: 45px;
-    }
-
-    .aDescargar{
-        left: 41.5%;
-        bottom: 42%;
-    }
-
-    .requisitos{
-        left: 24.5%;
-        font-size: 25px;
-        bottom: 32%;
-    }
-
-    .metropolitano{
-        height: 120px;
-        width: 500px;
-        left: 32%;
-    }
-
-    footer{
-        width: 92vw;
-    }
-}
-
-@media (max-width: 1360px){
-    
-        
-    header{
-        width: 92vw;
-        font-size: 28px;
-        gap: 6px;
-    }
-
-    .fragmentos{
-        top: 4%;
-        left: 36%;
-        font-size: 72px;
-    }
-
-    .dolor{
-        
-        left: 36.5%;
-        font-size: 32px;
-        top: 10%;
-    }
-
-    .cristal{
-        left: 46%;
-    }
-
-    .pFragmentos{
-        font-size: 28px;
-        left: 26.5%;
-        bottom: 52%;
-    }
-
-    .descargar{
-        height: 75px;
-        width: 250px;
-        font-size: 45px;
-    }
-
-    .aDescargar{
-        left: 41.5%;
-        bottom: 42%;
-    }
-
-    .requisitos{
-        left: 24.5%;
-        font-size: 25px;
-        bottom: 32%;
-    }
-
-    .metropolitano{
-        height: 120px;
-        width: 500px;
-        left: 32%;
-    }
-
-    footer{
-        width: 92vw;
-    }
-}
-
-@media (max-width: 1280px){
-
-    
-    header{
-        width: 90vw;
-        font-size: 28px;
-        gap: 6px;
-    }
-
-    .fragmentos{
-        top: 3%;
-        left: 35%;
-        font-size: 72px;
-    }
-
-    .dolor{
-        left: 35.5%;
-        font-size: 32px;
-        top: 9%;
-    }
-
-    .cristal{
-        left: 45%;
-    }
-
-    .pFragmentos{
-        font-size: 27px;
-        left: 25%;
-    }
-
-    .descargar{
-        height: 75px;
-        width: 250px;
-        font-size: 45px;
-    }
-
-    .aDescargar{
-        left: 41%;
-        bottom: 38%;
-    }
-
-    .requisitos{
-        bottom: 30%;
-        left: 23.5%;
         font-size: 24px;
     }
 
-    .metropolitano{
-        height: 120px;
-        width: 500px;
-        left: 31%;
-    }
-
-    footer{
-        width: 90vw;
-    }
-
-}
-
-@media (max-width: 1024px){
-
-    
-    header{
-        width: 88vw;
-        font-size: 26px;
-        gap: 5px;
-    }
-
     .fb{
-        width: 25px;
-        height: 25px;
+        width: 21px;
+        height: 21px;
     }
     
     
     .ig{ 
-        width: 25px;
-        height: 25px;
+        width: 21px;
+        height: 21px;
         
     }
 
     .fragmentos{
-        top: 1%;
-        left: 31%;
-        font-size: 65px;
+        top: 0%;
+        font-size: 60px;
+        left: 37.2%;
     }
 
     .dolor{
-        left: 32%;
-        font-size: 30px;
-        top: 6%;
+        top: 4.6%;
+        font-size: 26px;
+        left: 38.75%;
     }
 
     .cristal{
-        left: 44%;
+        top: 20%;
+        left: 46.3%;
     }
 
     .pFragmentos{
-        font-size: 26px;
-        left: 20%;
-    }
-
-    .descargar{
-        height: 70px;
-        width: 230px;
-        font-size: 40px;
+        font-size: 23px;
+        left: 29.4%;
+        top: 30%;
     }
 
     .aDescargar{
-        left: 39%;
+        left: 43%;
+    }
+
+    .descargar{
+        height: 65px;
+        width: 220px;
+        font-size: 40px;
     }
 
     .requisitos{
-        left: 19%;
+        font-size: 20px;
+        left: 28.6%;
+        bottom: 35%;
+    }
+
+    .contacto{
         font-size: 22px;
+        left: 47.1%;
+    }
+
+    .contactoEmail{
+        bottom: 25.9%;
+        font-size: 19px;
+        left: 40.6%;
+    }
+
+    footer{
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height: 100px;
+        width: 400px;
+        left: 36.7%;
+    }
+
+}
+
+@media (max-width: 1360px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
+        
+    }
+
+    header{
+        width: 92vw;
+        font-size: 24px;
+    }
+
+    .fb{
+        width: 21px;
+        height: 21px;
+    }
+    
+    
+    .ig{ 
+        width: 21px;
+        height: 21px;
+        
+    }
+
+    .fragmentos{
+        top: 0%;
+        font-size: 60px;
+        left: 37.2%;
+    }
+
+    .dolor{
+        top: 4.6%;
+        font-size: 26px;
+        left: 38.75%;
+    }
+
+    .cristal{
+        top: 20%;
+        left: 46.3%;
+    }
+
+    .pFragmentos{
+        font-size: 23px;
+        left: 29.4%;
+        top: 30%;
+    }
+
+    .aDescargar{
+        left: 43%;
+    }
+
+    .descargar{
+        height: 65px;
+        width: 220px;
+        font-size: 40px;
+    }
+
+    .requisitos{
+        font-size: 20px;
+        left: 28.6%;
+        bottom: 35%;
+    }
+
+    .contacto{
+        font-size: 22px;
+        left: 47.1%;
+    }
+
+    .contactoEmail{
+        bottom: 25.9%;
+        font-size: 19px;
+        left: 40.6%;
+    }
+
+    footer{
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height: 100px;
+        width: 400px;
+        left: 36.7%;
+    }
+
+}
+
+@media (max-width: 1280px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1280.png);
+        
+    }
+
+    header{
+        width: 90vw;
+        font-size: 24px;
+    }
+
+    .fb{
+        width: 21px;
+        height: 21px;
+    }
+    
+    
+    .ig{ 
+        width: 21px;
+        height: 21px;
+        
+    }
+
+    .fragmentos{
+        top: 0%;
+        font-size: 60px;
+        left: 36.1%;
+    }
+
+    .dolor{
+        top: 4.6%;
+        font-size: 26px;
+        left: 37.8%;
+    }
+
+    .cristal{
+        top: 20%;
+        left: 46%;
+    }
+
+    .pFragmentos{
+        font-size: 23px;
+        left: 27.8%;
+        top: 30%;
+    }
+
+    .aDescargar{
+        left: 40.5%;
+    }
+
+    .descargar{
+        height: 75px;
+        width: 250px;
+        font-size: 45px;
+    }
+
+    .requisitos{
+        font-size: 20px;
+        left: 27%;
+        bottom: 35%;
+    }
+
+    .contacto{
+        font-size: 22px;
+        left: 46.8%;
+    }
+
+    .contactoEmail{
+        bottom: 25.9%;
+        font-size: 19px;
+        left: 39.8%;
+    }
+
+    footer{
+    width: 90vw;
     }
 
     .metropolitano{
         height: 110px;
-        width: 480px;
-        left: 28%;
-    }
-
-    footer{
-        width: 88vw;
+        width: 450px;
+        left: 33.5%;
     }
 
 }
 
 @media (max-width: 800px){
 
-    
-    header{
-        width: 86vw;
-        font-size: 20px;
-        gap: 2px;
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
+        
     }
 
-    .inicio{
-        font-weight: 590;
-        font-family: "Rubik-Medium";
+    header{
+        width: 90vw;
+        font-size: 18px;
+        padding: 25px;
+        gap: 1px;
     }
 
     .fb{
-        width: 20px;
-        height: 20px;
+        width: 16px;
+        height: 16px;
     }
     
+    
     .ig{ 
-        width: 20px;
-        height: 20px;
+        width: 16px;
+        height: 16px;
         
     }
 
     .aig{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 2%;
+        top: 1.8%;
     }
-    
+
     .afb{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 2%;
-    
+        top: 1.8%;
+    }
+
+    main{
+        height: 2200px;
     }
 
     .fragmentos{
         top: 0%;
-        left: 31%;
-        font-size: 55px;
+        font-size: 40px;
+        left: 34.5%;
     }
 
     .dolor{
-        left: 32%;
-        font-size: 26px;
-        top: 4.5%;
+        top: 3.2%;
+        font-size: 17px;
+        left: 36.6%;
     }
 
     .cristal{
-        top: 22%;
-        left: 42%;
+        top: 20%;
+        left: 44.05%;
+        height: 90px;
+        width: 90px;
     }
 
     .pFragmentos{
-        font-size: 21px;
-        left: 19%;
-    }
-
-    .descargar{
-        height: 60px;
-        width: 200px;
-        font-size: 35px;
+        font-size: 18px;
+        left: 23.2%;
+        top: 30%;
     }
 
     .aDescargar{
-        left: 37.5%;
+        left: 39.4%;
+    }
+
+    .descargar{
+        height: 50px;
+        width: 160px;
+        font-size: 30px;
     }
 
     .requisitos{
-        left: 16.5%;
-        font-size: 19px;
+        font-size: 15px;
+        left: 22.5%;
+        bottom: 35%;
     }
 
-    .metropolitano{
-        height: 90px;
-        width: 420px;
-        left: 25%;
+    .contacto{
+        font-size: 18px;
+        left: 44.8%;
+    }
+
+    .contactoEmail{
+        bottom: 25.9%;
+        font-size: 15px;
+        left: 36.35%;
     }
 
     footer{
-        width: 86vw;
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height:70px;
+        width: 280px;
+        left: 31.9%;
     }
 
 }
 
-@media (min-width: 481px) and (max-width: 505px){
+@media (max-width: 768px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
+        
+    }
+
+    header{
+        width: 90vw;
+        font-size: 18px;
+        padding: 25px;
+        gap: 1px;
+    }
+
+    .fb{
+        width: 16px;
+        height: 16px;
+    }
+    
+    
+    .ig{ 
+        width: 16px;
+        height: 16px;
+        
+    }
+
+    .aig{
+        top: 1.8%;
+    }
+
+    .afb{
+        top: 1.8%;
+    }
+
+    main{
+        height: 2200px;
+    }
+
+    .fragmentos{
+        top: 0%;
+        font-size: 40px;
+        left: 34.8%;
+    }
+
+    .dolor{
+        top: 3.2%;
+        font-size: 17px;
+        left: 36.8%;
+    }
+
+    .cristal{
+        top: 20%;
+        left: 44.7%;
+        height: 90px;
+        width: 90px;
+    }
+
+    .pFragmentos{
+        font-size: 18px;
+        left: 23.2%;
+        top: 30%;
+    }
+
+    .aDescargar{
+        left: 40.1%;
+    }
+
+    .descargar{
+        height: 50px;
+        width: 160px;
+        font-size: 30px;
+    }
+
+    .requisitos{
+        font-size: 15px;
+        left: 22.5%;
+        bottom: 35%;
+    }
+
+    .contacto{
+        font-size: 18px;
+        left: 45.7%;
+    }
+
+    .contactoEmail{
+        bottom: 25.9%;
+        font-size: 15px;
+        left: 36.6%;
+    }
+
+    footer{
+    width: 90vw;
+    }
+
+    .metropolitano{
+        height:70px;
+        width: 280px;
+        left: 32.1%;
+    }
+
+}
+
+@media (min-width: 599px) and (max-width: 601px){
 
     
     header{
@@ -735,7 +1060,201 @@ footer{
 
 }
 
-@media (min-width: 320px) and (max-width: 420px){
+@media (max-width: 412px){
+
+    
+    header{
+        width: 85vw;
+        font-size: 10px;
+        gap: 1px;
+        padding: 10px;
+        top: 2%;
+    }
+
+    .inicio{
+        font-weight: 590;
+        font-family: "Rubik-Medium";
+    }
+
+    .fb{
+        width: 8px;
+        height: 8px;
+    }
+    
+    .ig{ 
+        width: 8px;
+        height: 8px;
+        
+    }
+
+    .aig{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 1.5%;
+    }
+    
+    .afb{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 1.5%;
+    
+    }
+
+    main{
+        width: 97vw;
+    }
+
+    .fragmentos{
+        top: 0%;
+        left: 22%;
+        font-size: 30px;
+    }
+
+    .dolor{
+        left: 24%;
+        font-size: 14px;
+        top: 2.5%;
+    }
+
+    .cristal{
+        left: 39.4%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .pFragmentos{
+        font-size:9.4px;
+        left: 12.8%;
+    }
+
+    .descargar{
+        height: 30px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .aDescargar{
+        left: 32.7%;
+        bottom: 33%;
+    }
+
+    .requisitos{
+        left: 13.5%;
+        font-size: 8px;
+    }
+
+    .metropolitano{
+        height: 50px;
+        width: 220px;
+        left: 15.2%;
+    }
+
+    footer{
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 385px){
+
+    
+    header{
+        width: 85vw;
+        font-size: 10px;
+        gap: 1px;
+        padding: 10px;
+        top: 2%;
+    }
+
+    .inicio{
+        font-weight: 590;
+        font-family: "Rubik-Medium";
+    }
+
+    .fb{
+        width: 8px;
+        height: 8px;
+    }
+    
+    .ig{ 
+        width: 8px;
+        height: 8px;
+        
+    }
+
+    .aig{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 1.5%;
+    }
+    
+    .afb{
+        display: flex;
+        position: relative;
+        height: 15px;
+        top: 1.5%;
+    
+    }
+
+    main{
+        width: 97vw;
+    }
+
+    .fragmentos{
+        top: 0%;
+        left: 22%;
+        font-size: 30px;
+    }
+
+    .dolor{
+        left: 24%;
+        font-size: 14px;
+        top: 2.5%;
+    }
+
+    .cristal{
+        left: 39.4%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .pFragmentos{
+        font-size:9.4px;
+        left: 12.8%;
+    }
+
+    .descargar{
+        height: 30px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .aDescargar{
+        left: 32.7%;
+        bottom: 33%;
+    }
+
+    .requisitos{
+        left: 13.5%;
+        font-size: 8px;
+    }
+
+    .metropolitano{
+        height: 50px;
+        width: 220px;
+        left: 15.2%;
+    }
+
+    footer{
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 360px){
 
     
     header{
