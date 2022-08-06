@@ -21,9 +21,39 @@ body{
     background-position: center center;
     background-size:100vw 2818px;
     color: white;
-
-
 }
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10.5px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:#454960;
+    border-radius: 20px;
+    border: 1.4px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+
+
+
 
 /* HEADER */
 header{
@@ -35,10 +65,10 @@ header{
     width: 93vw;
     height: 200px;
     top: 0%;
-    gap: 2px;
+    gap: 4px;
     justify-content: flex-end;
     padding: 40px;
-    font-size: 28px;
+    font-size: 25px;
     color: #a19Dad;
     font-family: "Rubik-Regular";
     
@@ -48,14 +78,14 @@ header{
 
 
 .fb{
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
 }
 
 
 .ig{ 
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
     
 }
 
@@ -156,10 +186,6 @@ main{
 
 }
 
-
-
-
-
 .aDescargar{
     display: flex;
     position: absolute;
@@ -239,6 +265,10 @@ footer{
 }
 
 @media (max-width: 1680px){
+
+    body{
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1680.png);
+    }
 
     .fragmentos{
         left: 38.35%;
@@ -361,7 +391,7 @@ footer{
 @media (max-width: 1536px){
 
     body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1536.png);
         
     }
 
@@ -433,7 +463,7 @@ footer{
 @media (max-width: 1440px){
 
     body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1440.png);
         
     }
 
@@ -764,13 +794,18 @@ footer{
 
     body{
         background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
-        
+        background-size: 100vw 1620px;
+    }
+
+    body::-webkit-scrollbar:vertical {
+        width: 9px;
     }
 
     header{
-        width: 90vw;
+        height: 100px;
+        width: 93vw;
         font-size: 18px;
-        padding: 25px;
+        padding: 15px;
         gap: 1px;
     }
 
@@ -787,44 +822,44 @@ footer{
     }
 
     .aig{
-        top: 1.8%;
+        top: 3.5%;
     }
 
     .afb{
-        top: 1.8%;
+        top: 3.5%;
     }
 
     main{
-        height: 2200px;
+        height: 1200px;
     }
 
     .fragmentos{
         top: 0%;
         font-size: 40px;
-        left: 34.5%;
+        left: 34.65%;
     }
 
     .dolor{
-        top: 3.2%;
+        top: 5.9%;
         font-size: 17px;
         left: 36.6%;
     }
 
     .cristal{
         top: 20%;
-        left: 44.05%;
+        left: 44.3%;
         height: 90px;
         width: 90px;
     }
 
     .pFragmentos{
         font-size: 18px;
-        left: 23.2%;
+        left: 23.6%;
         top: 30%;
     }
 
     .aDescargar{
-        left: 39.4%;
+        left: 40%;
     }
 
     .descargar{
@@ -835,29 +870,32 @@ footer{
 
     .requisitos{
         font-size: 15px;
-        left: 22.5%;
-        bottom: 35%;
+        left: 22.8%;
+        bottom: 30%;
     }
 
     .contacto{
         font-size: 18px;
-        left: 44.8%;
+        left: 45.6%;
+        bottom: 22%;
     }
 
     .contactoEmail{
-        bottom: 25.9%;
+        bottom: 22%;
         font-size: 15px;
-        left: 36.35%;
+        left: 36.7%;
     }
 
     footer{
     width: 90vw;
+    height: 200px;
     }
 
     .metropolitano{
         height:70px;
         width: 280px;
-        left: 31.9%;
+        left: 32.5%;
+        top: 60%;
     }
 
 }
@@ -865,14 +903,18 @@ footer{
 @media (max-width: 768px){
 
     body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
-        
+        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
+        background-size: 99vw 1620px;
     }
 
+    body::-webkit-scrollbar:vertical {
+        width: 9px;
+    }
     header{
-        width: 90vw;
+        width: 88vw;
+        height: 100px;
         font-size: 18px;
-        padding: 25px;
+        padding: 15px;
         gap: 1px;
     }
 
@@ -897,7 +939,7 @@ footer{
     }
 
     main{
-        height: 2200px;
+        height: 1200px;
     }
 
     .fragmentos{
@@ -953,7 +995,8 @@ footer{
     }
 
     footer{
-    width: 90vw;
+    width: 85vw;
+    height: 200px;
     }
 
     .metropolitano{
