@@ -1,1403 +1,1413 @@
 @font-face {
-    font-family: "Rubik-Italic";
-    src: url(./Fuentes/Rubik-Italic.ttf);
-}
-@font-face {
-    font-family: "Rubik-Regular";
-    src: url(./Fuentes/Rubik-Regular.ttf);
-}
-@font-face {
-    font-family: "Rubik-Medium";
-    src: url(./Fuentes/Rubik-Medium.ttf);
+  font-family: "Rubik-Italic";
+  src: url(./Fuentes/Rubik-Italic.ttf);
 }
 
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url(./Fuentes/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url(./Fuentes/Rubik-Medium.ttf);
+}
 
 /* BODY */
-body{
-
-    background-image: url(./Imagenes/inicio\ fondo.png);
-    background-color: #454960;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:100vw 2818px;
-    color: white;
+body {
+  background-image: url(./Imagenes/inicio\ fondo.png);
+  background-color: #454960;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100vw 2818px;
+  color: white;
 }
-
-body::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-body::-webkit-scrollbar:vertical {
-    width: 10.5px;
-}
-
-body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
-    display: none;
-} 
-
-body::-webkit-scrollbar:horizontal {
-    height: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color:#454960;
-    border-radius: 20px;
-    border: 1.4px solid #f1f2f3;
-}
-
-body::-webkit-scrollbar-track {
-    border-radius: 10px;  
-}
-
-
-
-
-
-
 
 /* HEADER */
-header{
-
-    
-    display:flex;
-    position:sticky;
-    z-index: 10000;
-    width: 93vw;
-    height: 200px;
-    top: 0%;
-    gap: 4px;
-    justify-content: flex-end;
-    padding: 40px;
-    font-size: 25px;
-    color: #a19Dad;
-    font-family: "Rubik-Regular";
-    
-
-
+header {
+  display: flex;
+  position: sticky;
+  z-index: 10000;
+  width: 93vw;
+  height: 200px;
+  top: 0%;
+  gap: 4px;
+  justify-content: flex-end;
+  padding: 40px;
+  font-size: 25px;
+  color: #a19dad;
+  font-family: "Rubik-Regular";
 }
 
-
-.fb{
-    width: 22px;
-    height: 22px;
+.fb {
+  width: 22px;
+  height: 22px;
 }
 
-
-.ig{ 
-    width: 22px;
-    height: 22px;
-    
+.ig {
+  width: 22px;
+  height: 22px;
 }
 
-.aig{
-    display: flex;
-    position: relative;
-    height: 15px;
-    top: 3%;
-    
-    
+.aig {
+  display: flex;
+  position: relative;
+  height: 15px;
+  top: 3%;
 }
 
-.afb{
-    display: flex;
-    position: relative;
-    height: 15px;
-    top: 3%;
-
+.afb {
+  display: flex;
+  position: relative;
+  height: 15px;
+  top: 3%;
 }
 
-.inicio{
-    
-    font-family: "Rubik-Medium";
+.inicio {
+  font-family: "Rubik-Medium";
 }
 
-.aElProyecto{
-    height: 15px;
-    color: #a19Dad;
-    text-decoration: none;
+.aElProyecto {
+  height: 15px;
+  color: #a19dad;
+  text-decoration: none;
 }
 
-.aElProyecto:hover{
-    color: #ffffff;
+.aElProyecto:hover {
+  color: #ffffff;
 }
 
-.aNosotras{
-    height: 15px;
-    color: #a19Dad;
-    text-decoration: none;
-    
+.aNosotras {
+  height: 15px;
+  color: #a19dad;
+  text-decoration: none;
 }
 
-.aNosotras:hover{
-    color: #ffffff;
+.aNosotras:hover {
+  color: #ffffff;
 }
-
-
 
 /* MAIN */
-main{
-    display: flex;
-    position:relative;
-    flex-direction: column;
-    width: 96vw;
-    height: 2260px;
-    justify-content: center;
-    font-family: "Rubik-Regular";
+main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 96vw;
+  height: 2260px;
+  justify-content: center;
+  font-family: "Rubik-Regular";
 }
 
-
-
-.fragmentos{
-    display: flex;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    font-size: 70px;
-    font-weight: 200;
-    font-family: "Rubik-Medium";
+.fragmentos {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  font-size: 70px;
+  font-weight: 200;
+  font-family: "Rubik-Medium";
 }
 
-.dolor{
-    display: flex;
-    position: absolute;
-    top: 5.5%;
-    left: 41.3%;
-    font-size:30px;
-    color: #a19Dad;
-    
-}
-.cristal{
-    display: flex;
-    position: absolute;
-    top: 18%;
-    left: 47.5%;
-    width: 120px;
-    height: 120px;
+.dolor {
+  display: flex;
+  position: absolute;
+  top: 5.5%;
+  left: 41.3%;
+  font-size: 30px;
+  color: #a19dad;
 }
 
-.pFragmentos{
-    display: flex;
-    position: absolute;
-    bottom: 64%;
-    left: 32.5%;
-    text-align: center;
-    font-weight: 599;
-    font-size: 30px;
-
+.cristal {
+  display: flex;
+  position: absolute;
+  top: 18%;
+  left: 47.5%;
+  width: 120px;
+  height: 120px;
 }
 
-.aDescargar{
-    display: flex;
-    position: absolute;
-    bottom: 43%;
-    left: 43.5%;
-    font-size: 60px;
-    text-decoration: none;
+.pFragmentos {
+  display: flex;
+  position: absolute;
+  bottom: 64%;
+  left: 32.5%;
+  text-align: center;
+  font-weight: 599;
+  font-size: 30px;
 }
 
-.descargar{
-    height: 80px;
-    width: 280px;
-    border-radius: 50px;
-    font-size: 50px;
-    background-color:#a19Dad;
-    color:white;
-    border: #ffffff;
-    
-}
-.descargar:hover{
-    color:#a19Dad;
-    background-color: #ffffff
+.aDescargar {
+  display: flex;
+  position: absolute;
+  bottom: 43%;
+  left: 43.5%;
+  font-size: 60px;
+  text-decoration: none;
 }
 
-
-
-
-.requisitos{
-    display: flex;
-    position: absolute;
-    bottom: 32%;
-    left: 31.8%;
-    text-align: center;
-    font-size: 25px;
-    color: #a19Dad;
-    
+.descargar {
+  height: 80px;
+  width: 280px;
+  border-radius: 50px;
+  font-size: 50px;
+  background-color: #a19dad;
+  color: white;
+  border: #ffffff;
 }
 
-.contacto{
-    display: flex;
-    position: absolute;
-    bottom: 26%;
-    left: 48%;
-    text-align: center;
-    font-size: 28px;
-    color: white;
-
+.descargar:hover {
+  color: #a19dad;
+  background-color: #ffffff;
 }
 
-.contactoEmail{
-    display: flex;
-    position: absolute;
-    bottom: 25.7%;
-    left: 42.1%;
-    text-align: center;
-    font-size: 24px;
-    color: #a19Dad;
+.requisitos {
+  display: flex;
+  position: absolute;
+  bottom: 32%;
+  left: 31.8%;
+  text-align: center;
+  font-size: 25px;
+  color: #a19dad;
+}
+
+.contacto {
+  display: flex;
+  position: absolute;
+  bottom: 26%;
+  left: 48%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+.contactoEmail {
+  display: flex;
+  position: absolute;
+  bottom: 25.7%;
+  left: 42.1%;
+  text-align: center;
+  font-size: 24px;
+  color: #a19dad;
 }
 
 /* FOOTER */
-footer{
-    display: flex;
-    position: relative;
-    height: 200px;
-    width: 96vw;
-    padding: 20px;
+footer {
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 96vw;
+  padding: 20px;
 }
 
-.metropolitano{
-    display: flex;
-    position: absolute;
-    height: 120px;
-    width: 500px;
-    left: 36.8%;
+.metropolitano {
+  display: flex;
+  position: absolute;
+  height: 120px;
+  width: 500px;
+  left: 36.8%;
+  top: 30%;
+}
+
+@media (max-width: 1680px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1680.png);
+  }
+
+  .fragmentos {
+    left: 38.35%;
+  }
+
+  .dolor {
+    left: 39.5%;
+  }
+
+  .cristal {
+    left: 47.1%;
+  }
+
+  .pFragmentos {
+    font-size: 28px;
+    left: 30.65%;
+  }
+
+  .aDescargar {
+    left: 42.35%;
+  }
+
+  .requisitos {
+    font-size: 23px;
+    left: 29.95%;
+  }
+
+  .contacto {
+    font-size: 26px;
+    left: 47.5%;
+  }
+
+  .contactoEmail {
+    font-size: 22px;
+    left: 41.4%;
+  }
+
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 36%;
+  }
+}
+
+@media (max-width: 1600px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
+  }
+
+  header {
+    width: 92vw;
+    font-size: 26px;
+  }
+
+  .fb {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ig {
+    width: 24px;
+    height: 24px;
+  }
+
+  .fragmentos {
+    left: 38.15%;
+  }
+
+  .dolor {
+    left: 39.5%;
+  }
+
+  .cristal {
+    left: 46.86%;
+  }
+
+  .pFragmentos {
+    font-size: 27px;
+    left: 30.2%;
+  }
+
+  .aDescargar {
+    left: 41.9%;
+  }
+
+  .requisitos {
+    font-size: 22px;
+    left: 30.4%;
+  }
+
+  .contacto {
+    font-size: 25px;
+    left: 47.4%;
+  }
+
+  .contactoEmail {
+    font-size: 21px;
+    left: 41.3%;
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 37.4%;
+  }
+}
+
+@media (max-width: 1536px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1536.png);
+  }
+
+  header {
+    width: 92vw;
+    font-size: 26px;
+  }
+
+  .fb {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ig {
+    width: 24px;
+    height: 24px;
+  }
+
+  .fragmentos {
+    left: 37.75%;
+  }
+
+  .dolor {
+    left: 39.4%;
+  }
+
+  .cristal {
+    left: 46.86%;
+  }
+
+  .pFragmentos {
+    font-size: 27px;
+    left: 30.2%;
+  }
+
+  .aDescargar {
+    left: 41.9%;
+  }
+
+  .requisitos {
+    font-size: 22px;
+    left: 30.4%;
+  }
+
+  .contacto {
+    font-size: 25px;
+    left: 47.7%;
+  }
+
+  .contactoEmail {
+    font-size: 21px;
+    left: 41.5%;
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 37.55%;
+  }
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1440.png);
+  }
+
+  header {
+    width: 92vw;
+    font-size: 26px;
+  }
+
+  .fb {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ig {
+    width: 24px;
+    height: 24px;
+  }
+
+  .fragmentos {
+    left: 36.7%;
+  }
+
+  .dolor {
+    left: 38.75%;
+  }
+
+  .cristal {
+    left: 46.86%;
+  }
+
+  .pFragmentos {
+    font-size: 27px;
+    left: 30.1%;
+  }
+
+  .aDescargar {
+    left: 41.5%;
+  }
+
+  .requisitos {
+    font-size: 22px;
+    left: 28.8%;
+  }
+
+  .contacto {
+    font-size: 24px;
+    left: 47.7%;
+  }
+
+  .contactoEmail {
+    font-size: 21px;
+    left: 40.8%;
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 36.7%;
+  }
+}
+
+@media (max-width: 1366px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
+  }
+
+  header {
+    width: 92vw;
+    font-size: 24px;
+    gap: 1px;
+  }
+
+  .fb {
+    width: 21px;
+    height: 21px;
+  }
+
+  .ig {
+    width: 21px;
+    height: 21px;
+  }
+
+  .fragmentos {
+    top: 0%;
+    font-size: 60px;
+    left: 37.2%;
+  }
+
+  .dolor {
+    top: 4.6%;
+    font-size: 26px;
+    left: 38.75%;
+  }
+
+  .cristal {
+    top: 20%;
+    left: 46.3%;
+  }
+
+  .pFragmentos {
+    font-size: 23px;
+    left: 29.4%;
     top: 30%;
-    
-}
+  }
 
-@media (max-width: 1680px){
+  .aDescargar {
+    left: 43%;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1680.png);
-    }
+  .descargar {
+    height: 65px;
+    width: 220px;
+    font-size: 40px;
+  }
 
-    .fragmentos{
-        left: 38.35%;
-    }
+  .requisitos {
+    font-size: 20px;
+    left: 28.6%;
+    bottom: 35%;
+  }
 
-    .dolor{
-        left: 39.5%;
-    }
+  .contacto {
+    font-size: 22px;
+    left: 47.1%;
+  }
 
-    .cristal{
-        left: 47.1%;
-    }
+  .contactoEmail {
+    bottom: 25.9%;
+    font-size: 19px;
+    left: 40.6%;
+  }
 
-    .pFragmentos{
-        font-size: 28px;
-        left: 30.65%;
-    }
-
-    .aDescargar{
-        left: 42.35%;
-    }
-
-    .requisitos{
-        font-size: 23px;
-        left: 29.95%;
-    }
-
-    .contacto{
-        font-size: 26px;
-        left: 47.5%;
-    }
-
-    .contactoEmail{
-        font-size: 22px;
-        left: 41.4%;
-
-    }
-
-    .metropolitano{
-        height: 110px;
-        width: 450px;
-        left: 36%;
-    }
-
-}
-
-@media (max-width: 1600px){
-
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
-        
-    }
-
-    header{
-        width: 92vw;
-        font-size: 26px;
-    }
-
-    .fb{
-        width: 24px;
-        height: 24px;
-    }
-    
-    
-    .ig{ 
-        width: 24px;
-        height: 24px;
-        
-    }
-
-    .fragmentos{
-        left: 38.15%;
-    }
-
-    .dolor{
-        left: 39.5%;
-    }
-
-    .cristal{
-        left: 46.86%;
-    }
-
-    .pFragmentos{
-        font-size: 27px;
-        left: 30.2%;
-    }
-
-    .aDescargar{
-        left: 41.9%;
-    }
-
-    .requisitos{
-        font-size: 22px;
-        left: 30.4%;
-    }
-
-    .contacto{
-        font-size: 25px;
-        left: 47.4%;
-    }
-
-    .contactoEmail{
-        font-size: 21px;
-        left: 41.3%;
-    }
-
-    footer{
+  footer {
     width: 90vw;
-    }
+  }
 
-    .metropolitano{
-        height: 110px;
-        width: 450px;
-        left: 37.4%;
-    }
-
+  .metropolitano {
+    height: 100px;
+    width: 400px;
+    left: 36.7%;
+  }
 }
 
+@media (max-width: 1360px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
+  }
 
-@media (max-width: 1536px){
+  header {
+    width: 92vw;
+    font-size: 24px;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1536.png);
-        
-    }
+  .fb {
+    width: 21px;
+    height: 21px;
+  }
 
-    header{
-        width: 92vw;
-        font-size: 26px;
-    }
+  .ig {
+    width: 21px;
+    height: 21px;
+  }
 
-    .fb{
-        width: 24px;
-        height: 24px;
-    }
-    
-    
-    .ig{ 
-        width: 24px;
-        height: 24px;
-        
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 60px;
+    left: 37.2%;
+  }
 
-    .fragmentos{
-        left: 37.75%;
-    }
+  .dolor {
+    top: 4.6%;
+    font-size: 26px;
+    left: 38.75%;
+  }
 
-    .dolor{
-        left: 39.4%;
-    }
+  .cristal {
+    top: 20%;
+    left: 46.3%;
+  }
 
-    .cristal{
-        left: 46.86%;
-    }
+  .pFragmentos {
+    font-size: 23px;
+    left: 29.4%;
+    top: 30%;
+  }
 
-    .pFragmentos{
-        font-size: 27px;
-        left: 30.2%;
-    }
+  .aDescargar {
+    left: 43%;
+  }
 
-    .aDescargar{
-        left: 41.9%;
-    }
+  .descargar {
+    height: 65px;
+    width: 220px;
+    font-size: 40px;
+  }
 
-    .requisitos{
-        font-size: 22px;
-        left: 30.4%;
-    }
+  .requisitos {
+    font-size: 20px;
+    left: 28.6%;
+    bottom: 35%;
+  }
 
-    .contacto{
-        font-size: 25px;
-        left: 47.7%;
-    }
+  .contacto {
+    font-size: 22px;
+    left: 47.1%;
+  }
 
-    .contactoEmail{
-        font-size: 21px;
-        left: 41.5%;
-    }
+  .contactoEmail {
+    bottom: 25.9%;
+    font-size: 19px;
+    left: 40.6%;
+  }
 
-    footer{
+  footer {
     width: 90vw;
-    }
+  }
 
-    .metropolitano{
-        height: 110px;
-        width: 450px;
-        left: 37.55%;
-    }
-
+  .metropolitano {
+    height: 100px;
+    width: 400px;
+    left: 36.7%;
+  }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1280px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1280.png);
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1440.png);
-        
-    }
-
-    header{
-        width: 92vw;
-        font-size: 26px;
-    }
-
-    .fb{
-        width: 24px;
-        height: 24px;
-    }
-    
-    
-    .ig{ 
-        width: 24px;
-        height: 24px;
-        
-    }
-
-    .fragmentos{
-        left: 36.7%;
-    }
-
-    .dolor{
-        left: 38.75%;
-    }
-
-    .cristal{
-        left: 46.86%;
-    }
-
-    .pFragmentos{
-        font-size: 27px;
-        left: 30.1%;
-    }
-
-    .aDescargar{
-        left: 41.5%;
-    }
-
-    .requisitos{
-        font-size: 22px;
-        left: 28.8%;
-    }
-
-    .contacto{
-        font-size: 24px;
-        left: 47.7%;
-    }
-
-    .contactoEmail{
-        font-size: 21px;
-        left: 40.8%;
-    }
-
-    footer{
+  header {
     width: 90vw;
-    }
+    font-size: 24px;
+  }
 
-    .metropolitano{
-        height: 110px;
-        width: 450px;
-        left: 36.7%;
-    }
+  .fb {
+    width: 21px;
+    height: 21px;
+  }
 
-}
+  .ig {
+    width: 21px;
+    height: 21px;
+  }
 
-@media (max-width: 1366px){
+  .fragmentos {
+    top: 0%;
+    font-size: 60px;
+    left: 36.1%;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
-        
-    }
+  .dolor {
+    top: 4.6%;
+    font-size: 26px;
+    left: 37.8%;
+  }
 
-    header{
-        width: 92vw;
-        font-size: 24px;
-    }
+  .cristal {
+    top: 20%;
+    left: 46%;
+  }
 
-    .fb{
-        width: 21px;
-        height: 21px;
-    }
-    
-    
-    .ig{ 
-        width: 21px;
-        height: 21px;
-        
-    }
+  .pFragmentos {
+    font-size: 23px;
+    left: 27.8%;
+    top: 30%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        font-size: 60px;
-        left: 37.2%;
-    }
+  .aDescargar {
+    left: 40.5%;
+  }
 
-    .dolor{
-        top: 4.6%;
-        font-size: 26px;
-        left: 38.75%;
-    }
+  .descargar {
+    height: 75px;
+    width: 250px;
+    font-size: 45px;
+  }
 
-    .cristal{
-        top: 20%;
-        left: 46.3%;
-    }
+  .requisitos {
+    font-size: 20px;
+    left: 27%;
+    bottom: 35%;
+  }
 
-    .pFragmentos{
-        font-size: 23px;
-        left: 29.4%;
-        top: 30%;
-    }
+  .contacto {
+    font-size: 22px;
+    left: 46.8%;
+  }
 
-    .aDescargar{
-        left: 43%;
-    }
+  .contactoEmail {
+    bottom: 25.9%;
+    font-size: 19px;
+    left: 39.8%;
+  }
 
-    .descargar{
-        height: 65px;
-        width: 220px;
-        font-size: 40px;
-    }
-
-    .requisitos{
-        font-size: 20px;
-        left: 28.6%;
-        bottom: 35%;
-    }
-
-    .contacto{
-        font-size: 22px;
-        left: 47.1%;
-    }
-
-    .contactoEmail{
-        bottom: 25.9%;
-        font-size: 19px;
-        left: 40.6%;
-    }
-
-    footer{
+  footer {
     width: 90vw;
-    }
+  }
 
-    .metropolitano{
-        height: 100px;
-        width: 400px;
-        left: 36.7%;
-    }
-
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 33.5%;
+  }
 }
 
-@media (max-width: 1360px){
+@media (max-width: 800px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
+    background-size: 100vw 1620px;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1360.png);
-        
-    }
+  body::-webkit-scrollbar:vertical {
+    width: 9px;
+  }
 
-    header{
-        width: 92vw;
-        font-size: 24px;
-    }
+  header {
+    height: 100px;
+    width: 93vw;
+    font-size: 18px;
+    padding: 15px;
+    gap: 1px;
+  }
 
-    .fb{
-        width: 21px;
-        height: 21px;
-    }
-    
-    
-    .ig{ 
-        width: 21px;
-        height: 21px;
-        
-    }
+  .fb {
+    width: 16px;
+    height: 16px;
+  }
 
-    .fragmentos{
-        top: 0%;
-        font-size: 60px;
-        left: 37.2%;
-    }
+  .ig {
+    width: 16px;
+    height: 16px;
+  }
 
-    .dolor{
-        top: 4.6%;
-        font-size: 26px;
-        left: 38.75%;
-    }
+  .aig {
+    top: 3.5%;
+  }
 
-    .cristal{
-        top: 20%;
-        left: 46.3%;
-    }
+  .afb {
+    top: 3.5%;
+  }
 
-    .pFragmentos{
-        font-size: 23px;
-        left: 29.4%;
-        top: 30%;
-    }
+  main {
+    height: 1200px;
+  }
 
-    .aDescargar{
-        left: 43%;
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 40px;
+    left: 34.65%;
+  }
 
-    .descargar{
-        height: 65px;
-        width: 220px;
-        font-size: 40px;
-    }
+  .dolor {
+    top: 5.9%;
+    font-size: 17px;
+    left: 36.6%;
+  }
 
-    .requisitos{
-        font-size: 20px;
-        left: 28.6%;
-        bottom: 35%;
-    }
+  .cristal {
+    top: 20%;
+    left: 44.3%;
+    height: 90px;
+    width: 90px;
+  }
 
-    .contacto{
-        font-size: 22px;
-        left: 47.1%;
-    }
+  .pFragmentos {
+    font-size: 18px;
+    left: 23.6%;
+    top: 30%;
+  }
 
-    .contactoEmail{
-        bottom: 25.9%;
-        font-size: 19px;
-        left: 40.6%;
-    }
+  .aDescargar {
+    left: 40%;
+  }
 
-    footer{
-    width: 90vw;
-    }
+  .descargar {
+    height: 50px;
+    width: 160px;
+    font-size: 30px;
+  }
 
-    .metropolitano{
-        height: 100px;
-        width: 400px;
-        left: 36.7%;
-    }
+  .requisitos {
+    font-size: 15px;
+    left: 22.8%;
+    bottom: 30%;
+  }
 
-}
+  .contacto {
+    font-size: 18px;
+    left: 45.6%;
+    bottom: 22%;
+  }
 
-@media (max-width: 1280px){
+  .contactoEmail {
+    bottom: 22%;
+    font-size: 15px;
+    left: 36.7%;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1280.png);
-        
-    }
-
-    header{
-        width: 90vw;
-        font-size: 24px;
-    }
-
-    .fb{
-        width: 21px;
-        height: 21px;
-    }
-    
-    
-    .ig{ 
-        width: 21px;
-        height: 21px;
-        
-    }
-
-    .fragmentos{
-        top: 0%;
-        font-size: 60px;
-        left: 36.1%;
-    }
-
-    .dolor{
-        top: 4.6%;
-        font-size: 26px;
-        left: 37.8%;
-    }
-
-    .cristal{
-        top: 20%;
-        left: 46%;
-    }
-
-    .pFragmentos{
-        font-size: 23px;
-        left: 27.8%;
-        top: 30%;
-    }
-
-    .aDescargar{
-        left: 40.5%;
-    }
-
-    .descargar{
-        height: 75px;
-        width: 250px;
-        font-size: 45px;
-    }
-
-    .requisitos{
-        font-size: 20px;
-        left: 27%;
-        bottom: 35%;
-    }
-
-    .contacto{
-        font-size: 22px;
-        left: 46.8%;
-    }
-
-    .contactoEmail{
-        bottom: 25.9%;
-        font-size: 19px;
-        left: 39.8%;
-    }
-
-    footer{
-    width: 90vw;
-    }
-
-    .metropolitano{
-        height: 110px;
-        width: 450px;
-        left: 33.5%;
-    }
-
-}
-
-@media (max-width: 800px){
-
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 800.png);
-        background-size: 100vw 1620px;
-    }
-
-    body::-webkit-scrollbar:vertical {
-        width: 9px;
-    }
-
-    header{
-        height: 100px;
-        width: 93vw;
-        font-size: 18px;
-        padding: 15px;
-        gap: 1px;
-    }
-
-    .fb{
-        width: 16px;
-        height: 16px;
-    }
-    
-    
-    .ig{ 
-        width: 16px;
-        height: 16px;
-        
-    }
-
-    .aig{
-        top: 3.5%;
-    }
-
-    .afb{
-        top: 3.5%;
-    }
-
-    main{
-        height: 1200px;
-    }
-
-    .fragmentos{
-        top: 0%;
-        font-size: 40px;
-        left: 34.65%;
-    }
-
-    .dolor{
-        top: 5.9%;
-        font-size: 17px;
-        left: 36.6%;
-    }
-
-    .cristal{
-        top: 20%;
-        left: 44.3%;
-        height: 90px;
-        width: 90px;
-    }
-
-    .pFragmentos{
-        font-size: 18px;
-        left: 23.6%;
-        top: 30%;
-    }
-
-    .aDescargar{
-        left: 40%;
-    }
-
-    .descargar{
-        height: 50px;
-        width: 160px;
-        font-size: 30px;
-    }
-
-    .requisitos{
-        font-size: 15px;
-        left: 22.8%;
-        bottom: 30%;
-    }
-
-    .contacto{
-        font-size: 18px;
-        left: 45.6%;
-        bottom: 22%;
-    }
-
-    .contactoEmail{
-        bottom: 22%;
-        font-size: 15px;
-        left: 36.7%;
-    }
-
-    footer{
+  footer {
     width: 90vw;
     height: 200px;
-    }
+  }
 
-    .metropolitano{
-        height:70px;
-        width: 280px;
-        left: 32.5%;
-        top: 60%;
-    }
-
+  .metropolitano {
+    height: 70px;
+    width: 280px;
+    left: 32.5%;
+    top: 60%;
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
+    background-size: 99vw 1620px;
+  }
 
-    body{
-        background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
-        background-size: 99vw 1620px;
-    }
+  body::-webkit-scrollbar:vertical {
+    width: 9px;
+  }
 
-    body::-webkit-scrollbar:vertical {
-        width: 9px;
-    }
-    header{
-        width: 88vw;
-        height: 100px;
-        font-size: 18px;
-        padding: 15px;
-        gap: 1px;
-    }
+  header {
+    width: 88vw;
+    height: 100px;
+    font-size: 18px;
+    padding: 15px;
+    gap: 1px;
+  }
 
-    .fb{
-        width: 16px;
-        height: 16px;
-    }
-    
-    
-    .ig{ 
-        width: 16px;
-        height: 16px;
-        
-    }
+  .fb {
+    width: 16px;
+    height: 16px;
+  }
 
-    .aig{
-        top: 1.8%;
-    }
+  .ig {
+    width: 16px;
+    height: 16px;
+  }
 
-    .afb{
-        top: 1.8%;
-    }
+  .aig {
+    top: 1.8%;
+  }
 
-    main{
-        height: 1200px;
-    }
+  .afb {
+    top: 1.8%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        font-size: 40px;
-        left: 34.8%;
-    }
+  main {
+    height: 1200px;
+  }
 
-    .dolor{
-        top: 3.2%;
-        font-size: 17px;
-        left: 36.8%;
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 40px;
+    left: 34.8%;
+  }
 
-    .cristal{
-        top: 20%;
-        left: 44.7%;
-        height: 90px;
-        width: 90px;
-    }
+  .dolor {
+    top: 3.2%;
+    font-size: 17px;
+    left: 36.8%;
+  }
 
-    .pFragmentos{
-        font-size: 18px;
-        left: 23.2%;
-        top: 30%;
-    }
+  .cristal {
+    top: 20%;
+    left: 44.7%;
+    height: 90px;
+    width: 90px;
+  }
 
-    .aDescargar{
-        left: 40.1%;
-    }
+  .pFragmentos {
+    font-size: 18px;
+    left: 23.2%;
+    top: 30%;
+  }
 
-    .descargar{
-        height: 50px;
-        width: 160px;
-        font-size: 30px;
-    }
+  .aDescargar {
+    left: 40.1%;
+  }
 
-    .requisitos{
-        font-size: 15px;
-        left: 22.5%;
-        bottom: 35%;
-    }
+  .descargar {
+    height: 50px;
+    width: 160px;
+    font-size: 30px;
+  }
 
-    .contacto{
-        font-size: 18px;
-        left: 45.7%;
-    }
+  .requisitos {
+    font-size: 15px;
+    left: 22.5%;
+    bottom: 35%;
+  }
 
-    .contactoEmail{
-        bottom: 25.9%;
-        font-size: 15px;
-        left: 36.6%;
-    }
+  .contacto {
+    font-size: 18px;
+    left: 45.7%;
+  }
 
-    footer{
+  .contactoEmail {
+    bottom: 25.9%;
+    font-size: 15px;
+    left: 36.6%;
+  }
+
+  footer {
     width: 85vw;
     height: 200px;
-    }
+  }
 
-    .metropolitano{
-        height:70px;
-        width: 280px;
-        left: 32.1%;
-    }
-
+  .metropolitano {
+    height: 70px;
+    width: 280px;
+    left: 32.1%;
+  }
 }
 
-@media (min-width: 599px) and (max-width: 601px){
+@media (max-width: 720px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
+    background-size: 99vw 1620px;
+  }
 
-    
-    header{
-        width: 80vw;
-        font-size: 12px;
-        gap: 1px;
-    }
+  body::-webkit-scrollbar:vertical {
+    width: 9px;
+  }
 
-    .inicio{
-        font-weight: 590;
-        font-family: "Rubik-Medium";
-    }
+  header {
+    width: 88vw;
+    height: 100px;
+    font-size: 18px;
+    padding: 15px;
+    gap: 1px;
+  }
 
-    .fb{
-        width: 10px;
-        height: 10px;
-    }
-    
-    .ig{ 
-        width: 10px;
-        height: 10px;
-        
-    }
+  .fb {
+    width: 16px;
+    height: 16px;
+  }
 
-    .aig{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 2%;
-    }
-    
-    .afb{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 2%;
-    
-    }
+  .ig {
+    width: 16px;
+    height: 16px;
+  }
 
-    main{
-        width: 80vw;
-    }
+  .aig {
+    top: 1.8%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        left: 31%;
-        font-size: 38px;
-    }
+  .afb {
+    top: 1.8%;
+  }
 
-    .dolor{
-        left: 32%;
-        font-size: 18px;
-        top: 3.3%;
-    }
+  main {
+    height: 1200px;
+  }
 
-    .cristal{
-        top: 20%;
-        left: 50%;
-        height: 80px;
-        width: 80px;
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 40px;
+    left: 34.8%;
+  }
 
-    .pFragmentos{
-        font-size: 11px;
-        left: 25%;
-    }
+  .dolor {
+    top: 3.2%;
+    font-size: 17px;
+    left: 36.8%;
+  }
 
-    .descargar{
-        height: 40px;
-        width: 130px;
-        font-size: 25px;
-    }
+  .cristal {
+    top: 20%;
+    left: 44.7%;
+    height: 90px;
+    width: 90px;
+  }
 
-    .aDescargar{
-        left: 43%;
-        bottom: 34%;
-    }
+  .pFragmentos {
+    font-size: 18px;
+    left: 23.2%;
+    top: 30%;
+  }
 
-    .requisitos{
-        left: 22%;
-        font-size: 10px;
-    }
+  .aDescargar {
+    left: 40.1%;
+  }
 
-    .metropolitano{
-        height: 70px;
-        width: 300px;
-        left: 20%;
-    }
+  .descargar {
+    height: 50px;
+    width: 160px;
+    font-size: 30px;
+  }
 
-    footer{
-        width: 80vw;
-    }
+  .requisitos {
+    font-size: 15px;
+    left: 22.5%;
+    bottom: 35%;
+  }
 
+  .contacto {
+    font-size: 18px;
+    left: 45.7%;
+  }
+
+  .contactoEmail {
+    bottom: 25.9%;
+    font-size: 15px;
+    left: 36.6%;
+  }
+
+  footer {
+    width: 85vw;
+    height: 200px;
+  }
+
+  .metropolitano {
+    height: 70px;
+    width: 280px;
+    left: 32.1%;
+  }
 }
 
-@media (max-width: 412px){
+@media (min-width: 599px) and (max-width: 601px) {
+  header {
+    width: 80vw;
+    font-size: 12px;
+    gap: 1px;
+  }
 
-    
-    header{
-        width: 85vw;
-        font-size: 10px;
-        gap: 1px;
-        padding: 10px;
-        top: 2%;
-    }
+  .inicio {
+    font-weight: 590;
+    font-family: "Rubik-Medium";
+  }
 
-    .inicio{
-        font-weight: 590;
-        font-family: "Rubik-Medium";
-    }
+  .fb {
+    width: 10px;
+    height: 10px;
+  }
 
-    .fb{
-        width: 8px;
-        height: 8px;
-    }
-    
-    .ig{ 
-        width: 8px;
-        height: 8px;
-        
-    }
+  .ig {
+    width: 10px;
+    height: 10px;
+  }
 
-    .aig{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    }
-    
-    .afb{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    
-    }
+  .aig {
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 2%;
+  }
 
-    main{
-        width: 97vw;
-    }
+  .afb {
+    display: flex;
+    position: relative;
+    height: 15px;
+    top: 2%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        left: 22%;
-        font-size: 30px;
-    }
+  main {
+    width: 80vw;
+  }
 
-    .dolor{
-        left: 24%;
-        font-size: 14px;
-        top: 2.5%;
-    }
+  .fragmentos {
+    top: 0%;
+    left: 31%;
+    font-size: 38px;
+  }
 
-    .cristal{
-        left: 39.4%;
-        height: 80px;
-        width: 80px;
-    }
+  .dolor {
+    left: 32%;
+    font-size: 18px;
+    top: 3.3%;
+  }
 
-    .pFragmentos{
-        font-size:9.4px;
-        left: 12.8%;
-    }
+  .cristal {
+    top: 20%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+  }
 
-    .descargar{
-        height: 30px;
-        width: 100px;
-        font-size: 20px;
-    }
+  .pFragmentos {
+    font-size: 11px;
+    left: 25%;
+  }
 
-    .aDescargar{
-        left: 32.7%;
-        bottom: 33%;
-    }
+  .descargar {
+    height: 40px;
+    width: 130px;
+    font-size: 25px;
+  }
 
-    .requisitos{
-        left: 13.5%;
-        font-size: 8px;
-    }
+  .aDescargar {
+    left: 43%;
+    bottom: 34%;
+  }
 
-    .metropolitano{
-        height: 50px;
-        width: 220px;
-        left: 15.2%;
-    }
+  .requisitos {
+    left: 22%;
+    font-size: 10px;
+  }
 
-    footer{
-        width: 70vw;
-    }
+  .metropolitano {
+    height: 70px;
+    width: 300px;
+    left: 20%;
+  }
 
+  footer {
+    width: 80vw;
+  }
 }
 
-@media (max-width: 385px){
+@media (min-width: 410px) and (max-width: 414px){
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
+    background-size: 100vw 1300px;
+  }
 
-    
-    header{
-        width: 85vw;
-        font-size: 10px;
-        gap: 1px;
-        padding: 10px;
-        top: 2%;
-    }
+  header {
+    width: 86vw;
+    height: 100px;
+    font-size: 19px;
+    padding: 5px;
+    gap: 2px;
+  }
 
-    .inicio{
-        font-weight: 590;
-        font-family: "Rubik-Medium";
-    }
+  .fb {
+    width: 20px;
+    height: 20px;
+  }
 
-    .fb{
-        width: 8px;
-        height: 8px;
-    }
-    
-    .ig{ 
-        width: 8px;
-        height: 8px;
-        
-    }
+  .ig {
+    width: 17px;
+    height: 17px;
+  }
 
-    .aig{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    }
-    
-    .afb{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    
-    }
+  .aig {
+    top: 3.5%;
+  }
 
-    main{
-        width: 97vw;
-    }
+  .afb {
+    top: 3.5%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        left: 22%;
-        font-size: 30px;
-    }
+  main {
+    width: 93vw;
+    height: 900px;
+  }
 
-    .dolor{
-        left: 24%;
-        font-size: 14px;
-        top: 2.5%;
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 30px;
+    left: 28.5%;
+  }
 
-    .cristal{
-        left: 39.4%;
-        height: 80px;
-        width: 80px;
-    }
+  .dolor {
+    top: 6%;
+    font-size: 12px;
+    left: 32%;
+  }
 
-    .pFragmentos{
-        font-size:9.4px;
-        left: 12.8%;
-    }
+  .cristal {
+    top: 20%;
+    left: 42.5%;
+    height: 70px;
+    width: 70px;
+  }
 
-    .descargar{
-        height: 30px;
-        width: 100px;
-        font-size: 20px;
-    }
+  .pFragmentos {
+    font-size: 12px;
+    left: 13.5%;
+    top: 30%;
+  }
 
-    .aDescargar{
-        left: 32.7%;
-        bottom: 33%;
-    }
+  .aDescargar {
+    left: 36%;
+  }
 
-    .requisitos{
-        left: 13.5%;
-        font-size: 8px;
-    }
+  .descargar {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+  }
 
-    .metropolitano{
-        height: 50px;
-        width: 220px;
-        left: 15.2%;
-    }
+  .requisitos {
+    width: 74vw;
+    font-size: 8.4px;
+    left: 22%;
+    bottom: 32%;
+  }
 
-    footer{
-        width: 70vw;
-    }
+  .contacto {
+    font-size: 12px;
+    left: 45%;
+  }
 
+  .contactoEmail {
+    bottom: 22%;
+    font-size: 10px;
+    left: 33%;
+  }
+
+  footer {
+    width: 80vw;
+    height: 100px;
+  }
+
+  .metropolitano {
+    height: 50px;
+    width: 200px;
+    left: 26.5%;
+  }
 }
 
-@media (max-width: 360px){
+@media (max-width: 370px) and (max-width: 390px){
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
+    background-size: 100vw 1300px;
+  }
 
-    
-    header{
-        width: 85vw;
-        font-size: 10px;
-        gap: 1px;
-        padding: 10px;
-        top: 2%;
-    }
+  header {
+    width: 86vw;
+    height: 100px;
+    font-size: 19px;
+    padding: 5px;
+    gap: 2px;
+  }
 
-    .inicio{
-        font-weight: 590;
-        font-family: "Rubik-Medium";
-    }
+  .fb {
+    width: 17px;
+    height: 17px;
+  }
 
-    .fb{
-        width: 8px;
-        height: 8px;
-    }
-    
-    .ig{ 
-        width: 8px;
-        height: 8px;
-        
-    }
+  .ig {
+    width: 20px;
+    height: 20px;
+  }
 
-    .aig{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    }
-    
-    .afb{
-        display: flex;
-        position: relative;
-        height: 15px;
-        top: 1.5%;
-    
-    }
+  .aig {
+    top: 3.5%;
+  }
 
-    main{
-        width: 97vw;
-    }
+  .afb {
+    top: 3.5%;
+  }
 
-    .fragmentos{
-        top: 0%;
-        left: 22%;
-        font-size: 30px;
-    }
+  main {
+    width: 93vw;
+    height: 900px;
+  }
 
-    .dolor{
-        left: 24%;
-        font-size: 14px;
-        top: 2.5%;
-    }
+  .fragmentos {
+    top: 0%;
+    font-size: 30px;
+    left: 24.5%;
+  }
 
-    .cristal{
-        left: 39.4%;
-        height: 80px;
-        width: 80px;
-    }
+  .dolor {
+    top: 6%;
+    font-size: 12px;
+    left: 27.5%;
+  }
 
-    .pFragmentos{
-        font-size:9.4px;
-        left: 12.8%;
-    }
+  .cristal {
+    top: 20%;
+    left: 40.8%;
+    height: 70px;
+    width: 70px;
+  }
 
-    .descargar{
-        height: 30px;
-        width: 100px;
-        font-size: 20px;
-    }
+  .pFragmentos {
+    font-size: 12px;
+    left: 8%;
+    top: 30%;
+  }
 
-    .aDescargar{
-        left: 32.7%;
-        bottom: 33%;
-    }
+  .aDescargar {
+    left: 33.8%;
+  }
 
-    .requisitos{
-        left: 13.5%;
-        font-size: 8px;
-    }
+  .descargar {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+  }
 
-    .metropolitano{
-        height: 50px;
-        width: 220px;
-        left: 15.2%;
-    }
+  .requisitos {
+    width: 74vw;
+    font-size: 8.4px;
+    left: 18%;
+    bottom: 32%;
+  }
 
-    footer{
-        width: 70vw;
-    }
+  .contacto {
+    font-size: 12px;
+    left: 43.5%;
+  }
 
+  .contactoEmail {
+    bottom: 22%;
+    font-size: 10px;
+    left: 30%;
+  }
+
+  footer {
+    width: 80vw;
+    height: 100px;
+  }
+
+  .metropolitano {
+    height: 50px;
+    width: 200px;
+    left: 22%;
+  }
 }
 
+@media (max-width: 360px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
+    background-size: 100vw 1300px;
+  }
 
+  header {
+    width: 86vw;
+    height: 100px;
+    font-size: 19px;
+    padding: 5px;
+    gap: 2px;
+  }
 
+  .fb {
+    width: 17px;
+    height: 17px;
+  }
 
+  .ig {
+    width: 17px;
+    height: 17px;
+  }
 
+  .aig {
+    top: 3.5%;
+  }
 
+  .afb {
+    top: 3.5%;
+  }
 
+  main {
+    width: 93vw;
+    height: 900px;
+  }
 
+  .fragmentos {
+    top: 0%;
+    font-size: 30px;
+    left: 24.5%;
+  }
+
+  .dolor {
+    top: 6%;
+    font-size: 12px;
+    left: 27.5%;
+  }
+
+  .cristal {
+    top: 20%;
+    left: 40.8%;
+    height: 70px;
+    width: 70px;
+  }
+
+  .pFragmentos {
+    font-size: 12px;
+    left: 8%;
+    top: 30%;
+  }
+
+  .aDescargar {
+    left: 33.8%;
+  }
+
+  .descargar {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .requisitos {
+    width: 74vw;
+    font-size: 8.4px;
+    left: 18%;
+    bottom: 32%;
+  }
+
+  .contacto {
+    font-size: 12px;
+    left: 43.5%;
+  }
+
+  .contactoEmail {
+    bottom: 22%;
+    font-size: 10px;
+    left: 30%;
+  }
+
+  footer {
+    width: 80vw;
+    height: 100px;
+  }
+
+  .metropolitano {
+    height: 50px;
+    width: 200px;
+    left: 22%;
+  }
+}
