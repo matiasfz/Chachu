@@ -23,6 +23,32 @@ body {
   color: white;
 }
 
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  width: 10.5px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+  display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#373442;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -102,7 +128,7 @@ main {
   display: flex;
   position: absolute;
   top: 0%;
-  left: 40%;
+  left: 40.5%;
   font-size: 70px;
   font-weight: 200;
   font-family: "Rubik-Medium";
@@ -112,7 +138,7 @@ main {
   display: flex;
   position: absolute;
   top: 5.5%;
-  left: 41.3%;
+  left: 41.6%;
   font-size: 30px;
   color: #a19dad;
 }
@@ -121,7 +147,7 @@ main {
   display: flex;
   position: absolute;
   top: 18%;
-  left: 47.5%;
+  left: 48.4%;
   width: 120px;
   height: 120px;
 }
@@ -130,7 +156,7 @@ main {
   display: flex;
   position: absolute;
   bottom: 64%;
-  left: 32.5%;
+  left: 33%;
   text-align: center;
   font-weight: 599;
   font-size: 30px;
@@ -140,7 +166,7 @@ main {
   display: flex;
   position: absolute;
   bottom: 43%;
-  left: 43.5%;
+  left: 43.9%;
   font-size: 60px;
   text-decoration: none;
 }
@@ -164,7 +190,7 @@ main {
   display: flex;
   position: absolute;
   bottom: 32%;
-  left: 31.8%;
+  left: 32.5%;
   text-align: center;
   font-size: 25px;
   color: #a19dad;
@@ -174,7 +200,7 @@ main {
   display: flex;
   position: absolute;
   bottom: 26%;
-  left: 48%;
+  left: 48.3%;
   text-align: center;
   font-size: 28px;
   color: white;
@@ -184,7 +210,7 @@ main {
   display: flex;
   position: absolute;
   bottom: 25.7%;
-  left: 42.1%;
+  left: 42.4%;
   text-align: center;
   font-size: 24px;
   color: #a19dad;
@@ -204,59 +230,11 @@ footer {
   position: absolute;
   height: 120px;
   width: 500px;
-  left: 36.8%;
+  left: 37.1%;
   top: 30%;
 }
 
 @media (max-width: 1680px) {
-  body {
-    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1680.png);
-  }
-
-  .fragmentos {
-    left: 38.35%;
-  }
-
-  .dolor {
-    left: 39.5%;
-  }
-
-  .cristal {
-    left: 47.1%;
-  }
-
-  .pFragmentos {
-    font-size: 28px;
-    left: 30.65%;
-  }
-
-  .aDescargar {
-    left: 42.35%;
-  }
-
-  .requisitos {
-    font-size: 23px;
-    left: 29.95%;
-  }
-
-  .contacto {
-    font-size: 26px;
-    left: 47.5%;
-  }
-
-  .contactoEmail {
-    font-size: 22px;
-    left: 41.4%;
-  }
-
-  .metropolitano {
-    height: 110px;
-    width: 450px;
-    left: 36%;
-  }
-}
-
-@media (max-width: 1600px) {
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
   }
@@ -264,6 +242,7 @@ footer {
   header {
     width: 92vw;
     font-size: 26px;
+    gap: 3px;
   }
 
   .fb {
@@ -285,31 +264,31 @@ footer {
   }
 
   .cristal {
-    left: 46.86%;
+    left: 47.7%;
   }
 
   .pFragmentos {
     font-size: 27px;
-    left: 30.2%;
+    left: 30.9%;
   }
 
   .aDescargar {
-    left: 41.9%;
+    left: 42.3%;
   }
 
   .requisitos {
     font-size: 22px;
-    left: 30.4%;
+    left: 31.2%;
   }
 
   .contacto {
     font-size: 25px;
-    left: 47.4%;
+    left: 47.9%;
   }
 
   .contactoEmail {
     font-size: 21px;
-    left: 41.3%;
+    left: 41.8%;
   }
 
   footer {
@@ -319,18 +298,19 @@ footer {
   .metropolitano {
     height: 110px;
     width: 450px;
-    left: 37.4%;
+    left: 38.3%;
   }
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 1600px) {
   body {
-    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1536.png);
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1600.png);
   }
 
   header {
     width: 92vw;
     font-size: 26px;
+    gap: 3px;
   }
 
   .fb {
@@ -344,6 +324,81 @@ footer {
   }
 
   .fragmentos {
+    left: 38.15%;
+  }
+
+  .dolor {
+    left: 39.5%;
+  }
+
+  .cristal {
+    left: 47.7%;
+  }
+
+  .pFragmentos {
+    font-size: 27px;
+    left: 30.9%;
+  }
+
+  .aDescargar {
+    left: 42.3%;
+  }
+
+  .requisitos {
+    font-size: 22px;
+    left: 31.2%;
+  }
+
+  .contacto {
+    font-size: 25px;
+    left: 47.9%;
+  }
+
+  .contactoEmail {
+    font-size: 21px;
+    left: 41.8%;
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .metropolitano {
+    height: 110px;
+    width: 450px;
+    left: 38.3%;
+  }
+}
+
+@media (max-width: 1536px) {
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1536.png);
+  }
+
+  header {
+    width: 92vw;
+    font-size: 24px;
+  }
+
+  .fb {
+    width: 23px;
+    height: 23px;
+  }
+
+  .ig {
+    width: 23px;
+    height: 23px;
+  }
+
+  .afb{
+    top: 1.8%;
+}
+
+.aig{
+    top: 1.8%;
+}
+
+  .fragmentos {
     left: 37.75%;
   }
 
@@ -352,16 +407,16 @@ footer {
   }
 
   .cristal {
-    left: 46.86%;
+    left: 47.4%;
   }
 
   .pFragmentos {
     font-size: 27px;
-    left: 30.2%;
+    left: 30.1%;
   }
 
   .aDescargar {
-    left: 41.9%;
+    left: 42%;
   }
 
   .requisitos {
@@ -371,12 +426,12 @@ footer {
 
   .contacto {
     font-size: 25px;
-    left: 47.7%;
+    left: 47.8%;
   }
 
   .contactoEmail {
     font-size: 21px;
-    left: 41.5%;
+    left: 41.6%;
   }
 
   footer {
@@ -397,18 +452,27 @@ footer {
 
   header {
     width: 92vw;
-    font-size: 26px;
+    font-size: 22px;
+    gap: 3px;
   }
 
   .fb {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
   }
 
   .ig {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
   }
+
+  .afb{
+    top: 1.5%;
+}
+
+.aig{
+    top: 1.5%;
+}
 
   .fragmentos {
     left: 36.7%;
@@ -419,12 +483,12 @@ footer {
   }
 
   .cristal {
-    left: 46.86%;
+    left: 47%;
   }
 
   .pFragmentos {
     font-size: 27px;
-    left: 30.1%;
+    left: 28.5%;
   }
 
   .aDescargar {
@@ -438,12 +502,12 @@ footer {
 
   .contacto {
     font-size: 24px;
-    left: 47.7%;
+    left: 47.5%;
   }
 
   .contactoEmail {
     font-size: 21px;
-    left: 40.8%;
+    left: 40.7%;
   }
 
   footer {
@@ -453,7 +517,7 @@ footer {
   .metropolitano {
     height: 110px;
     width: 450px;
-    left: 36.7%;
+    left: 36.45%;
   }
 }
 
@@ -464,8 +528,8 @@ footer {
 
   header {
     width: 92vw;
-    font-size: 24px;
-    gap: 1px;
+    font-size: 20px;
+    gap: 3px;
   }
 
   .fb {
@@ -481,28 +545,28 @@ footer {
   .fragmentos {
     top: 0%;
     font-size: 60px;
-    left: 37.2%;
+    left: 37.9%;
   }
 
   .dolor {
     top: 4.6%;
     font-size: 26px;
-    left: 38.75%;
+    left: 39%;
   }
 
   .cristal {
     top: 20%;
-    left: 46.3%;
+    left: 46.6%;
   }
 
   .pFragmentos {
     font-size: 23px;
-    left: 29.4%;
+    left: 29.9%;
     top: 30%;
   }
 
   .aDescargar {
-    left: 43%;
+    left: 43.1%;
   }
 
   .descargar {
@@ -513,19 +577,19 @@ footer {
 
   .requisitos {
     font-size: 20px;
-    left: 28.6%;
+    left: 29.4%;
     bottom: 35%;
   }
 
   .contacto {
     font-size: 22px;
-    left: 47.1%;
+    left: 48.2%;
   }
 
   .contactoEmail {
     bottom: 25.9%;
     font-size: 19px;
-    left: 40.6%;
+    left: 41.8%;
   }
 
   footer {
@@ -535,7 +599,7 @@ footer {
   .metropolitano {
     height: 100px;
     width: 400px;
-    left: 36.7%;
+    left: 37.35%;
   }
 }
 
@@ -546,7 +610,8 @@ footer {
 
   header {
     width: 92vw;
-    font-size: 24px;
+    font-size: 20px;
+    gap: 3px;
   }
 
   .fb {
@@ -562,28 +627,28 @@ footer {
   .fragmentos {
     top: 0%;
     font-size: 60px;
-    left: 37.2%;
+    left: 37.9%;
   }
 
   .dolor {
     top: 4.6%;
     font-size: 26px;
-    left: 38.75%;
+    left: 39%;
   }
 
   .cristal {
     top: 20%;
-    left: 46.3%;
+    left: 46.6%;
   }
 
   .pFragmentos {
     font-size: 23px;
-    left: 29.4%;
+    left: 29.9%;
     top: 30%;
   }
 
   .aDescargar {
-    left: 43%;
+    left: 43.1%;
   }
 
   .descargar {
@@ -594,19 +659,19 @@ footer {
 
   .requisitos {
     font-size: 20px;
-    left: 28.6%;
+    left: 29.4%;
     bottom: 35%;
   }
 
   .contacto {
     font-size: 22px;
-    left: 47.1%;
+    left: 48.2%;
   }
 
   .contactoEmail {
     bottom: 25.9%;
     font-size: 19px;
-    left: 40.6%;
+    left: 41.8%;
   }
 
   footer {
@@ -616,7 +681,7 @@ footer {
   .metropolitano {
     height: 100px;
     width: 400px;
-    left: 36.7%;
+    left: 37.35%;
   }
 }
 
@@ -625,46 +690,55 @@ footer {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 1280.png);
   }
 
-  header {
+  header{
     width: 90vw;
-    font-size: 24px;
-  }
+    gap: 3px;
+    font-size: 21px;
+}
 
-  .fb {
-    width: 21px;
-    height: 21px;
-  }
+.fb{
+    width: 19px;
+    height: 19px;
+}
 
-  .ig {
-    width: 21px;
-    height: 21px;
-  }
+.ig{
+    width: 19px;
+    height: 19px;
+}
+
+.afb{
+    top: 1.9%;
+}
+
+.aig{
+    top: 1.9%;
+}
 
   .fragmentos {
     top: 0%;
     font-size: 60px;
-    left: 36.1%;
+    left: 36.85%;
   }
 
   .dolor {
     top: 4.6%;
     font-size: 26px;
-    left: 37.8%;
+    left: 38.3%;
   }
 
   .cristal {
     top: 20%;
-    left: 46%;
+    left: 46.4%;
   }
 
   .pFragmentos {
     font-size: 23px;
-    left: 27.8%;
+    left: 28.6%;
     top: 30%;
   }
 
   .aDescargar {
-    left: 40.5%;
+    left: 41.2%;
   }
 
   .descargar {
@@ -675,19 +749,19 @@ footer {
 
   .requisitos {
     font-size: 20px;
-    left: 27%;
+    left: 27.8%;
     bottom: 35%;
   }
 
   .contacto {
     font-size: 22px;
-    left: 46.8%;
+    left: 47.5%;
   }
 
   .contactoEmail {
     bottom: 25.9%;
     font-size: 19px;
-    left: 39.8%;
+    left: 40.7%;
   }
 
   footer {
@@ -697,7 +771,7 @@ footer {
   .metropolitano {
     height: 110px;
     width: 450px;
-    left: 33.5%;
+    left: 34.1%;
   }
 }
 
@@ -744,30 +818,30 @@ footer {
   .fragmentos {
     top: 0%;
     font-size: 40px;
-    left: 34.65%;
+    left: 35.6%;
   }
 
   .dolor {
     top: 5.9%;
     font-size: 17px;
-    left: 36.6%;
+    left: 37.2%;
   }
 
   .cristal {
     top: 20%;
-    left: 44.3%;
+    left: 44.7%;
     height: 90px;
     width: 90px;
   }
 
   .pFragmentos {
     font-size: 18px;
-    left: 23.6%;
+    left: 24.2%;
     top: 30%;
   }
 
   .aDescargar {
-    left: 40%;
+    left: 40.6%;
   }
 
   .descargar {
@@ -778,20 +852,20 @@ footer {
 
   .requisitos {
     font-size: 15px;
-    left: 22.8%;
+    left: 23.8%;
     bottom: 30%;
   }
 
   .contacto {
     font-size: 18px;
-    left: 45.6%;
+    left: 46.2%;
     bottom: 22%;
   }
 
   .contactoEmail {
     bottom: 22%;
     font-size: 15px;
-    left: 36.7%;
+    left: 37.7%;
   }
 
   footer {
@@ -802,7 +876,7 @@ footer {
   .metropolitano {
     height: 70px;
     width: 280px;
-    left: 32.5%;
+    left: 33.3%;
     top: 60%;
   }
 }
@@ -810,7 +884,7 @@ footer {
 @media (max-width: 768px) {
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
-    background-size: 99vw 1620px;
+    background-size: 100vw 1620px;
   }
 
   body::-webkit-scrollbar:vertical {
@@ -822,7 +896,7 @@ footer {
     height: 100px;
     font-size: 18px;
     padding: 15px;
-    gap: 1px;
+    gap: 2px;
   }
 
   .fb {
@@ -836,11 +910,11 @@ footer {
   }
 
   .aig {
-    top: 1.8%;
+    top: 3.5%;
   }
 
   .afb {
-    top: 1.8%;
+    top: 3.5%;
   }
 
   main {
@@ -854,7 +928,7 @@ footer {
   }
 
   .dolor {
-    top: 3.2%;
+    top: 6%;
     font-size: 17px;
     left: 36.8%;
   }
@@ -885,16 +959,17 @@ footer {
   .requisitos {
     font-size: 15px;
     left: 22.5%;
-    bottom: 35%;
+    bottom: 33%;
   }
 
   .contacto {
+    bottom: 22%;
     font-size: 18px;
     left: 45.7%;
   }
 
   .contactoEmail {
-    bottom: 25.9%;
+    bottom: 21.8%;
     font-size: 15px;
     left: 36.6%;
   }
@@ -914,7 +989,7 @@ footer {
 @media (max-width: 720px) {
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 768.png);
-    background-size: 99vw 1620px;
+    background-size: 100vw 1620px;
   }
 
   body::-webkit-scrollbar:vertical {
@@ -926,7 +1001,7 @@ footer {
     height: 100px;
     font-size: 18px;
     padding: 15px;
-    gap: 1px;
+    gap: 2px;
   }
 
   .fb {
@@ -940,11 +1015,11 @@ footer {
   }
 
   .aig {
-    top: 1.8%;
+    top: 3.5%;
   }
 
   .afb {
-    top: 1.8%;
+    top: 3.5%;
   }
 
   main {
@@ -958,7 +1033,7 @@ footer {
   }
 
   .dolor {
-    top: 3.2%;
+    top: 6%;
     font-size: 17px;
     left: 36.8%;
   }
@@ -989,16 +1064,17 @@ footer {
   .requisitos {
     font-size: 15px;
     left: 22.5%;
-    bottom: 35%;
+    bottom: 33%;
   }
 
   .contacto {
+    bottom: 22%;
     font-size: 18px;
     left: 45.7%;
   }
 
   .contactoEmail {
-    bottom: 25.9%;
+    bottom: 21.8%;
     font-size: 15px;
     left: 36.6%;
   }
@@ -1113,16 +1189,16 @@ footer {
   }
 
   header {
-    width: 86vw;
+    width: 92vw;
     height: 100px;
-    font-size: 19px;
-    padding: 5px;
-    gap: 2px;
+    font-size: 20px;
+    padding: 0px;
+    gap: 3px;
   }
 
   .fb {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
   }
 
   .ig {
@@ -1228,8 +1304,8 @@ footer {
   }
 
   .ig {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
   }
 
   .aig {
@@ -1241,7 +1317,7 @@ footer {
   }
 
   main {
-    width: 93vw;
+    width: 95vw;
     height: 900px;
   }
 
@@ -1317,11 +1393,11 @@ footer {
   }
 
   header {
-    width: 86vw;
+    width: 92vw;
     height: 100px;
     font-size: 19px;
-    padding: 5px;
-    gap: 2px;
+    padding: 0px;
+    gap: 3px;
   }
 
   .fb {
@@ -1373,12 +1449,12 @@ footer {
   }
 
   .aDescargar {
-    left: 33.8%;
+    left: 34.5%;
   }
 
   .descargar {
-    height: 40px;
-    width: 120px;
+    height: 35px;
+    width: 110px;
     font-size: 20px;
   }
 

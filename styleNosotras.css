@@ -14,7 +14,7 @@
 /* BODY */
 body{
     background-image: url(./Imagenes/nosotras\ fondo.png);
-    background-color: #454960;
+    background-color: #403e4f;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:100vw 2818px;
@@ -135,7 +135,7 @@ main{
     width:60vw;
     height: 500px;
     top: 0%;
-    left: 25.6%;
+    left: 26%;
     font-size: 28px;
     text-align: center;
 }
@@ -146,7 +146,7 @@ main{
     width: 55vw;
     height: 1300px;
     top: 15%;
-    left: 22.6%;
+    left: 23.2%;
 }
 
 
@@ -209,7 +209,7 @@ main{
     position: absolute;
     width: 20vw;
     bottom: 36%;
-    left: 46%;
+    left: 46.7%;
     font-weight: 550;
     font-size: 28px;
     color: #a19Dad;
@@ -221,7 +221,7 @@ main{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    left: 9.5%;
+    left: 10%;
     height: 400px;
     bottom: 18%;
     
@@ -244,7 +244,7 @@ main{
     position: absolute;
     width: 100px;
     bottom: 3%;
-    left: 48.5%;
+    left: 48.9%;
     font-size: 26px;
 }
 
@@ -252,8 +252,8 @@ main{
     width: 100px;
     display: flex;
     position: absolute;
-    bottom: 2.4%;
-    left: 43.2%;
+    bottom: 2.8%;
+    left: 43.7%;
     font-size: 22px;
     color:#a19Dad;
 }
@@ -276,18 +276,36 @@ footer{
     position: absolute;
     height: 110px;
     width: 500px;
-    right: 32%;
+    right: 30.8%;
     bottom: 0%;
     
 }
 
 
 @media (max-width: 1680px){
-
     
+    header{
+        width: 92vw;
+        gap: 3px;
+    }
+
+    .fb {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .ig {
+        width: 24px;
+        height: 24px;
+    }
     .principal{
         font-size: 26px;
-        left: 23.8%;
+        left: 23%;
+    }
+
+    .ellas{
+        top: 14%;
+        left: 23%;
     }
 
     .pCecilia{
@@ -301,7 +319,7 @@ footer{
 
 
     .otros{
-        left: 45.58%;
+        left: 45.7%;
         font-size: 25px;
         bottom: 38%;
     }
@@ -316,33 +334,46 @@ footer{
 
     .contacto{
         font-size: 25px;
-        left: 48.15%;
+        left: 48.4%;
     }
 
     .contactoEmail{
         font-size: 20px;
         bottom: 2.8%;
-        left: 42.7%;
+        left: 42.8%;
     }
 
     .metropolitano{
-        left: 39.8%;
+        left: 40%;
         height: 100px;
         width: 420px;
     }
 }
 
 @media (max-width: 1600px){
-
     
+    header{
+        width: 92vw;
+        gap: 3px;
+    }
+
+    .fb {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .ig {
+        width: 24px;
+        height: 24px;
+    }
     .principal{
         font-size: 26px;
-        left: 22.4%;
+        left: 23%;
     }
 
     .ellas{
         top: 14%;
-        left: 22.4%;
+        left: 23%;
     }
 
     .pCecilia{
@@ -356,7 +387,7 @@ footer{
 
 
     .otros{
-        left: 45.48%;
+        left: 45.7%;
         font-size: 25px;
         bottom: 38%;
     }
@@ -371,17 +402,17 @@ footer{
 
     .contacto{
         font-size: 25px;
-        left: 48.%;
+        left: 48.4%;
     }
 
     .contactoEmail{
         font-size: 20px;
         bottom: 2.8%;
-        left: 42.3%;
+        left: 42.8%;
     }
 
     .metropolitano{
-        left: 39.2%;
+        left: 40%;
         height: 100px;
         width: 420px;
     }
@@ -394,8 +425,27 @@ footer{
     }
 
     header{
+        font-size: 24px;
         width: 92vw;
     }
+
+    .fb {
+        width: 23px;
+        height: 23px;
+        }
+    
+    .ig{
+        width: 23px;
+        height: 23px;
+        }
+
+    .afb{
+            top: 1.8%;
+        }
+        
+    .aig{
+            top: 1.8%;
+        }
 
     main{
         width: 95vw;
@@ -403,11 +453,11 @@ footer{
     
     .principal{
         font-size: 26px;
-        left: 21.9%;
+        left: 21.7%;
     }
 
     .ellas{
-        left: 22.8%;
+        left: 23%;
     }
 
     .pCecilia{
@@ -421,14 +471,14 @@ footer{
 
 
     .otros{
-        left: 45.6%;
+        left: 45.8%;
         font-size: 25px;
         bottom: 38%;
     }
 
     .proyectos{
         bottom: 20%;
-        left: 9.80%;
+        left: 9.9%;
     }
 
     .proyectos img{
@@ -437,7 +487,7 @@ footer{
 
     .contacto{
         font-size: 25px;
-        left: 48.2%;
+        left: 48.3%;
     }
 
     .contactoEmail{
@@ -451,7 +501,7 @@ footer{
     }
 
     .metropolitano{
-        left: 39.48%;
+        left: 39.2%;
         height: 100px;
         width: 420px;
     }
@@ -462,25 +512,25 @@ footer{
     header{
         width: 92vw;
         gap: 3px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .fb{
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
 
     .ig{
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
 
     .afb{
-        top: 1.9%;
+        top: 1.5%;
     }
 
     .aig{
-        top: 1.9%;
+        top: 1.5%;
     }
 
     main{
@@ -489,12 +539,12 @@ footer{
 
     .principal{
         font-size: 20px;
-        left: 26.45%;
+        left: 26.1%;
         top: 0%;
     }
 
     .ellas{
-        left: 22.8%;
+        left: 23%;
         top: 17%;
     }
 
@@ -539,7 +589,7 @@ footer{
 
     .proyectos{
         bottom: 10%;
-        left: 9.75%;
+        left: 9.9%;
     }
 
     .proyectos img{
@@ -554,14 +604,14 @@ footer{
     }
 
     .contacto{
-        font-size: 22px;
-        left: 48.4%;
+        font-size: 20px;
+        left: 48.7%;
         bottom: 3%;
     }
 
     .contactoEmail{
-        font-size: 19px;
-        left: 42.38%;
+        font-size: 18px;
+        left: 43.2%;
         bottom: 2.5%;
     }
 
@@ -581,13 +631,13 @@ footer{
     }
 
     .fb{
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
     }
 
     .ig{
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
     }
 
     .afb{
@@ -604,12 +654,12 @@ footer{
 
     .principal{
         font-size: 20px;
-        left: 24%;
+        left: 24.7%;
         top: -7%;
     }
 
     .ellas{
-        left: 22.3%;
+        left: 23%;
         top: 7%;
     }
 
@@ -647,14 +697,14 @@ footer{
     }
 
     .otros{
-        left: 45.1%;
+        left: 45.8%;
         bottom: 43%;
         font-size: 22px;
     }
 
     .proyectos{
         bottom: 18%;
-        left: 9.2%;
+        left: 9.9%;
     }
 
     .proyectos img{
@@ -669,20 +719,21 @@ footer{
     }
 
     .contacto{
-        font-size: 22px;
-        left: 47.7%;
+        font-size: 20px;
+        left: 48.7%;
     }
 
     .contactoEmail{
-        font-size: 19px;
-        left: 41.4%;
+        font-size: 18px;
+        left: 42.9%;
+        bottom: 2.8%;
     }
 
 
     .metropolitano{
         height: 85px;
         width: 360px;
-        left: 38.9%;
+        left: 39.6%;
     }
 }
 
@@ -695,13 +746,13 @@ footer{
     }
 
     .fb{
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
     }
 
     .ig{
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
     }
 
     .afb{
@@ -718,12 +769,12 @@ footer{
 
     .principal{
         font-size: 20px;
-        left: 24%;
+        left: 24.7%;
         top: -7%;
     }
 
     .ellas{
-        left: 22.1%;
+        left: 23%;
         top: 7%;
     }
 
@@ -761,14 +812,14 @@ footer{
     }
 
     .otros{
-        left: 45%;
+        left: 45.8%;
         bottom: 43%;
         font-size: 22px;
     }
 
     .proyectos{
         bottom: 18%;
-        left: 9.2%;
+        left: 9.9%;
     }
 
     .proyectos img{
@@ -783,20 +834,21 @@ footer{
     }
 
     .contacto{
-        font-size: 22px;
-        left: 47.67%;
+        font-size: 20px;
+        left: 48.7%;
     }
 
     .contactoEmail{
-        font-size: 19px;
-        left: 41%;
+        font-size: 18px;
+        left: 42.9%;
+        bottom: 2.8%;
     }
 
 
     .metropolitano{
         height: 85px;
         width: 360px;
-        left: 38.8%;
+        left: 39.6%;
     }
 }
 
@@ -832,12 +884,12 @@ footer{
 
     .principal{
         font-size: 20px;
-        left: 22.3%;
+        left: 22.8%;
         top: -7%;
     }
 
     .ellas{
-        left: 22.2%;
+        left: 22.85%;
         top: 7%;
     }
 
@@ -875,7 +927,7 @@ footer{
     }
 
     .otros{
-        left: 44.65%;
+        left: 45.2%;
         bottom: 43%;
         font-size: 22px;
     }
@@ -897,26 +949,27 @@ footer{
     }
 
     .contacto{
-        font-size: 22px;
-        left: 47.35%;
+        font-size: 20px;
+        left: 48.2%;
     }
 
     .contactoEmail{
-        font-size: 19px;
-        left: 40.2%;
+        font-size: 18px;
+        left: 41.9%;
     }
 
 
     .metropolitano{
         height: 85px;
         width: 360px;
-        left: 38.05%;
+        left: 38.6%;
     }
 }
 
 @media (max-width: 800px){
 
     body{
+        background-size: 100vw 2018px;
         width: 96vw;
     }
 
@@ -947,19 +1000,19 @@ footer{
 
     main{
         width: 86vw;
-        height: 1100px;
+        height: 1200px;
     }
 
     .principal{
         width: 75vw;
         font-size: 15px;
-        left: 18.05%;
-        top: -7%;
+        left: 19.1%;
+        top: -4%;
     }
 
     .ellas{
-        left: 23.5%;
-        top: 8.2%;
+        left: 25%;
+        top: 13.5%;
     }
 
     .cecilia{
@@ -996,14 +1049,14 @@ footer{
     }
 
     .otros{
-        left: 46.56%;
-        bottom: 43%;
+        left: 47.9%;
+        bottom: 42%;
         font-size: 17px;
     }
 
     .proyectos{
-        bottom: 15%;
-        left: 9.2%;
+        bottom: 17%;
+        left: 10.4%;
     }
 
     .proyectos img{
@@ -1018,31 +1071,34 @@ footer{
     }
 
     .contacto{
-        font-size: 18px;
-        left: 50.25%;
+        bottom: 12%;
+        font-size: 16px;
+        left: 51.9%;
     }
 
     .contactoEmail{
-        font-size: 16px;
-        left: 40.1%;
-        bottom: 2.8%;
+        font-size: 14px;
+        left: 43.2%;
+        bottom: 11.8%;
     }
 
     footer{
+        height: 220px;
         width: 86vw;
     }
 
     .metropolitano{
         height: 60px;
         width: 250px;
-        left: 36.55%;
-        bottom: 1%;
+        left: 38.7%;
+        bottom: 0%;
     }
 }
 
 @media (max-width: 768px){
 
     body{
+        background-size: 100vw 2018px;
         width: 96vw;
     }
 
@@ -1054,13 +1110,13 @@ footer{
     }
 
     .fb{
-        width: 17px;
-        height: 17px;
+        width: 16px;
+        height: 16px;
     }
 
     .ig{
-        width: 17px;
-        height: 17px;
+        width: 16px;
+        height: 16px;
     }
 
     .afb{
@@ -1073,19 +1129,19 @@ footer{
 
     main{
         width: 86vw;
-        height: 1100px;
+        height: 1200px;
     }
 
     .principal{
         width: 75vw;
         font-size: 15px;
-        left: 18%;
-        top: -7%;
+        left: 17.5%;
+        top: -4%;
     }
 
     .ellas{
         left: 25%;
-        top: 8.2%;
+        top: 13.5%;
     }
 
     .cecilia{
@@ -1118,18 +1174,18 @@ footer{
     .pAilen{
         font-size: 13px;
         top: 15%;
-        right: -18%;
+        right: -17.5%;
     }
 
     .otros{
-        left: 48%;
-        bottom: 44%;
-        font-size: 16px;
+        left: 47.2%;
+        bottom: 42%;
+        font-size: 17px;
     }
 
     .proyectos{
-        bottom: 15%;
-        left: 10.2%;
+        bottom: 17%;
+        left: 10.4%;
     }
 
     .proyectos img{
@@ -1144,25 +1200,156 @@ footer{
     }
 
     .contacto{
+        bottom: 12%;
         font-size: 16px;
         left: 51.8%;
     }
 
     .contactoEmail{
-        font-size: 15px;
-        left: 41%;
-        bottom: 2.8%;
+        font-size: 14px;
+        left: 43%;
+        bottom: 11.6%;
     }
 
     footer{
+        height: 220px;
         width: 86vw;
     }
 
     .metropolitano{
         height: 60px;
         width: 250px;
-        left: 37%;
-        bottom: 1%;
+        left: 36.9%;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 720px){
+
+    body{
+        background-size: 100vw 2018px;
+        width: 96vw;
+    }
+
+    header{
+        width: 92vw;
+        padding: 15px;
+        gap: 2px;
+        font-size: 18px;
+    }
+
+    .fb{
+        width: 16px;
+        height: 16px;
+    }
+
+    .ig{
+        width: 16px;
+        height: 16px;
+    }
+
+    .afb{
+        top: 1.9%;
+    }
+
+    .aig{
+        top: 1.9%;
+    }
+
+    main{
+        width: 86vw;
+        height: 1200px;
+    }
+
+    .principal{
+        width: 75vw;
+        font-size: 15px;
+        left: 14.8%;
+        top: -4%;
+    }
+
+    .ellas{
+        left: 25%;
+        top: 13.5%;
+    }
+
+    .cecilia{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2cecilia{
+        left: 5.3%;
+        font-size: 17px;
+        top: 11.5%;
+    }
+
+    .pCecilia{
+        font-size: 13px;
+        top: 15%;
+    }
+
+    .ailen{
+        width: 150px;
+        height: 150px;
+    }
+
+    .h2ailen{
+        font-size: 17px;
+        top: 11.5%;
+        right: -3%;
+    }
+
+    .pAilen{
+        font-size: 13px;
+        top: 15%;
+        right: -17.5%;
+    }
+
+    .otros{
+        left: 46.5%;
+        bottom: 42%;
+        font-size: 17px;
+    }
+
+    .proyectos{
+        bottom: 17%;
+        left: 10.4%;
+    }
+
+    .proyectos img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .proyectos img:hover{
+        
+        transform: scale(1.6);
+        
+    }
+
+    .contacto{
+        bottom: 12%;
+        font-size: 16px;
+        left: 51.5%;
+    }
+
+    .contactoEmail{
+        font-size: 14px;
+        left: 42%;
+        bottom: 11.7%;
+    }
+
+    footer{
+        height: 220px;
+        width: 86vw;
+    }
+
+    .metropolitano{
+        height: 60px;
+        width: 250px;
+        left: 35.6%;
+        bottom: 0%;
     }
 }
 
