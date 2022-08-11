@@ -996,31 +996,30 @@ footer {
     width: 9px;
   }
 
-  header {
-    width: 88vw;
-    height: 100px;
-    font-size: 18px;
-    padding: 15px;
-    gap: 2px;
-  }
+  header{
+    width: 92vw;
+    padding: 10px;
+    gap: 1px;
+    font-size: 15px;
+}
 
-  .fb {
-    width: 16px;
-    height: 16px;
-  }
+.fb{
+    width: 14px;
+    height: 14px;
+}
 
-  .ig {
-    width: 16px;
-    height: 16px;
-  }
+.ig{
+    width: 14px;
+    height: 14px;
+}
 
-  .aig {
-    top: 3.5%;
-  }
+.afb{
+    top: 2.5%;
+}
 
-  .afb {
-    top: 3.5%;
-  }
+.aig{
+    top: 2.5%;
+}
 
   main {
     height: 1200px;

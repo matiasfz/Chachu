@@ -1233,27 +1233,27 @@ footer{
 
     header{
         width: 92vw;
-        padding: 15px;
-        gap: 2px;
-        font-size: 18px;
+        padding: 10px;
+        gap: 1px;
+        font-size: 15px;
     }
 
     .fb{
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
     }
 
     .ig{
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
     }
 
     .afb{
-        top: 1.9%;
+        top: 1.5%;
     }
 
     .aig{
-        top: 1.9%;
+        top: 1.5%;
     }
 
     main{
