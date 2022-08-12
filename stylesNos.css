@@ -1510,7 +1510,7 @@ footer{
     }
 }
 
-@media (min-width: 412px) and (max-width: 414px){
+@media (min-width: 405px) and (max-width: 420px){
 
     body{
         background-size: 100% 100%;
@@ -1644,7 +1644,7 @@ footer{
     }
 }
 
-@media (max-width: 385px){
+@media (max-width: 375px) and (max-width: 390px){
 
     body{
         background-size: 100% 100%;
@@ -1778,7 +1778,7 @@ footer{
     }
 }
 
-@media (max-width: 360px){
+@media (min-width: 355px) and (max-width: 365px){
 
     body{
         background-size: 100% 100%;

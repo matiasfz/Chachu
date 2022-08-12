@@ -1784,7 +1784,7 @@ footer{
     }
 
     .sonido{
-        bottom: 32.8%;
+        bottom: 32.6%;
         font-size: 12px;
         left: 38.2%;
     }
@@ -1796,7 +1796,7 @@ footer{
     }
 
     .programacion{
-        bottom: 30.5%;
+        bottom: 30.1%;
         font-size: 12px;
         left: 44.5%;
     }
@@ -1808,7 +1808,7 @@ footer{
     }
 
     .testimonios{
-        bottom: 26%;
+        bottom: 25.6%;
         font-size: 12px;
         left: 45.25%;
     }
@@ -1858,318 +1858,540 @@ footer{
     }
 }
 
-@media (min-width: 481px) and (max-width: 505px){
-
-    header{
-        width: 90vw;
-        gap: 1px;
-        font-size: 14px;
-        padding: 20px;
-    }
-
-    .fb{
-        width: 13px;
-        height: 13px;
-    }
-
-    .afb{
-        top: 1.5%;
-    }
-
-    .ig{
-        width: 13px;
-        height: 13px;
-    }
+@media (min-width: 405px) and (max-width: 420px){
     
-    .aig{
-        top: 1.5%;
-    }
-
-    main{
-        width: 97vw;
-    }
-
-    .cristal{
-        width: 90px;
-        height: 90px;
-        left: 47.9%;
-    } 
-
-    .principal{
-        font-size: 18px;
-        left: 11.7%;
-    }
-
-    .ellas{
-        left: -1.6%;
-    }
-
-    .cecilia{
-        width: 150px;
-        height: 150px;
-        left: 15%;
-    }
-
-    .h2cecilia{
-        font-size: 16px;
-        left: 21.2%;
-        top: 11.5%;
-    }
-
-    .pCecilia{
-        left: 16%;
-        top: 15%;
-        font-size: 10px;
-    }
-
-    .ailen{
-        width: 150px;
-        height: 150px;
-        right: -10.8%;
-    }
-    .h2ailen{
-        font-size: 16px;
-        right: -11.9%;
-        top: 11.5%;
-    }
-
-    .pAilen{
-        font-size: 10px;
-        right: -18.9%;
-        top: 15%;
-    }
-
-    .otros{
-        width: 40vw;
-        left: 33.8%;
-        font-size: 20px;
-        bottom: 34%;
-    }
-
-    .proyectos{
-        left: -3%;
-        bottom: 20%;
-    }
-
-    .proyectos img{
-        width: 80px;
-        height: 120px;
-    }
-
-    .jauregui{
-        left: 8%;
-    }
-
-    .jauregui:hover{
-        z-index: 1000;
-        transform: scale(1.4);
-    }
-
-    .unDiosQue{
-        left: 27.6%;
+    body{
         
+        background-size: 100vw 1250px ;
     }
-
-    .unDiosQue:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    .aParaQueDios{
-
-        right: 33.8%;
-    }
-
-    
-
-    .paraQueDios:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    .aBiologas{
-        right: 13.7%;
-    }
-
-    .biologas:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    .puebloArgentino{
-        right: -5.7%;
-    }
-    .puebloArgentino:hover{
-        z-index: 100;
-        transform: scale(1.4);
-    }
-
-    footer{
-        width: 88vw;
-    }
-
-    .metropolitano{
-        width: 200px;
-        height: 60px;
-        left: 29.6%;
-        bottom: 5%;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 420px){
 
     header{
-        width: 90vw;
-        gap: 1px;
-        font-size: 10px;
-        padding: 10px;
-    }
-
-    .fb{
-        width: 9px;
-        height: 9px;
-    }
-
-    .afb{
-        top: 1.2%;
-    }
-
-    .ig{
-        width: 9px;
-        height: 9px;
-    }
-    
-    .aig{
-        top: 1.2%;
-    }
-
-    main{
-        width: 97vw;
-    }
-
-    .cristal{
-        width: 80px;
-        height: 80px;
-        left: 38%;
-    } 
-
-    .principal{
-        font-size: 13px;
-        left: 10%;
-    }
-
-    .ellas{
-        left: -1.6%;
-    }
-
-    .cecilia{
-        width: 110px;
-        height: 110px;
-        left: 12%;
-    }
-
-    .h2cecilia{
-        font-size: 12px;
-        left: 18%;
-        top: 8.5%;
-    }
-
-    .pCecilia{
-        left: 13%;
-        top: 11%;
-        font-size: 7px;
-    }
-
-    .ailen{
-        width: 110px;
-        height: 110px;
-        right: -13.8%;
-    }
-    .h2ailen{
-        font-size: 12px;
-        right: -16%;
-        top: 8.5%;
-    }
-
-    .pAilen{
-        font-size: 7px;
-        right: -20.7%;
-        top: 11%;
-    }
-
-    .otros{
-        width: 45vw;
-        left: 33.8%;
-        font-size: 16px;
-        bottom: 38%;
-    }
-
-    .proyectos{
-        left: -3%;
-        bottom: 24%;
-    }
-
-    .proyectos img{
-        width: 70px;
+        width: 92vw;
         height: 100px;
+        font-size: 20px;
+        padding: 0px;
+        gap: 3px;
+        }
+    
+    .fb {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .ig{
+        width: 17px;
+        height: 17px;
+    }
+    
+    .aig {
+        top: 3.5%;
+    }
+    
+    .afb {
+        top: 3.5%;
     }
 
-    .jauregui{
-        left: 10%;
+    main{
+        width: 97vw;
+        height: 800px;
     }
 
-    .jauregui:hover{
-        z-index: 1000;
-        transform: scale(1.4);
+    .introduccion{
+        top: -2%;
+        width: 82vw;
+        font-size: 8.4px;
+        left: 8.84%;
     }
 
-    .unDiosQue{
-        left: 25.5%;
-        bottom: 1%;
-        
+    .cristal1{
+        top: 12%;
+        left: 43.5%;
+        width: 50px;
+        height: 50px;
     }
 
-    .unDiosQue:hover{
-        z-index: 100;
-        transform: scale(1.4);
+    .reconocimientos{
+        top: 19%;
+        font-size: 9px;
+        left: 29.8%;
     }
 
-    .aParaQueDios{
-        right: 31.8% ;
+    .reconocidos{
+        width: 89vw;
+        top: 21%;
+        font-size: 8.4px;
+        left: -6.5%;
     }
 
-    .paraQueDios:hover{
-        z-index: 100;
-        transform: scale(1.4);
+    .cristal2{
+        bottom: 48.5%;
+        width: 50px;
+        height: 50px;
+        left: 43.5%;
     }
 
-    .aBiologas{
-        
-        right: 13.7%;
-        bottom: 1%;
+    .creditos{
+        bottom: 43%;
+        font-size: 9px ;
+        left: 45.05%;
     }
 
-    .biologas:hover{
-        z-index: 100;
-        transform: scale(1.4);
+    .idea{
+        bottom: 41.4%;
+        font-size: 8.4px;
+        left: 37.8%;
     }
 
-    .puebloArgentino{
-        right: -2%;
+    .diseñadoras{
+        bottom: 38.8%;
+        font-size: 8.4px;
+        left: 39.5%;
     }
-    .puebloArgentino:hover{
-        z-index: 100;
-        transform: scale(1.4);
+
+    .musica{
+        bottom: 36.2%;
+        font-size: 8.4px;
+        left: 46.23%;
+    }
+
+    .musicalista{
+        bottom: 35%;
+        font-size: 8.4px;
+        left: 41.6%;
+    }
+
+    .sonido{
+        bottom: 32.3%;
+        font-size: 8.4px;
+        left: 35.72%;
+    }
+
+    .sonidista{
+        bottom: 30.9%;
+        font-size: 8.4px;
+        left: 40.28%;
+    }
+
+    .programacion{
+        bottom: 28%;
+        font-size: 8.4px;
+        left: 42.92%;
+    }
+
+    .programadores{
+        bottom: 24%;
+        font-size: 8.4px;
+        left: 40.6%;
+    }
+
+    .testimonios{
+        bottom: 21%;
+        font-size: 8.4px;
+        left: 43.95%;
+    }
+
+    .testores{
+        width: 70vw;
+        bottom: 16%;
+        font-size: 8.4px;
+        left: 18.3%;
+    }
+
+    .agradecemos{
+        bottom: 11%;
+        left: 37.6%;
+        font-size: 8.4px;
+    }
+
+    .agradecidos{
+        bottom: 0%;
+        font-size: 8.4px;
+        width: 94vw;
+        left: 1.6%;
     }
 
     footer{
         width: 88vw;
+        height: 300px;
     }
 
     .metropolitano{
-        width: 180px;
-        height: 50px;
-        left: 20.4%;
-        bottom: 8%;
+        height: 45px;
+        width: 200px;
+        left: 25.6%;
+        top: 10%;
+    }
+
+    .apoyoDelPrograma{
+        width: 60vw;
+        font-size: 8.4px;
+        left: 20.8%;
+        top: 25%;
+    }
+
+    .enMemoria{
+        width: 80vw;
+        top: 46%;
+        font-size: 8.5px;
+        left: 11%;
     }
 }
+
+@media (min-width: 375px) and (max-width: 390px){
+    
+    body{
+        
+        background-size: 100vw 1250px ;
+    }
+
+    header{
+        width: 92vw;
+        height: 100px;
+        font-size: 20px;
+        padding: 0px;
+        gap: 3px;
+        }
+    
+    .fb {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .ig{
+        width: 17px;
+        height: 17px;
+    }
+    
+    .aig {
+        top: 3.5%;
+    }
+    
+    .afb {
+        top: 3.5%;
+    }
+
+    main{
+        width: 97vw;
+        height: 800px;
+    }
+
+    .introduccion{
+        top: -2%;
+        width: 88vw;
+        font-size: 7.8px;
+        left: 5.9%;
+    }
+
+    .cristal1{
+        top: 12%;
+        left: 43.4%;
+        width: 45px;
+        height: 45px;
+    }
+
+    .reconocimientos{
+        top: 19%;
+        font-size: 7.4px;
+        left: 33.5%;
+    }
+
+    .reconocidos{
+        width: 89vw;
+        top: 21%;
+        font-size: 7.4px;
+        left: -7.3%;
+    }
+
+    .cristal2{
+        bottom: 49.5%;
+        width: 45px;
+        height: 45px;
+        left: 43.4%;
+    }
+
+    .creditos{
+        bottom: 43.8%;
+        font-size: 7.8px ;
+        left: 45.2%;
+    }
+
+    .idea{
+        bottom: 41.9%;
+        font-size: 7.4px;
+        left: 37.6%;
+    }
+
+    .diseñadoras{
+        bottom: 39.5%;
+        font-size: 7.4px;
+        left: 39.8%;
+    }
+
+    .musica{
+        bottom: 36.8%;
+        font-size: 7.4px;
+        left: 46.23%;
+    }
+
+    .musicalista{
+        bottom: 35.5%;
+        font-size: 7.4px;
+        left: 41.45%;
+    }
+
+    .sonido{
+        bottom: 32%;
+        font-size: 7.4px;
+        left: 36%;
+    }
+
+    .sonidista{
+        bottom: 30.9%;
+        font-size: 7.4px;
+        left: 40.28%;
+    }
+
+    .programacion{
+        bottom: 27.5%;
+        font-size: 7.4px;
+        left: 43.17%;
+    }
+
+    .programadores{
+        bottom: 24%;
+        font-size: 7.4px;
+        left: 40.6%;
+    }
+
+    .testimonios{
+        bottom: 20.5%;
+        font-size: 7.4px;
+        left: 44.18%;
+    }
+
+    .testores{
+        width: 70vw;
+        bottom: 16%;
+        font-size: 7.4px;
+        left: 18.37%;
+    }
+
+    .agradecemos{
+        bottom: 11%;
+        left: 37.68%;
+        font-size: 7.4px;
+    }
+
+    .agradecidos{
+        bottom: 0%;
+        font-size: 7.4px;
+        width: 94vw;
+        left: 2.8%;
+    }
+
+    footer{
+        width: 88vw;
+        height: 300px;
+    }
+
+    .metropolitano{
+        height: 35px;
+        width: 160px;
+        left: 29.3%;
+        top: 10%;
+    }
+
+    .apoyoDelPrograma{
+        width: 60vw;
+        font-size: 7.4px;
+        left: 21.8%;
+        top: 25%;
+    }
+
+    .enMemoria{
+        width: 80vw;
+        top: 46%;
+        font-size: 7.8px;
+        left: 15.2%;
+    }
+}
+
+@media (min-width: 355px) and (max-width: 365px){
+    
+    body{
+        
+        background-size: 100vw 1250px ;
+    }
+
+    header{
+        width: 92vw;
+        height: 100px;
+        font-size: 20px;
+        padding: 0px;
+        gap: 3px;
+        }
+    
+    .fb {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .ig{
+        width: 17px;
+        height: 17px;
+    }
+    
+    .aig {
+        top: 3.5%;
+    }
+    
+    .afb {
+        top: 3.5%;
+    }
+
+    main{
+        width: 97vw;
+        height: 800px;
+    }
+
+    .introduccion{
+        top: -2%;
+        width: 88vw;
+        font-size: 7.4px;
+        left: 5.9%;
+    }
+
+    .cristal1{
+        top: 10%;
+        left: 43.4%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .reconocimientos{
+        top: 19%;
+        font-size: 7px;
+        left: 32.45%;
+    }
+
+    .reconocidos{
+        width: 89vw;
+        top: 21%;
+        font-size: 7px;
+        left: -8.35%;
+    }
+
+    .cristal2{
+        bottom: 49.5%;
+        width: 40px;
+        height: 40px;
+        left: 43.4%;
+    }
+
+    .creditos{
+        bottom: 43.8%;
+        font-size: 7.4px ;
+        left: 44.9%;
+    }
+
+    .idea{
+        bottom: 41.7%;
+        font-size: 7px;
+        left: 36.55%;
+    }
+
+    .diseñadoras{
+        bottom: 39.3%;
+        font-size: 7px;
+        left: 39.1%;
+    }
+
+    .musica{
+        bottom: 36.42%;
+        font-size: 7px;
+        left: 45.6%;
+    }
+
+    .musicalista{
+        bottom: 35.3%;
+        font-size: 6.6px;
+        left: 40.8%;
+    }
+
+    .sonido{
+        bottom: 32%;
+        font-size: 7px;
+        left: 34.95%;
+    }
+
+    .sonidista{
+        bottom: 30.9%;
+        font-size: 6.6px;
+        left: 39.9%;
+    }
+
+    .programacion{
+        bottom: 27.5%;
+        font-size: 7px;
+        left: 42.4%;
+    }
+
+    .programadores{
+        bottom: 24%;
+        font-size: 6.6px;
+        left: 39.8%;
+    }
+
+    .testimonios{
+        bottom: 20.5%;
+        font-size: 7px;
+        left: 43.4%;
+    }
+
+    .testores{
+        width: 70vw;
+        bottom: 16%;
+        font-size: 6.6px;
+        left: 16.1%;
+    }
+
+    .agradecemos{
+        bottom: 11%;
+        left: 36.6%;
+        font-size: 7px;
+    }
+
+    .agradecidos{
+        bottom: 2%;
+        font-size: 6.6px;
+        width: 97vw;
+        left: -0.6%;
+    }
+
+    footer{
+        width: 88vw;
+        height: 300px;
+    }
+
+    .metropolitano{
+        height: 35px;
+        width: 160px;
+        left: 27.3%;
+        top: 10%;
+    }
+
+    .apoyoDelPrograma{
+        width: 60vw;
+        font-size: 7px;
+        left: 19.5%;
+        top: 25%;
+    }
+
+    .enMemoria{
+        width: 80vw;
+        top: 46%;
+        font-size: 7.4px;
+        left: 15.85%;
+    }
+}
+

@@ -1181,7 +1181,7 @@ footer {
   }
 }
 
-@media (min-width: 410px) and (max-width: 414px){
+@media (min-width: 405px) and (max-width: 420px){
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
     background-size: 100vw 1300px;
@@ -1283,7 +1283,7 @@ footer {
   }
 }
 
-@media (max-width: 380px) and (max-width: 390px){
+@media (max-width: 375px) and (max-width: 390px){
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
     background-size: 100vw 1300px;
@@ -1385,7 +1385,7 @@ footer {
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 355px) and (max-width: 365px) {
   body {
     background-image: url(./Imagenes/Inicio/inicio\ fondo\ 481.png);
     background-size: 100vw 1300px;
