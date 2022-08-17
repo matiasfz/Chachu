@@ -50,15 +50,16 @@ body::-webkit-scrollbar-track {
 /* HEADER */
 
 header{
+    background-color: #373442;
     display: flex;
     position: sticky;
     z-index: 10000;
-    width: 93vw;
-    height: 200px;
+    width: 340px;
+    height: 30px;
     top: 0%;
+    left: 100%;
     gap: 4px;
-    justify-content: flex-end;
-    padding: 40px;
+    padding: 10px;
     font-size: 25px;
     color: #a19Dad;
     font-family: "Rubik-Regular";
@@ -82,7 +83,7 @@ header{
     height: 15px;
     display: flex;
     position: relative;
-    top: 3%;
+    top: 10%;
     
     
 }
@@ -91,7 +92,7 @@ header{
     height: 15px;
     display: flex;
     position: relative;
-    top: 3%;
+    top: 10%;
 
 }
 
@@ -125,7 +126,7 @@ main{
     display: flex;
     position: relative;
     width: 98vw;
-    height: 3650px;
+    height: 4000px;
     font-family: "Rubik-Regular";
 }
 
@@ -842,7 +843,8 @@ footer{
 @media (max-width: 1366px){
 
     body{
-        background-size: 100vw 3734px;
+        background-size: 100vw 100%;
+        
     }
 
     header{
@@ -1874,13 +1876,13 @@ footer{
         }
     
     .fb {
-        width: 17px;
-        height: 17px;
+        width: 22px;
+        height: 22px;
     }
     
     .ig{
-        width: 17px;
-        height: 17px;
+        width: 22px;
+        height: 22px;
     }
     
     .aig {
@@ -2058,8 +2060,8 @@ footer{
     }
     
     .ig{
-        width: 17px;
-        height: 17px;
+        width: 20px;
+        height: 20px;
     }
     
     .aig {
@@ -2232,8 +2234,8 @@ footer{
         }
     
     .fb {
-        width: 17px;
-        height: 17px;
+        width: 20px;
+        height: 20px;
     }
     
     .ig{
