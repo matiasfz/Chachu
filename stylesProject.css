@@ -68,34 +68,7 @@ header{
 }
 
 
-.fb{
-    width: 22px;
-    height: 22px;
-}
 
-.ig{
-    
-    width: 22px;
-    height: 22px;
-    
-}
-
-.aig{
-    height: 15px;
-    display: flex;
-    position: relative;
-    top: 10%;
-    
-    
-}
-
-.afb{
-    height: 15px;
-    display: flex;
-    position: relative;
-    top: 10%;
-
-}
 
 .aInicio{
     height: 15px;
@@ -127,7 +100,7 @@ main{
     display: flex;
     position: relative;
     width: 98vw;
-    height: 4000px;
+    height: 3850px;
     font-family: "Rubik-Regular";
 }
 
@@ -371,10 +344,7 @@ footer{
 
 @media (max-width: 1680px){
 
-    header{
-        width: 92vw;
-        gap: 3px;
-    }
+    
 
     .introduccion{
         width: 86vw;
@@ -470,21 +440,7 @@ footer{
 
 @media (max-width: 1600px){
 
-    header{
-        width: 92vw;
-        font-size: 26px;
-        gap: 3px;
-    }
 
-    .fb {
-        width: 24px;
-        height: 24px;
-    }
-    
-    .ig {
-        width: 24px;
-        height: 24px;
-    }
 
     .introduccion{
         width: 86vw;
@@ -580,28 +536,7 @@ footer{
 
 @media (max-width: 1536px){
 
-    header{
-        font-size: 24px;
-        width: 92vw;
-    }
 
-    .fb {
-        width: 23px;
-        height: 23px;
-        }
-    
-    .ig{
-        width: 23px;
-        height: 23px;
-        }
-
-    .afb{
-            top: 1.8%;
-        }
-        
-    .aig{
-            top: 1.8%;
-        }
 
     .introduccion{
         width: 86vw;
@@ -711,29 +646,7 @@ footer{
 
 @media (max-width: 1440px){
 
-    header{
-        font-size: 22px;
-        width: 92vw;
-        gap: 3px;
-    }
 
-    .fb{
-        width: 22px;
-        height: 22px;
-    }
-    
-    .ig{
-        width: 22px;
-        height: 22px;
-    }
-    
-    .afb{
-        top: 1.5%;
-    }
-    
-    .aig{
-        top: 1.5%;
-    }
 
     .introduccion{
         width: 86vw;
@@ -848,36 +761,14 @@ footer{
         
     }
 
-    header{
-        width: 92vw;
-        font-size: 20px;
-        gap: 3px;
-    }
 
-    .fb{
-        width: 21px;
-        height: 21px;
-    }
-
-    .ig{
-        width: 21px;
-        height: 21px;
-    }
-
-    .afb{
-        top: 1.9%;
-    }
-
-    .aig{
-        top: 1.9%;
-    }
 
     main{
         height: 3000px;
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 86vw;
         font-size: 28px;
         left: 8.5%;
@@ -1019,17 +910,13 @@ footer{
         background-size: 100vw 3734px;
     }
 
-    header{
-        width: 92vw;
-        gap: 3px;
-    }
 
     main{
         height: 3000px;
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 86vw;
         font-size: 28px;
         left: 8.5%;
@@ -1168,39 +1055,17 @@ footer{
 @media (max-width: 1280px){
 
     body{
-        background-size: 100vw 3734px;
+        background-size: 100vw 3534px;
     }
 
-    header{
-        width: 90vw;
-        gap: 3px;
-        font-size: 21px;
-    }
 
-    .fb{
-        width: 19px;
-        height: 19px;
-    }
-
-    .ig{
-        width: 19px;
-        height: 19px;
-    }
-
-    .afb{
-        top: 1.9%;
-    }
-
-    .aig{
-        top: 1.9%;
-    }
 
     main{
         height: 3000px;
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 86vw;
         font-size: 26px;
         left: 8.5%;
@@ -1339,33 +1204,17 @@ footer{
 @media (max-width: 800px){
 
     body{
-        background-size: 100vw 2850px;
+        background-size: 100vw 2650px;
     }
 
-    header{
-        width: 92vw;
-        padding: 15px;
-        gap: 2px;
+    header {
+    
+        width: 250px;
         font-size: 18px;
-    }
-
-    .fb{
-        width: 17px;
-        height: 17px;
-    }
-
-    .ig{
-        width: 17px;
-        height: 17px;
-    }
-
-    .afb{
-        top: 1.9%;
-    }
-
-    .aig{
-        top: 1.9%;
-    }
+        padding: 8px;
+        height: 25px;
+        
+        }
 
     main{
         width: 97vw;
@@ -1373,7 +1222,7 @@ footer{
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 88vw;
         font-size: 15px;
         left: 10.4%;
@@ -1517,30 +1366,16 @@ footer{
         background-size: 100vw 2850px;
     }
 
-    header{
-        width: 92vw;
-        padding: 15px;
-        gap: 2px;
+    header {
+    
+        width: 250px;
         font-size: 18px;
-    }
+        padding: 7px;
+        height: 20px;
+        
+        }
 
-    .fb{
-        width: 16px;
-        height: 16px;
-    }
 
-    .ig{
-        width: 16px;
-        height: 16px;
-    }
-
-    .afb{
-        top: 1.9%;
-    }
-
-    .aig{
-        top: 1.9%;
-    }
 
     main{
         width: 97vw;
@@ -1548,7 +1383,7 @@ footer{
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 88vw;
         font-size: 15px;
         left: 8.9%;
@@ -1689,33 +1524,17 @@ footer{
 @media (max-width: 720px){
 
     body{
-        background-size: 100vw 2850px;
+        background-size: 100vw 2650px;
     }
 
     header{
-        width: 92vw;
-        padding: 10px;
-        gap: 1px;
-        font-size: 15px;
+        width: 250px;
+        font-size: 18px;
+        padding: 7px;
+        height: 20px;
+        
     }
 
-    .fb{
-        width: 14px;
-        height: 14px;
-    }
-
-    .ig{
-        width: 14px;
-        height: 14px;
-    }
-
-    .afb{
-        top: 1.5%;
-    }
-
-    .aig{
-        top: 1.5%;
-    }
 
     main{
         width: 97vw;
@@ -1723,7 +1542,7 @@ footer{
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 88vw;
         font-size: 14px;
         left: 10.6%;
@@ -1865,34 +1684,19 @@ footer{
     
     body{
         
-        background-size: 100vw 1250px ;
+        background-size: 100vw 1200px ;
     }
 
     header{
-        width: 92vw;
-        height: 100px;
-        font-size: 20px;
-        padding: 0px;
-        gap: 3px;
-        }
-    
-    .fb {
-        width: 22px;
-        height: 22px;
+        width: 215px;
+        font-size: 15px;
+        padding: 7px;
+        height: 20px;
+        left: 22.8%;
+        
     }
     
-    .ig{
-        width: 22px;
-        height: 22px;
-    }
     
-    .aig {
-        top: 3.5%;
-    }
-    
-    .afb {
-        top: 3.5%;
-    }
 
     main{
         width: 97vw;
@@ -1900,7 +1704,7 @@ footer{
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 82vw;
         font-size: 8.4px;
         left: 8.84%;
@@ -2044,42 +1848,26 @@ footer{
     
     body{
         
-        background-size: 100vw 1250px ;
+        background-size: 100vw 1180px ;
     }
 
     header{
-        width: 92vw;
-        height: 100px;
-        font-size: 20px;
-        padding: 0px;
-        gap: 3px;
-        }
-    
-    .fb {
-        width: 17px;
-        height: 17px;
-    }
-    
-    .ig{
-        width: 20px;
+        width: 215px;
+        font-size: 15px;
+        padding: 7px;
         height: 20px;
+        left: 20.9%;
+        
     }
     
-    .aig {
-        top: 3.5%;
-    }
     
-    .afb {
-        top: 3.5%;
-    }
-
     main{
         width: 97vw;
         height: 800px;
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 88vw;
         font-size: 7.8px;
         left: 5.9%;
@@ -2227,30 +2015,15 @@ footer{
     }
 
     header{
-        width: 92vw;
-        height: 100px;
-        font-size: 20px;
-        padding: 0px;
-        gap: 3px;
-        }
-    
-    .fb {
-        width: 20px;
+        width: 210px;
+        font-size: 15px;
+        padding: 7px;
         height: 20px;
+        left: 19.2%;
+        
     }
     
-    .ig{
-        width: 17px;
-        height: 17px;
-    }
-    
-    .aig {
-        top: 3.5%;
-    }
-    
-    .afb {
-        top: 3.5%;
-    }
+
 
     main{
         width: 97vw;
