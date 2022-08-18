@@ -50,7 +50,7 @@ body::-webkit-scrollbar-track {
 /* HEADER */
 
 header{
-    background-color: #373442;
+    background-color: #3f3543;
     display: flex;
     position: sticky;
     z-index: 10000;
@@ -60,6 +60,7 @@ header{
     left: 100%;
     gap: 4px;
     padding: 10px;
+    border-radius: 20px;
     font-size: 25px;
     color: #a19Dad;
     font-family: "Rubik-Regular";
