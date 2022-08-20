@@ -111,7 +111,7 @@ main{
     width: 75vw;
     top: 2%;
     left: 16%;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -131,7 +131,7 @@ main{
     width: 40vw;
     top: 22%;
     left: 38%;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .reconocidos{
@@ -140,7 +140,7 @@ main{
     width: 92vw;
     top: 24%;
     left: 1.5%;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
     flex-direction: column;
     color: #a19Dad;
@@ -156,13 +156,15 @@ main{
     
 }
 
+
+
 .creditos{
     display: flex;
     position: absolute;
     width: 20vw;
     bottom: 44%;
     left: 45.8%;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .idea{
@@ -171,7 +173,7 @@ main{
     width: 30vw;
     bottom: 43%;
     left: 41.69%;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
 }
@@ -182,7 +184,7 @@ main{
     width: 30vw;
     bottom: 41%;
     left: 43.3%;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -192,7 +194,7 @@ main{
     width: 30vw;
     bottom: 39.5%;
     left: 48.25%;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
 }
@@ -203,7 +205,7 @@ main{
     width: 30vw;
     bottom: 38.5%;
     left: 44.9%;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .sonido{
@@ -212,7 +214,7 @@ main{
     width: 30vw;
     bottom: 37%;
     left: 40.3%;
-    font-size: 28px;
+    font-size: 26px;
     color: #a19Dad;
     font-weight: 550;
 }
@@ -223,7 +225,7 @@ main{
     width: 30vw;
     bottom: 36%;
     left: 43.8%;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .programacion{
@@ -232,7 +234,7 @@ main{
     width: 20vw;
     bottom: 34.6%;
     left: 45.7%;
-    font-size: 28px;
+    font-size: 26px;
     color: #a19Dad;
     font-weight: 550;
 
@@ -244,7 +246,7 @@ main{
     width: 25vw;
     bottom: 31.7%;
     left: 43.8%;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -255,7 +257,7 @@ main{
     width: 25vw;
     bottom: 30.2%;
     left: 46.3%;
-    font-size: 29px;
+    font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
 }
@@ -266,7 +268,7 @@ main{
     width: 60vw;
     bottom: 26.5%;
     left: 27.4%;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -276,7 +278,7 @@ main{
     width: 30vw;
     bottom: 25.5%;
     left: 41.7%;
-    font-size: 28px;
+    font-size: 26px;
     color: #a19Dad;
 
 }
@@ -287,7 +289,7 @@ main{
     width: 76vw;
     left: 15.3%;
     bottom: 18%;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 550;
     text-align: center;
     
@@ -326,7 +328,7 @@ footer{
     top: -35%;
     left: 31.4%;
     color: #a19Dad;
-    font-size: 25px;
+    font-size: 26px;
     font-weight:550;
 }
 
@@ -337,7 +339,7 @@ footer{
     height: 100px;
     top: 0%;
     left: 22.2%;
-    font-size: 33px;
+    font-size: 28px;
 }
 
 
@@ -770,8 +772,8 @@ footer{
     .introduccion{
         top: 2%;
         width: 86vw;
-        font-size: 28px;
-        left: 8.5%;
+        font-size: 20px;
+        left: 19.3%;
     }
 
     .cristal1{
@@ -2011,11 +2013,11 @@ footer{
     
     body{
         
-        background-size: 100vw 1250px ;
+        background-size: 360px 1180px ;
     }
 
     header{
-        width: 210px;
+        width: 215px;
         font-size: 15px;
         padding: 7px;
         height: 20px;
@@ -2031,7 +2033,7 @@ footer{
     }
 
     .introduccion{
-        top: -2%;
+        top: 2%;
         width: 88vw;
         font-size: 7.4px;
         left: 5.9%;
@@ -2039,7 +2041,7 @@ footer{
 
     .cristal1{
         top: 10%;
-        left: 43.4%;
+        left: 43.6%;
         width: 40px;
         height: 40px;
     }
@@ -2054,14 +2056,14 @@ footer{
         width: 89vw;
         top: 21%;
         font-size: 7px;
-        left: -8.35%;
+        left: -8.25%;
     }
 
     .cristal2{
         bottom: 49.5%;
         width: 40px;
         height: 40px;
-        left: 43.4%;
+        left: 43.6%;
     }
 
     .creditos{
@@ -2073,7 +2075,7 @@ footer{
     .idea{
         bottom: 41.7%;
         font-size: 7px;
-        left: 36.55%;
+        left: 36.7%;
     }
 
     .diseñadoras{
@@ -2091,13 +2093,13 @@ footer{
     .musicalista{
         bottom: 35.3%;
         font-size: 6.6px;
-        left: 40.8%;
+        left: 41%;
     }
 
     .sonido{
         bottom: 32%;
         font-size: 7px;
-        left: 34.95%;
+        left: 35.25%;
     }
 
     .sonidista{
@@ -2115,33 +2117,33 @@ footer{
     .programadores{
         bottom: 24%;
         font-size: 6.6px;
-        left: 39.8%;
+        left: 40.5%;
     }
 
     .testimonios{
         bottom: 20.5%;
         font-size: 7px;
-        left: 43.4%;
+        left: 43.55%;
     }
 
     .testores{
-        width: 70vw;
+        width: 65vw;
         bottom: 16%;
         font-size: 6.6px;
-        left: 16.1%;
+        left: 19.6%;
     }
 
     .agradecemos{
         bottom: 11%;
-        left: 36.6%;
+        left: 36.9%;
         font-size: 7px;
     }
 
     .agradecidos{
         bottom: 2%;
-        font-size: 6.6px;
-        width: 97vw;
-        left: -0.6%;
+        font-size: 6.3px;
+        width: 85vw;
+        left: 6.4%;
     }
 
     footer{
@@ -2152,14 +2154,14 @@ footer{
     .metropolitano{
         height: 35px;
         width: 160px;
-        left: 27.3%;
+        left: 27.5%;
         top: 10%;
     }
 
     .apoyoDelPrograma{
         width: 60vw;
         font-size: 7px;
-        left: 19.5%;
+        left: 20.1%;
         top: 25%;
     }
 
@@ -2167,7 +2169,7 @@ footer{
         width: 80vw;
         top: 46%;
         font-size: 7.4px;
-        left: 15.85%;
+        left: 15.4%;
     }
 }
 
