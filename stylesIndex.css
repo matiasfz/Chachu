@@ -231,7 +231,7 @@ footer {
 .metropolitano {
   display: flex;
   position: absolute;
-  height: 120px;
+  height: 115px;
   width: 500px;
   left: 37.3%;
   top: 30%;
@@ -293,7 +293,7 @@ footer {
   }
 
   .metropolitano {
-    height: 110px;
+    height: 105px;
     width: 450px;
     left: 39%;
   }
@@ -359,7 +359,7 @@ footer {
   }
 
   .metropolitano {
-    height: 110px;
+    height: 105px;
     width: 450px;
     left: 38.4%;
   }
@@ -427,7 +427,7 @@ footer {
   }
 
   .metropolitano {
-    height: 110px;
+    height: 105px;
     width: 450px;
     left: 37.65%;
   }
@@ -496,7 +496,7 @@ footer {
   }
 
   .metropolitano {
-    height: 110px;
+    height: 105px;
     width: 450px;
     left: 36.45%;
   }

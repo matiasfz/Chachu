@@ -13,11 +13,11 @@
 
 /* BODY */
 body{
-    background-image: url(./Imagenes/el\ proyecto\ fondo.png);
+    background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1920.png);
     background-color: #373442;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 4734px;
+    background-size: 100vw 3957px;
     color: white;
 }
 
@@ -100,7 +100,7 @@ main{
     display: flex;
     position: relative;
     width: 98vw;
-    height: 3850px;
+    height: 3130px;
     font-family: "Rubik-Regular";
 }
 
@@ -109,8 +109,8 @@ main{
     display: flex;
     position: absolute;
     width: 75vw;
-    top: 2%;
-    left: 16%;
+    top: 2.5%;
+    left: 20.68%;
     font-size: 28px;
     text-align: center;
 }
@@ -118,10 +118,10 @@ main{
 .cristal1{
     display: flex;
     position: absolute;
-    width: 160px;
-    height: 160px;
-    top: 14%;
-    left: 46.6%;
+    width: 120px;
+    height: 120px;
+    top: 12.8%;
+    left: 46.9%;
     
 }
 
@@ -129,8 +129,8 @@ main{
     display: flex;
     position: absolute;
     width: 40vw;
-    top: 22%;
-    left: 38%;
+    top: 20%;
+    left: 39.5%;
     font-size: 26px;
 }
 
@@ -138,7 +138,7 @@ main{
     display: flex;
     position: absolute;
     width: 92vw;
-    top: 24%;
+    top: 21%;
     left: 1.5%;
     font-size: 26px;
     text-align: center;
@@ -149,10 +149,10 @@ main{
 .cristal2{
     display: flex;
     position: absolute;
-    width: 160px;
-    height: 160px;
-    bottom: 51%;
-    left: 46.6%;
+    width: 120px;
+    height: 120px;
+    bottom: 53%;
+    left: 46.9%;
     
 }
 
@@ -162,8 +162,8 @@ main{
     display: flex;
     position: absolute;
     width: 20vw;
-    bottom: 44%;
-    left: 45.8%;
+    bottom: 46%;
+    left: 46.95%;
     font-size: 35px;
 }
 
@@ -171,8 +171,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 43%;
-    left: 41.69%;
+    bottom: 45%;
+    left: 42.45%;
     font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
@@ -182,8 +182,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 41%;
-    left: 43.3%;
+    bottom: 43.1%;
+    left: 43.58%;
     font-size: 26px;
     text-align: center;
 }
@@ -192,8 +192,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 39.5%;
-    left: 48.25%;
+    bottom: 41.15%;
+    left: 48.4%;
     font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
@@ -203,8 +203,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 38.5%;
-    left: 44.9%;
+    bottom: 40.35%;
+    left: 45.05%;
     font-size: 26px;
 }
 
@@ -212,8 +212,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 37%;
-    left: 40.3%;
+    bottom: 38.3%;
+    left: 41.1%;
     font-size: 26px;
     color: #a19Dad;
     font-weight: 550;
@@ -223,8 +223,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 36%;
-    left: 43.8%;
+    bottom: 37.4%;
+    left: 44.33%;
     font-size: 26px;
 }
 
@@ -232,8 +232,8 @@ main{
     display: flex;
     position: absolute;
     width: 20vw;
-    bottom: 34.6%;
-    left: 45.7%;
+    bottom: 35.4%;
+    left: 45.9%;
     font-size: 26px;
     color: #a19Dad;
     font-weight: 550;
@@ -244,8 +244,8 @@ main{
     display: flex;
     position: absolute;
     width: 25vw;
-    bottom: 31.7%;
-    left: 43.8%;
+    bottom: 32.5%;
+    left: 44.45%;
     font-size: 26px;
     text-align: center;
 }
@@ -255,8 +255,8 @@ main{
     display: flex;
     position: absolute;
     width: 25vw;
-    bottom: 30.2%;
-    left: 46.3%;
+    bottom: 30.5%;
+    left: 46.72%;
     font-size: 26px;
     font-weight: 550;
     color: #a19Dad;
@@ -266,8 +266,8 @@ main{
     display: flex;
     position: absolute;
     width: 60vw;
-    bottom: 26.5%;
-    left: 27.4%;
+    bottom: 26.7%;
+    left: 29.15%;
     font-size: 26px;
     text-align: center;
 }
@@ -276,8 +276,8 @@ main{
     display: flex;
     position: absolute;
     width: 30vw;
-    bottom: 25.5%;
-    left: 41.7%;
+    bottom: 24.5%;
+    left: 42.35%;
     font-size: 26px;
     color: #a19Dad;
 
@@ -287,8 +287,8 @@ main{
     display: flex;
     position: absolute;
     width: 76vw;
-    left: 15.3%;
-    bottom: 18%;
+    left: 18%;
+    bottom: 16.6%;
     font-size: 26px;
     font-weight: 550;
     text-align: center;
@@ -314,8 +314,8 @@ footer{
     position: absolute;
     height: 120px;
     width: 500px;
-    top: -60%;
-    left: 37.5%;
+    top: -55%;
+    left: 37.55%;
 
 }
 
@@ -325,8 +325,8 @@ footer{
     text-align: center;
     width: 50vw;
     height: 100px;
-    top: -35%;
-    left: 31.4%;
+    top: -40%;
+    left: 30.8%;
     color: #a19Dad;
     font-size: 26px;
     font-weight:550;
@@ -337,8 +337,8 @@ footer{
     position: absolute;
     width: 70vw;
     height: 100px;
-    top: 0%;
-    left: 22.2%;
+    top: 4%;
+    left: 27.2%;
     font-size: 28px;
 }
 
@@ -346,539 +346,667 @@ footer{
 
 @media (max-width: 1680px){
 
+    body{
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1600.png);
+        background-size: 100vw 3462px;
+    }
+
+    main{
+        height: 2640px;
+    }
     
 
     .introduccion{
-        width: 86vw;
-        font-size: 32px;
-        left: 9%;
+        width: 80vw;
+        font-size: 26px;
+        left: 17.05%;
     }
 
     .cristal1{
-        left: 45.4%;
+        left: 46.75%;
     }
 
     .reconocimientos{
-        left: 35.3%;
+        font-size: 24px;
+        left: 37.95%;
     }
 
     .reconocidos{
-        font-size: 26px;
+        font-size: 24px;;
         left: 0.9%;
     }
 
     .cristal2{
-        left: 45.4%;
+        left: 46.75%;
+        bottom: 52%;
     }
 
     .creditos{
-        left: 44.8%;
+        font-size: 26px;
+        left: 47.3%;
+        bottom: 46%;
     }
 
     .idea{
-        left: 39.9%;
+        bottom: 44.5%;
+        font-size: 24px;
+        left: 41.5%;
     }
 
     .diseñadoras{
-        left: 41.6%;
+        font-size: 24px;
+        left: 42.7%;
+        bottom: 42.4%;
     }
 
     .musica{
-        left: 47.5%;
+        font-size: 24px;
+        left: 48%;
+        bottom: 40.6%;
     }
 
     .musicalista{
-        left: 43.2%;
+        font-size: 24px;
+        left: 44.35%;
+        bottom: 39.7%;
     }
 
     .sonido{
-        left: 38.4%;
+        font-size: 24px;
+        left: 39.85%;
+        bottom: 37.9%;
     }
 
     .sonidista{
-        left: 42.64%;
+        font-size: 24px;
+        left: 43.5%;
+        bottom: 37%;
     }
 
     .programacion{
-        left: 44.7%;
+        font-size: 24px;
+        left: 45.55%;
+        bottom: 35.2%;
     }
 
     .programadores{
-        left: 42.7%;
+        font-size: 24px;
+        left: 43.7%;
+        bottom: 32%;
     }
 
     .testimonios{
-        left: 45.3%;
+        font-size: 24px;
+        left: 46.3%;
+        bottom: 30.2%;
     }
 
     .testores{
-        left: 22.9%;
+        font-size: 24px;
+        left: 26.25%;
+        bottom: 26%;
     }
 
     .agradecemos{
-        left: 39.8%;
+        font-size: 24px;
+        left: 41.3%;
+        bottom: 23.8%;
     }
 
     .agradecidos{
+        font-size: 24px;
         width: 83vw;
-        left: 8.25%;
+        left: 13.85%;
+        bottom: 15%;
     }
 
     .metropolitano{
         height: 110px;
         width: 475px;
-        left: 35.5%;
+        left: 35.6%;
+        top: -40%;
     }
 
     .apoyoDelPrograma{
-        left: 27.25%;
+        font-size: 24px;
+        left: 27.95%;
+        top: -25%;
     }
 
     .enMemoria{
-        font-size: 31px;
-        left: 19.5%;
+        font-size: 26px;
+        left: 24.05%;
+        top: 15%;
     }
 }
 
 @media (max-width: 1600px){
 
+    body{
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1600.png);
+        background-size: 100vw 3462px;
+    }
 
+    main{
+        height: 2640px;
+    }
+    
 
     .introduccion{
-        width: 86vw;
-        font-size: 32px;
-        left: 9%;
+        width: 80vw;
+        font-size: 26px;
+        left: 17.05%;
     }
 
     .cristal1{
-        left: 45.4%;
+        left: 46.75%;
     }
 
     .reconocimientos{
-        left: 35.3%;
+        font-size: 24px;
+        left: 37.95%;
     }
 
     .reconocidos{
-        font-size: 26px;
+        font-size: 24px;;
         left: 0.9%;
     }
 
     .cristal2{
-        left: 45.4%;
+        left: 46.75%;
+        bottom: 52%;
     }
 
     .creditos{
-        left: 44.8%;
+        font-size: 26px;
+        left: 47.3%;
+        bottom: 46%;
     }
 
     .idea{
-        left: 39.9%;
+        bottom: 44.5%;
+        font-size: 24px;
+        left: 41.5%;
     }
 
     .diseñadoras{
-        left: 41.6%;
+        font-size: 24px;
+        left: 42.7%;
+        bottom: 42.4%;
     }
 
     .musica{
-        left: 47.5%;
+        font-size: 24px;
+        left: 48%;
+        bottom: 40.6%;
     }
 
     .musicalista{
-        left: 43.2%;
+        font-size: 24px;
+        left: 44.35%;
+        bottom: 39.7%;
     }
 
     .sonido{
-        left: 38.4%;
+        font-size: 24px;
+        left: 39.85%;
+        bottom: 37.9%;
     }
 
     .sonidista{
-        left: 42.64%;
+        font-size: 24px;
+        left: 43.5%;
+        bottom: 37%;
     }
 
     .programacion{
-        left: 44.7%;
+        font-size: 24px;
+        left: 45.55%;
+        bottom: 35.2%;
     }
 
     .programadores{
-        left: 42.7%;
+        font-size: 24px;
+        left: 43.7%;
+        bottom: 32%;
     }
 
     .testimonios{
-        left: 45.3%;
+        font-size: 24px;
+        left: 46.3%;
+        bottom: 30.2%;
     }
 
     .testores{
-        left: 22.9%;
+        font-size: 24px;
+        left: 26.25%;
+        bottom: 26%;
     }
 
     .agradecemos{
-        left: 39.8%;
+        font-size: 24px;
+        left: 41.3%;
+        bottom: 23.8%;
     }
 
     .agradecidos{
+        font-size: 24px;
         width: 83vw;
-        left: 8.25%;
+        left: 13.85%;
+        bottom: 15%;
     }
 
     .metropolitano{
         height: 110px;
         width: 475px;
-        left: 35.5%;
+        left: 35.6%;
+        top: -40%;
     }
 
     .apoyoDelPrograma{
-        left: 27.25%;
+        font-size: 24px;
+        left: 27.95%;
+        top: -25%;
     }
 
     .enMemoria{
-        font-size: 31px;
-        left: 19.5%;
+        font-size: 26px;
+        left: 24.05%;
+        top: 15%;
     }
 }
 
 @media (max-width: 1536px){
 
+    body{
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1600.png);
+        background-size: 100vw 3462px;
+    }
 
+    main{
+        height: 2640px;
+    } 
 
     .introduccion{
-        width: 86vw;
-        font-size: 30px;
-        left: 11%;
+        width: 80vw;
+        font-size: 26px;
+        left: 15.8%;
     }
 
     .cristal1{
-        left: 45.4%;
+        left: 46.6%;
     }
 
     .reconocimientos{
-        left: 34.6%;
+        font-size: 24px;
+        left: 37.4%;
     }
 
     .reconocidos{
-        font-size: 26px;
-        left: 0.8%;
+        font-size: 24px;;
+        left: 0.9%;
     }
 
     .cristal2{
-        left: 45.4%;
+        left: 46.6%;
+        bottom: 52%
     }
 
     .creditos{
-        left: 44.65%;
+        font-size: 26px;
+        left: 47.1%;
+        bottom: 46%;
     }
 
     .idea{
-        font-size: 26px;
-        left: 40.4%;
+        bottom: 44.5%;
+        font-size: 24px;
+        left: 41.05%;
     }
 
     .diseñadoras{
-        font-size: 26px;
-        left: 42.1%;
+        font-size: 24px;
+        left: 42.45%;
+        bottom: 42.4%;
     }
 
     .musica{
-        font-size: 26px;
-        left: 47.95%;
+        font-size: 24px;
+        left: 47.9%;
+        bottom: 40.6%;
     }
 
     .musicalista{
-        font-size: 26px;
-        left: 43.7%;
+        font-size: 24px;
+        left: 44.05%;
+        bottom: 39.7%;
     }
 
     .sonido{
-        font-size: 26px;
-        left: 38.8%;
+        font-size: 24px;
+        left: 39.4%;
+        bottom: 37.9%;
     }
 
     .sonidista{
-        font-size: 26px;
-        left: 42.7%;
+        font-size: 24px;
+        left: 43.15%;
+        bottom: 37%;
     }
 
     .programacion{
-        font-size: 26px;
-        left: 44.8%;
+        font-size: 24px;
+        left: 45.25%;
+        bottom: 35.2%;
     }
 
     .programadores{
-        font-size: 26px;
-        left: 43.1%;
+        font-size: 24px;
+        left: 43.35%;
+        bottom: 32%;
     }
 
     .testimonios{
-        font-size: 26px;
-        left: 45.6%;
+        font-size: 24px;
+        left: 46%;
+        bottom: 30.2%;
     }
 
     .testores{
-        font-size: 26px;
-        left: 23.6%;
+        font-size: 24px;
+        left: 25.3%;
+        bottom: 26%;
     }
 
     .agradecemos{
-        left: 40.2%;
-        font-size: 26px;
+        font-size: 24px;
+        left: 41%;
+        bottom: 23.8%;
     }
 
     .agradecidos{
-        font-size: 26px;
-        width: 86vw;
-        left: 9.6%;
+        font-size: 24px;
+        width: 83vw;
+        left: 12.25%;
+        bottom: 15%;
     }
 
     .metropolitano{
         height: 110px;
         width: 475px;
-        left: 34.7%;
+        left: 34.9%;
+        top: -40%;
     }
 
     .apoyoDelPrograma{
-        width: 60vw;
-        font-size: 26px;
-        left: 25.5%;
+        font-size: 24px;
+        left: 27.05%;
+        top: -25%;
     }
 
     .enMemoria{
-        font-size: 30px;
-        left: 19%;
+        font-size: 26px;
+        left: 22.95%;
+        top: 15%;
     }
 }
 
 @media (max-width: 1440px){
 
+    body{
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1600.png);
+        background-size: 100vw 3462px;
+    }
 
+    main{
+        height: 2640px;
+    }    
 
     .introduccion{
-        width: 86vw;
-        font-size: 30px;
-        left: 8.5%;
+        width: 80vw;
+        font-size: 26px;
+        left: 13.4%;
     }
 
     .cristal1{
-        left: 45%;
+        left: 46.2%;
     }
 
     .reconocimientos{
-        left: 33.6%;
+        font-size: 24px;
+        left: 36.5%;
     }
 
     .reconocidos{
-        font-size: 26px;
+        font-size: 24px;;
         left: 0.7%;
     }
 
     .cristal2{
-        left: 45%;
+        left: 46.2%;
+        bottom: 52%;
     }
 
     .creditos{
-        left: 44.25%;
+        font-size: 26px;
+        left: 46.9%;
+        bottom: 46%;
     }
 
     .idea{
-        font-size: 26px;
-        left: 39.8%;
+        bottom: 44.5%;
+        font-size: 24px;
+        left: 40.4%;
     }
 
     .diseñadoras{
-        font-size: 26px;
-        left: 41.5%;
+        font-size: 24px;
+        left: 41.85%;
+        bottom: 42.4%;
     }
 
     .musica{
-        font-size: 26px;
-        left: 47.35%;
+        font-size: 24px;
+        left: 47.7%;
+        bottom: 40.6%;
     }
 
     .musicalista{
-        font-size: 26px;
-        left: 43.1%;
+        font-size: 24px;
+        left: 43.55%;
+        bottom: 39.7%;
     }
 
     .sonido{
-        font-size: 26px;
-        left: 38.2%;
+        font-size: 24px;
+        left: 38.65%;
+        bottom: 37.9%;
     }
 
     .sonidista{
-        font-size: 26px;
-        left: 42.20%;
+        font-size: 24px;
+        left: 42.63%;
+        bottom: 37%;
     }
 
     .programacion{
-        font-size: 26px;
-        left: 44.5%;
+        font-size: 24px;
+        left: 44.8%;
+        bottom: 35.2%;
     }
 
     .programadores{
-        font-size: 26px;
-        left: 42.5%;
+        font-size: 24px;
+        left: 42.85%;
+        bottom: 32%;
     }
 
     .testimonios{
-        font-size: 26px;
-        left: 45.3%;
+        font-size: 24px;
+        left: 45.65%;
+        bottom: 30.2%;
     }
 
     .testores{
-        font-size: 26px;
-        left: 21.7%;
+        font-size: 24px;
+        left: 23.6%;
+        bottom: 26%;
     }
 
     .agradecemos{
-        left: 39.6%;
-        font-size: 26px;
+        font-size: 24px;
+        left: 40.25%;
+        bottom: 23.8%;
     }
 
     .agradecidos{
-        font-size: 26px;
-        width: 86vw;
-        left: 7.25%;
+        font-size: 24px;
+        width: 83vw;
+        left: 9.65%;
+        bottom: 15%;
     }
 
     .metropolitano{
         height: 110px;
         width: 475px;
         left: 33.9%;
+        top: -40%;
     }
 
     .apoyoDelPrograma{
-        width: 60vw;
-        font-size: 26px;
-        left: 24.1%;
+        font-size: 24px;
+        left: 25.45%;
+        top: -25%;
     }
 
     .enMemoria{
-        font-size: 30px;
-        left: 17%;
+        font-size: 26px;
+        left: 21.05%;
+        top: 15%;
     }
 }
 
 @media (max-width: 1366px){
 
     body{
-        background-size: 100vw 100%;
-        
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1440.png);
+        background-size: 100vw 2967px;
     }
 
-
-
     main{
-        height: 3000px;
+        height: 2480px;
     }
 
     .introduccion{
         top: 2%;
-        width: 86vw;
-        font-size: 20px;
-        left: 19.3%;
+        width: 75vw;
+        font-size: 22px;
+        left: 17.20%;
     }
 
     .cristal1{
-        top: 12%;
-        left: 44.8%;
-        width: 140px;
-    height: 140px;
+        top: 11.8%;
+        left: 46.55%;
+        width: 110px;
+        height: 110px;
     }
 
     .reconocimientos{
-        top: 19%;
-        font-size: 24px;
-        left: 35.7%;
+        top: 19.4%;
+        font-size: 20px;
+        left: 38.30%;
     }
 
     .reconocidos{
         top: 20.5%;
-        font-size: 24px;
-        left: 0.6%;
+        font-size: 20px;
+        left: 0.65%;
     }
 
     .cristal2{
-        bottom: 53%;
-        width: 140px;
-        height: 140px;
-        left: 44.8%;
+        bottom: 54%;
+        width: 110px;
+        height: 110px;
+        left: 46.55%;
     }
 
     .creditos{
-        bottom: 47%;
-        font-size: 35px ;
-        left: 45.4%;
+        bottom: 48%;
+        font-size: 22px; ;
+        left: 47.25%;
     }
 
     .idea{
-        bottom: 46%;
-        font-size: 24px;
-        left: 39.8%;
+        bottom: 47.1%;
+        font-size: 20px;
+        left: 41.55%;
     }
 
     .diseñadoras{
-        bottom: 44%;
-        font-size: 24px;
-        left: 41.4%;
+        bottom: 45.2%;
+        font-size: 20px;
+        left: 42.95%;
     }
 
     .musica{
-        bottom: 42.8%;
-        font-size: 24px;
-        left: 47.60%;
+        bottom: 43%;
+        font-size: 20px;
+        left: 48%;
     }
 
     .musicalista{
-        bottom: 42%;
-        font-size: 24px;
-        left: 43.1%;
+        bottom: 42.1%;
+        font-size: 20px;
+        left: 44.25%;
     }
 
     .sonido{
-        bottom: 40.8%;
-        font-size: 24px;
-        left: 38.2%;
+        bottom: 39.9%;
+        font-size: 20px;
+        left: 40%;
     }
 
     .sonidista{
-        bottom: 39.8%;
-        font-size: 24px;
-        left: 42.20%;
+        bottom: 38.9%;
+        font-size: 20px;
+        left: 43.5%;
     }
 
     .programacion{
-        bottom: 38.7%;
-        font-size: 24px;
-        left: 44.5%;
+        bottom: 36.6%;
+        font-size: 20px;
+        left: 45.55%;
     }
 
     .programadores{
-        bottom: 35.8%;
-        font-size: 24px;
-        left: 42.5%;
+        bottom: 33.6%;
+        font-size: 20px;
+        left: 43.85%;
     }
 
     .testimonios{
-        bottom: 34.7%;
-        font-size: 24px;
-        left: 45.3%;
+        bottom: 31.4%;
+        font-size: 20px;
+        left: 46.3%;
     }
 
     .testores{
-        bottom: 30.8%;
-        font-size: 24px;
-        left: 21.9%;
+        bottom: 27.5%;
+        font-size: 20px;;
+        left: 26.7%;
     }
 
     .agradecemos{
-        bottom: 30.5%;
-        left: 39.6%;
-        font-size: 24px;
+        bottom: 25%;
+        left: 41.45%;
+        font-size: 20px;;
     }
 
     .agradecidos{
-        bottom: 22.9%;
-        font-size: 24px;
+        bottom: 17%;
+        font-size: 20px;
         width: 86vw;
-        left: 7.25%;
+        left: 14.25%;
     }
 
     footer{
@@ -888,145 +1016,145 @@ footer{
     .metropolitano{
         height: 90px;
         width: 380px;
-        left: 36.4%;
-        top: -130%;
+        left: 36.55%;
+        top: -85%;
     }
 
     .apoyoDelPrograma{
         width: 60vw;
-        font-size: 24px;
-        left: 23.9%;
-        top: -100%;
+        font-size: 20px;
+        left: 28.25%;
+        top: -65%;
     }
 
     .enMemoria{
-        top: -40%;
-        font-size: 26px;
-        left: 19%;
+        top: -22%;
+        font-size: 22px;
+        left: 23.85%;
     }
 }
 
 @media (max-width: 1360px){
 
     body{
-        background-size: 100vw 3734px;
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1440.png);
+        background-size: 100vw 2967px;
     }
 
-
     main{
-        height: 3000px;
+        height: 2480px;
     }
 
     .introduccion{
         top: 2%;
-        width: 86vw;
-        font-size: 28px;
-        left: 8.5%;
+        width: 75vw;
+        font-size: 22px;
+        left: 17.05%;
     }
 
     .cristal1{
-        top: 12%;
-        left: 44.8%;
-        width: 140px;
-    height: 140px;
+        top: 11.8%;
+        left: 46.35%;
+        width: 110px;
+        height: 110px;
     }
 
     .reconocimientos{
-        top: 19%;
-        font-size: 24px;
-        left: 35.7%;
+        top: 19.4%;
+        font-size: 20px;
+        left: 38.15%;
     }
 
     .reconocidos{
         top: 20.5%;
-        font-size: 24px;
-        left: 0.6%;
+        font-size: 20px;
+        left: 0.5%;
     }
 
     .cristal2{
-        bottom: 53%;
-        width: 140px;
-        height: 140px;
-        left: 44.8%;
+        bottom: 54%;
+        width: 110px;
+        height: 110px;
+        left: 46.35%;
     }
 
     .creditos{
-        bottom: 47%;
-        font-size: 35px ;
-        left: 45.4%;
+        bottom: 48%;
+        font-size: 22px; ;
+        left: 47.1%;
     }
 
     .idea{
-        bottom: 46%;
-        font-size: 24px;
-        left: 39.8%;
-    }
-
-    .diseñadoras{
-        bottom: 44%;
-        font-size: 24px;
+        bottom: 47.1%;
+        font-size: 20px;
         left: 41.4%;
     }
 
+    .diseñadoras{
+        bottom: 45.2%;
+        font-size: 20px;
+        left: 42.8%;
+    }
+
     .musica{
-        bottom: 42.8%;
-        font-size: 24px;
-        left: 47.60%;
+        bottom: 43%;
+        font-size: 20px;
+        left: 47.9%;
     }
 
     .musicalista{
-        bottom: 42%;
-        font-size: 24px;
-        left: 43.1%;
+        bottom: 42.1%;
+        font-size: 20px;
+        left: 44.15%;
     }
 
     .sonido{
-        bottom: 40.8%;
-        font-size: 24px;
-        left: 38.2%;
+        bottom: 39.9%;
+        font-size: 20px;
+        left: 39.8%;
     }
 
     .sonidista{
-        bottom: 39.8%;
-        font-size: 24px;
-        left: 42.20%;
+        bottom: 38.9%;
+        font-size: 20px;
+        left: 43.35%;
     }
 
     .programacion{
-        bottom: 38.7%;
-        font-size: 24px;
-        left: 44.5%;
+        bottom: 36.6%;
+        font-size: 20px;
+        left: 45.4%;
     }
 
     .programadores{
-        bottom: 35.8%;
-        font-size: 24px;
-        left: 42.5%;
+        bottom: 33.6%;
+        font-size: 20px;
+        left: 43.65%;
     }
 
     .testimonios{
-        bottom: 34.7%;
-        font-size: 24px;
-        left: 45.3%;
+        bottom: 31.4%;
+        font-size: 20px;
+        left: 46.1%;
     }
 
     .testores{
-        bottom: 30.8%;
-        font-size: 24px;
-        left: 21.9%;
+        bottom: 27.5%;
+        font-size: 20px;;
+        left: 26.5%;
     }
 
     .agradecemos{
-        bottom: 30.5%;
-        left: 39.6%;
-        font-size: 24px;
+        bottom: 25%;
+        left: 41.25%;
+        font-size: 20px;;
     }
 
     .agradecidos{
-        bottom: 22.9%;
-        font-size: 24px;
-        width: 86vw;
-        left: 7.25%;
+        bottom: 17%;
+        font-size: 20px;
+        width: 85vw;
+        left: 14.05%;
     }
 
     footer{
@@ -1037,145 +1165,145 @@ footer{
         height: 90px;
         width: 380px;
         left: 36.4%;
-        top: -130%;
+        top: -85%;
     }
 
     .apoyoDelPrograma{
         width: 60vw;
-        font-size: 24px;
-        left: 23.9%;
-        top: -100%;
+        font-size: 20px;
+        left: 28.1%;
+        top: -65%;
     }
 
     .enMemoria{
-        top: -40%;
-        font-size: 26px;
-        left: 19%;
+        top: -22%;
+        font-size: 22px;
+        left: 23.7%;
     }
 }
+
 
 @media (max-width: 1280px){
 
     body{
-        background-size: 100vw 3534px;
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 1440.png);
+        background-size: 100vw 2967px;
     }
 
-
-
     main{
-        height: 3000px;
+        height: 2480px;
     }
 
     .introduccion{
         top: 2%;
-        width: 86vw;
-        font-size: 26px;
-        left: 8.5%;
+        width: 75vw;
+        font-size: 22px;
+        left: 14.55%;
     }
 
     .cristal1{
-        top: 12%;
-        left: 44.8%;
-        width: 140px;
-    height: 140px;
+        top: 11.8%;
+        left: 46%;
+        width: 110px;
+    height: 110px;
     }
 
     .reconocimientos{
-        top: 19%;
-        font-size: 22px;
-        left: 36%;
+        top: 19.4%;
+        font-size: 20px;
+        left: 37.25%;
     }
 
     .reconocidos{
         top: 20.5%;
-        font-size: 22px;
-        left: 0.4%;
+        font-size: 20px;
+        left: 0.2%;
     }
 
     .cristal2{
-        bottom: 53%;
-        width: 140px;
-        height: 140px;
-        left: 44.8%;
+        bottom: 54%;
+        width: 110px;
+        height: 110px;
+        left: 46%;
     }
 
     .creditos{
-        bottom: 47%;
-        font-size: 30px ;
-        left: 45.7%;
+        bottom: 48%;
+        font-size: 22px ;
+        left: 46.8%;
     }
 
     .idea{
-        bottom: 46%;
-        font-size: 22px;
-        left: 39.8%;
+        bottom: 47.1%;
+        font-size: 20px;
+        left: 40.65%;
     }
 
     .diseñadoras{
-        bottom: 44%;
-        font-size: 22px;
-        left: 41.4%;
+        bottom: 45.2%;
+        font-size: 20px;
+        left: 42.2%;
     }
 
     .musica{
-        bottom: 42.8%;
-        font-size: 22px;
+        bottom: 43%;
+        font-size: 20px;
         left: 47.60%;
     }
 
     .musicalista{
-        bottom: 42%;
-        font-size: 22px;
-        left: 43.1%;
+        bottom: 42.1%;
+        font-size: 20px;
+        left: 43.7%;
     }
 
     .sonido{
-        bottom: 40.8%;
-        font-size: 22px;
-        left: 38.2%;
+        bottom: 39.9%;
+        font-size: 20px;
+        left: 39.1%;
     }
 
     .sonidista{
-        bottom: 39.8%;
-        font-size: 22px;
-        left: 42.20%;
+        bottom: 38.9%;
+        font-size: 20px;
+        left: 42.65%;
     }
 
     .programacion{
-        bottom: 38.7%;
-        font-size: 22px;
-        left: 44.5%;
+        bottom: 36.6%;
+        font-size: 20px;
+        left: 45%;
     }
 
     .programadores{
-        bottom: 35.8%;
-        font-size: 22px;
-        left: 42.5%;
+        bottom: 33.6%;
+        font-size: 20px;
+        left: 43.1%;
     }
 
     .testimonios{
-        bottom: 34.7%;
-        font-size: 22px;
-        left: 45.3%;
+        bottom: 31.4%;
+        font-size: 20px;
+        left: 45.75%;
     }
 
     .testores{
-        bottom: 30.8%;
-        font-size: 22px;
-        left: 22.3%;
+        bottom: 27.5%;
+        font-size: 20px;
+        left: 24.7%;
     }
 
     .agradecemos{
-        bottom: 30.5%;
-        left: 39.6%;
-        font-size: 22px;
+        bottom: 25%;
+        left: 40.35%;
+        font-size: 20px;
     }
 
     .agradecidos{
-        bottom: 22.9%;
-        font-size: 22px;
-        width: 86vw;
-        left: 8.15%;
+        bottom: 17%;
+        font-size: 20px;
+        width: 80vw;
+        left: 11.6%;
     }
 
     footer{
@@ -1185,21 +1313,21 @@ footer{
     .metropolitano{
         height: 90px;
         width: 380px;
-        left: 35.6%;
-        top: -130%;
+        left: 35.35%;
+        top: -85%;
     }
 
     .apoyoDelPrograma{
         width: 60vw;
-        font-size: 22px;
-        left: 24.3%;
-        top: -100%;
+        font-size: 20px;
+        left: 26.35%;
+        top: -65%;
     }
 
     .enMemoria{
-        top: -40%;
-        font-size: 24px;
-        left: 19%;
+        top: -22%;
+        font-size: 22px;
+        left: 21.65%;
     }
 }
 
@@ -1685,7 +1813,7 @@ footer{
 @media (min-width: 405px) and (max-width: 420px){
     
     body{
-        
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 412.png);
         background-size: 100vw 1200px ;
     }
 
@@ -1821,7 +1949,7 @@ footer{
 
     footer{
         width: 88vw;
-        height: 300px;
+        height: 330px;
     }
 
     .metropolitano{
@@ -1849,7 +1977,7 @@ footer{
 @media (min-width: 375px) and (max-width: 390px){
     
     body{
-        
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 385.png);
         background-size: 100vw 1180px ;
     }
 
@@ -2012,8 +2140,8 @@ footer{
 @media (min-width: 355px) and (max-width: 365px){
     
     body{
-        
-        background-size: 360px 1180px ;
+        background-image: url(./Imagenes/ElProyecto/el\ proyecto\ 360.png);
+        background-size: 100vh 1180px ;
     }
 
     header{
