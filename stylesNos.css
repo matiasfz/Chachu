@@ -281,6 +281,35 @@ footer {
 
 }
 
+.bitbang{
+    display: flex;
+    position: absolute;
+    left: 24%;
+    bottom: 20%;
+    height: 290px;
+    width: 300px;
+
+}
+
+.metropolitano {
+    display: flex;
+    position: absolute;
+    height: 115px;
+    width: 500px;
+    right: 31.2%;
+    bottom: 50%;
+
+}
+
+.diseñoResponde{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    bottom: 39%;
+    height: 180px;
+    width: 220px;
+}
+
 
 @media (max-width: 1680px) {
     body {
@@ -357,10 +386,25 @@ footer {
         left: 52.6%;
     }
 
+    .bitbang{
+        left: 22.5%;
+        bottom: 0%;
+        height: 270px;
+        width: 280px;
+    }
+    
     .metropolitano {
         left: 39.5%;
         height: 105px;
         width: 450px;
+        bottom: 28%;
+    }
+    
+    .diseñoResponde{
+        left: 70%;
+        bottom: 20%;
+        height: 165px;
+        width: 205px;
     }
 }
 
@@ -444,6 +488,27 @@ footer {
         height: 105px;
         width: 450px;
     }
+
+    .bitbang{
+        left: 21%;
+        bottom: 0%;
+        height: 270px;
+        width: 280px;
+    }
+    
+    .metropolitano {
+        left: 38.7%;
+        height: 105px;
+        width: 450px;
+        bottom: 28%;
+    }
+    
+    .diseñoResponde{
+        left: 70.8%;
+        bottom: 19.5%;
+        height: 165px;
+        width: 205px;
+    }
 }
 
 @media (max-width: 1536px) {
@@ -516,11 +581,26 @@ footer {
         width: 90vw;
     }
 
+
+    .bitbang{
+        left: 20%;
+        bottom: 0%;
+        height: 255px;
+        width: 270px;
+    }
+    
     .metropolitano {
         left: 38.1%;
         height: 105px;
         width: 450px;
-        bottom: 30%;
+        bottom: 26%;
+    }
+    
+    .diseñoResponde{
+        left: 71.5%;
+        bottom: 19.2%;
+        height: 150px;
+        width: 190px;
     }
 }
 
@@ -626,11 +706,26 @@ footer {
 
     }
 
+
+    .bitbang{
+        left: 18%;
+        bottom: 0%;
+        height: 255px;
+        width: 270px;
+    }
+    
     .metropolitano {
+        left: 36.85%;
         height: 105px;
         width: 450px;
-        left: 37.1%;
-        bottom: 20%;
+        bottom: 26%;
+    }
+    
+    .diseñoResponde{
+        left: 72.2%;
+        bottom: 19%;
+        height: 150px;
+        width: 190px;
     }
 }
 
@@ -731,10 +826,26 @@ footer {
     }
 
 
+
+    .bitbang{
+        left: 20.5%;
+        bottom: 0%;
+        height: 210px;
+        width: 230px;
+    }
+    
     .metropolitano {
         height: 100px;
         width: 400px;
         left: 38%;
+        bottom: 20%;
+    }
+    
+    .diseñoResponde{
+        left: 71.4%;
+        bottom: 16.6%;
+        height: 130px;
+        width: 170px;
     }
 }
 
@@ -835,10 +946,26 @@ footer {
     }
 
 
+
+    .bitbang{
+        left: 20.5%;
+        bottom: 0%;
+        height: 215px;
+        width: 230px;
+    }
+    
     .metropolitano {
         height: 100px;
         width: 400px;
         left: 38%;
+        bottom: 20%;
+    }
+    
+    .diseñoResponde{
+        left: 71.6%;
+        bottom: 16.6%;
+        height: 130px;
+        width: 170px;
     }
 }
 
@@ -937,12 +1064,25 @@ footer {
     }
 
 
-
+    .bitbang{
+        left: 18.5%;
+        bottom: 0%;
+        height: 210px;
+        width: 220px;
+    }
+    
     .metropolitano {
         height: 100px;
-        width: 440px;
-        left: 35.2%;
-        bottom: 15%;
+        width: 400px;
+        left: 36.8%;
+        bottom: 20%;
+    }
+    
+    .diseñoResponde{
+        left: 72.6%;
+        bottom: 16.4%;
+        height: 125px;
+        width: 165px;
     }
 }
 
@@ -966,14 +1106,14 @@ footer {
     }
 
     .principal {
-        width: 75vw;
+        width: 70vw;
         font-size: 15px;
-        left: 19.2%;
+        left: 27.7%;
         top: 2%;
     }
 
     .ellas {
-        left: 25%;
+        left: 25.3%;
         top: 20%;
     }
 
@@ -1007,11 +1147,11 @@ footer {
     .pAilen {
         font-size: 12px;
         top: 15%;
-        right: -11.5%;
+        right: -10.5%;
     }
 
     .otros {
-        left: 48.45%;
+        left: 50.5%;
         bottom: 40%;
         font-size: 16px;
     }
@@ -1035,12 +1175,12 @@ footer {
     .contacto {
         bottom: 10%;
         font-size: 16px;
-        left: 52.05%;
+        left: 53.3%;
     }
 
     .contactoEmail {
         font-size: 14px;
-        left: 42.95%;
+        left: 46.9%;
         bottom: 9%;
     }
 
@@ -1051,7 +1191,7 @@ footer {
     }
 
     .afb {
-        left: 51.85%;
+        left: 53.5%;
         bottom: 6%;
     }
 
@@ -1065,11 +1205,26 @@ footer {
         width: 86vw;
     }
 
+
+    .bitbang{
+        left: 16%;
+        bottom: 0%;
+        height: 195px;
+        width: 200px;
+    }
+    
     .metropolitano {
-        height: 70px;
-        width: 280px;
-        left: 35.5%;
-        bottom: 15%;
+        height: 85px;
+        width: 350px;
+        left: 36.5%;
+        bottom: 14%;
+    }
+    
+    .diseñoResponde{
+        left: 76.5%;
+        bottom: 11%;
+        height: 115px;
+        width: 150px;
     }
 }
 
@@ -1198,6 +1353,27 @@ footer {
         left: 35.5%;
         bottom: 15%;
     }
+
+    .bitbang{
+        left: 16%;
+        bottom: 0%;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .metropolitano {
+        height: 70px;
+        width: 280px;
+        left: 35.5%;
+        bottom: 10%;
+    }
+    
+    .diseñoResponde{
+        left: 76.3%;
+        bottom: 7.4%;
+        height: 95px;
+        width: 125px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1316,11 +1492,26 @@ footer {
         width: 86vw;
     }
 
+
+    .bitbang{
+        left: 18%;
+        bottom: 0%;
+        height: 145px;
+        width: 135px;
+    }
+    
     .metropolitano {
         height: 60px;
         width: 250px;
         left: 36.9%;
-        bottom: 0%;
+        bottom: 18%;
+    }
+    
+    .diseñoResponde{
+        left: 75.3%;
+        bottom: 12.5%;
+        height: 85px;
+        width: 115px;
     }
 }
 
@@ -1441,11 +1632,26 @@ footer {
         width: 86vw;
     }
 
+    
+    .bitbang{
+        left: 16%;
+        bottom: 0%;
+        height: 145px;
+        width: 135px;
+    }
+    
     .metropolitano {
         height: 60px;
         width: 250px;
-        left: 35.6%;
-        bottom: 0%;
+        left: 35.45%;
+        bottom: 18%;
+    }
+    
+    .diseñoResponde{
+        left: 76%;
+        bottom: 13.8%;
+        height: 85px;
+        width: 115px;
     }
 }
 
@@ -1607,8 +1813,172 @@ footer {
         left: 32%;
     }
 }
+@media only screen and (min-width: 421px) and (max-width: 444px) {
 
-@media only screen and (min-width: 405px) and (max-width: 430px) {
+    body {
+        background-image: url(./Imagenes/nosotras/nosotras\ 412x950.png);
+        background-size: 100vw 950px;
+
+    }
+
+    header {
+        width: 210px;
+        font-size: 15px;
+        padding: 6px;
+        height: 20px;
+        left: 24%;
+    }
+
+
+    main {
+        height: 780px;
+        width: 97vw;
+    }
+
+    .principal {
+        width: 80vw;
+        height: 200px;
+        font-size: 8px;
+        left: 16.6%;
+        top: 3%;
+    }
+
+    .ellas {
+        height: 300px;
+        top: 14%;
+        width: 70vw;
+        left: 4.2%;
+    }
+
+    .cecilia {
+        width: 100px;
+        height: 100px;
+        left: 15%;
+    }
+
+    .h2cecilia {
+        font-size: 10px;
+        left: 20.5%;
+        top: 32%;
+    }
+
+    .pCecilia {
+        left: 16%;
+        top: 40%;
+        font-size: 7px;
+    }
+
+    .ailen {
+        width: 100px;
+        height: 100px;
+        right: -10.8%;
+    }
+
+    .h2ailen {
+        font-size: 10px;
+        right: -11.9%;
+        top: 32%;
+    }
+
+    .pAilen {
+        font-size: 7px;
+        right: -20%;
+        top: 40%;
+    }
+
+    .otros {
+        width: 40vw;
+        left: 41.4%;
+        font-size: 9px;
+        bottom: 55%;
+    }
+
+    .proyectos {
+        width: 85%;
+        height: 350px;
+        left: 7.2%;
+        bottom: 24%;
+        justify-content: space-between;
+    }
+
+    .proyectos img {
+        width: 65px;
+        height: 100px;
+    }
+
+    .proyectos img:hover {
+        transform: scale(1.4);
+
+    }
+
+    .unDiosQue {
+        position: absolute;
+        bottom: 0%;
+        left: 20.5%;
+    }
+
+    .aBiologas {
+        position: absolute;
+        bottom: 0%;
+        right: 21%;
+    }
+
+    .contacto {
+        bottom: 15%;
+        left: 43.15%;
+        font-size: 12px;
+
+    }
+
+    .contactoEmail {
+        bottom: 14.5%;
+        left: 32.35%;
+        font-size: 10px;
+    }
+
+    .fb,
+    .ig {
+        width: 20px;
+        height: 20px;
+    }
+
+    .afb {
+        bottom: 11%;
+        left: 43.4%;
+    }
+
+    .aig {
+        bottom: 11%;
+        left: 51%;
+    }
+
+    footer {
+        height: 100px;
+        width: 88vw;
+    }
+
+    .bitbang{
+        left: 11%;
+        bottom: 0%;
+        height: 85px;
+        width: 75px;
+    }
+    
+    .metropolitano {
+        width: 180px;
+        height: 45px;
+        left: 29.35%;
+        bottom: 18%;
+    }
+    
+    .diseñoResponde{
+        left: 76.5%;
+        bottom: 16%;
+        height: 50px;
+        width: 60px;
+    }
+}
+@media only screen and (min-width: 405px) and (max-width: 420px) {
 
     body {
         background-image: url(./Imagenes/nosotras/nosotras\ 412x950.png);
@@ -1729,7 +2099,7 @@ footer {
     }
 
     .contactoEmail {
-        bottom: 14%;
+        bottom: 14.5%;
         left: 31.5%;
         font-size: 10px;
     }
@@ -1741,12 +2111,12 @@ footer {
     }
 
     .afb {
-        bottom: 10%;
+        bottom: 11%;
         left: 43.4%;
     }
 
     .aig {
-        bottom: 10%;
+        bottom: 11%;
         left: 51%;
     }
 
@@ -1755,11 +2125,25 @@ footer {
         width: 88vw;
     }
 
+    .bitbang{
+        left: 10%;
+        bottom: 0%;
+        height: 85px;
+        width: 75px;
+    }
+    
     .metropolitano {
         width: 180px;
         height: 45px;
         left: 28.3%;
-        bottom: 5%;
+        bottom: 18%;
+    }
+    
+    .diseñoResponde{
+        left: 77%;
+        bottom: 16%;
+        height: 50px;
+        width: 60px;
     }
 }
 
@@ -1910,11 +2294,25 @@ footer {
         width: 88vw;
     }
 
+    .bitbang{
+        left: 7%;
+        bottom: 0%;
+        height: 85px;
+        width: 75px;
+    }
+    
     .metropolitano {
         width: 180px;
         height: 45px;
         left: 26.5%;
-        bottom: 5%;
+        bottom: 17.5%;
+    }
+    
+    .diseñoResponde{
+        left: 78%;
+        bottom: 15%;
+        height: 50px;
+        width: 60px;
     }
 }
 
@@ -2069,5 +2467,26 @@ footer {
         height: 40px;
         left: 27.5%;
         bottom: 5%;
+    }
+
+    .bitbang{
+        left: 5.6%;
+        bottom: 0%;
+        height: 85px;
+        width: 75px;
+    }
+    
+    .metropolitano {
+        width: 160px;
+        height: 40px;
+        left: 27.5%;
+        bottom: 19%;
+    }
+    
+    .diseñoResponde{
+        left: 77.5%;
+        bottom: 17%;
+        height: 50px;
+        width: 60px;
     }
 }

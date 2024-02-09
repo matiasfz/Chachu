@@ -169,11 +169,35 @@ main {
 .requisitos {
   display: flex;
   position: absolute;
-  bottom: 35%;
+  bottom: 36.5%;
   left: 32%;
   text-align: center;
   font-size: 26px;
   color: #a19dad;
+}
+
+.aTrailer {
+  display: flex;
+  position: absolute;
+  bottom: 32.5%;
+  left: 47.3%;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.trailer {
+  height: 50px;
+  width: 160px;
+  border-radius: 40px;
+  font-size: 30px;
+  background-color: #3f3543;
+  color: white;
+  border: #ffffff;
+}
+
+.trailer:hover {
+  color:#3f3543;
+  background-color: #ffffff;
 }
 
 .contacto {
@@ -228,13 +252,32 @@ footer {
   padding: 20px;
 }
 
+.bitbang{
+  display: flex;
+  position: absolute;
+  left: 22.5%;
+  bottom: 4%;
+  height: 290px;
+  width: 300px;
+
+}
+
 .metropolitano {
   display: flex;
   position: absolute;
   height: 115px;
   width: 500px;
   left: 37.3%;
-  top: 30%;
+  top:10%;
+}
+
+.diseñoResponde{
+  display: flex;
+  position: absolute;
+  left: 64.5%;
+  bottom: 27%;
+  height: 180px;
+  width: 220px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -270,6 +313,11 @@ footer {
     bottom: 38%;
   }
 
+  .aTrailer{
+    left: 46.65%;
+    bottom: 33.5%;
+  }
+
   .contacto {
     font-size: 25px;
     left: 48.2%;
@@ -292,10 +340,24 @@ footer {
     width: 90vw;
   }
 
+  .bitbang{
+    left: 22.5%;
+    bottom: 10%;
+    height: 270px;
+    width: 280px;
+  }
+
   .metropolitano {
     height: 105px;
     width: 450px;
     left: 39%;
+  }
+
+  .diseñoResponde{
+    left: 69%;
+    bottom: 35%;
+    height: 165px;
+    width: 205px;
   }
 }
 
@@ -336,6 +398,11 @@ footer {
     left: 31%;
   }
 
+  .aTrailer{
+    left: 46.32%;
+    bottom: 33.5%;
+  }
+
   .contacto {
     font-size: 24px;
     left: 48%;
@@ -358,10 +425,25 @@ footer {
     width: 90vw;
   }
 
+  .bitbang{
+    left: 21%;
+    bottom: 10%;
+    height: 270px;
+    width: 280px;
+  }
+
+
   .metropolitano {
     height: 105px;
     width: 450px;
     left: 38.4%;
+  }
+
+  .diseñoResponde{
+    left: 69.5%;
+    bottom: 33.3%;
+    height: 165px;
+    width: 205px;
   }
 }
 
@@ -403,6 +485,11 @@ footer {
     left: 30.3%;
   }
 
+  .aTrailer{
+    left: 46.1%;
+    bottom: 33.5%;
+  }
+
   .contacto {
     font-size: 24px;
     left: 47.95%;
@@ -426,10 +513,24 @@ footer {
     width: 90vw;
   }
 
+  .bitbang{
+    left: 20%;
+    bottom: 11.6%;
+    height: 255px;
+    width: 270px;
+  }
+
   .metropolitano {
     height: 105px;
     width: 450px;
     left: 37.65%;
+  }
+
+  .diseñoResponde{
+    left: 70.5%;
+    bottom: 34.5%;
+    height: 150px;
+    width: 190px;
   }
 }
 
@@ -468,9 +569,14 @@ footer {
   }
 
   .requisitos {
-    bottom: 35.5%;
+    bottom: 36.5%;
     font-size: 22px;
     left: 28.85%;
+  }
+
+  .aTrailer{
+    left: 45.7%;
+    bottom: 32.5%;
   }
 
   .contacto {
@@ -495,11 +601,26 @@ footer {
     width: 90vw;
   }
 
+  .bitbang{
+    left: 18.6%;
+    bottom: 12.8%;
+    height: 240px;
+    width: 255px;
+  }
+
   .metropolitano {
     height: 105px;
     width: 450px;
-    left: 36.45%;
+    left: 36%;
   }
+
+  .diseñoResponde{
+    left: 70.5%;
+    bottom: 34.5%;
+    height: 150px;
+    width: 190px;
+  }
+  
 }
 
 @media screen and (max-width: 1366px) {
@@ -554,7 +675,18 @@ footer {
   .requisitos {
     font-size: 20px;
     left: 29.25%;
-    bottom: 35%;
+    bottom: 36.5%;
+  }
+
+  .aTrailer{
+    left: 46.05%;
+    bottom: 32%;
+  }
+
+  .trailer {
+    height: 42px;
+    width: 140px;
+    font-size: 25px;
   }
 
   .contacto {
@@ -589,11 +721,26 @@ footer {
     width: 90vw;
   }
 
+  .bitbang{
+    left: 20%;
+    bottom: 0%;
+    height: 210px;
+    width: 230px;
+  }
+
+
   .metropolitano {
     height: 100px;
     width: 400px;
     left: 37.45%;
-    top: 10%;
+    top: -10%;
+  }
+
+  .diseñoResponde{
+    left: 70.5%;
+    bottom: 33%;
+    height: 130px;
+    width: 170px;
   }
 }
 
@@ -649,7 +796,18 @@ footer {
   .requisitos {
     font-size: 20px;
     left: 29.25%;
-    bottom: 35%;
+    bottom: 36.5%;
+  }
+
+  .aTrailer{
+    left: 46%;
+    bottom: 32%;
+  }
+
+  .trailer {
+    height: 42px;
+    width: 140px;
+    font-size: 25px;
   }
 
   .contacto {
@@ -684,11 +842,27 @@ footer {
     width: 90vw;
   }
 
+
+  .bitbang{
+    left: 20%;
+    bottom: 0%;
+    height: 215px;
+    width: 230px;
+  }
+
+
   .metropolitano {
     height: 100px;
     width: 400px;
     left: 37.45%;
-    top: 10%;
+    top: -10%;
+  }
+
+  .diseñoResponde{
+    left: 70.5%;
+    bottom: 32.5%;
+    height: 130px;
+    width: 170px;
   }
 }
 
@@ -738,7 +912,18 @@ footer {
   .requisitos {
     font-size: 20px;
     left: 27.8%;
-    bottom: 35%;
+    bottom: 36.5%;
+  }
+
+  .aTrailer{
+    left: 45.6%;
+    bottom: 32%;
+  }
+
+  .trailer {
+    height: 42px;
+    width: 140px;
+    font-size: 25px;
   }
 
   .contacto {
@@ -764,10 +949,27 @@ footer {
     width: 90vw;
   }
 
+
+  .bitbang{
+    left: 18%;
+    bottom: 0%;
+    height: 210px;
+    width: 220px;
+  }
+
+
   .metropolitano {
-    height: 105px;
-    width: 450px;
-    left: 34.18%;
+    height: 100px;
+    width: 400px;
+    left: 36%;
+    top: -10%;
+  }
+
+  .diseñoResponde{
+    left: 71.2%;
+    bottom: 32.2%;
+    height: 125px;
+    width: 165px;
   }
 }
 
@@ -830,7 +1032,18 @@ footer {
   .requisitos {
     font-size: 18px;
     left: 26.5%;
-    bottom: 35%;
+    bottom: 35.5%;
+  }
+
+  .aTrailer{
+    left: 45.1%;
+    bottom: 31.5%;
+  }
+
+  .trailer {
+    height: 35px;
+    width: 120px;
+    font-size: 22px;
   }
 
   .contacto {
@@ -856,11 +1069,29 @@ footer {
     width: 90vw;
   }
 
+
+  .bitbang{
+    left: 15%;
+    bottom: 0%;
+    height: 195px;
+    width: 200px;
+  }
+
+
   .metropolitano {
     height: 85px;
     width: 350px;
     left: 34.18%;
+    top: -3%;
   }
+
+  .diseñoResponde{
+    left: 72%;
+    bottom: 31.5%;
+    height: 115px;
+    width: 150px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -926,12 +1157,23 @@ footer {
   .requisitos {
     font-size: 16px;
     left: 22.4%;
-    bottom: 30%;
+    bottom: 31.5%;
+  }
+
+  .aTrailer{
+    left: 44.45%;
+    bottom: 28%;
+  }
+
+  .trailer {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
   }
 
   .contacto {
     font-size: 18px;
-    left: 46.2%;
+    left: 46.1%;
     bottom: 22.5%;
   }
 
@@ -961,11 +1203,27 @@ footer {
     height: 100px;
   }
 
+
+  .bitbang{
+    left: 15%;
+    bottom: 0%;
+    height: 160px;
+    width: 150px;
+  }
+
+
   .metropolitano {
     height: 70px;
     width: 280px;
     left: 33.35%;
-    top: 30%;
+    top: 20%;
+  }
+
+  .diseñoResponde{
+    left: 71%;
+    bottom: 26%;
+    height: 95px;
+    width: 125px;
   }
 }
 
@@ -1032,7 +1290,18 @@ footer {
   .requisitos {
     font-size: 14px;
     left: 24.75%;
-    bottom: 33%;
+    bottom: 34%;
+  }
+
+  .aTrailer{
+    left: 44.25%;
+    bottom: 29%;
+  }
+
+  .trailer {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
   }
 
   .contacto {
@@ -1067,10 +1336,26 @@ footer {
     height: 100px;
   }
 
+  .bitbang{
+    left: 16%;
+    bottom: 0%;
+    height: 145px;
+    width: 135px;
+  }
+
+
   .metropolitano {
     height: 70px;
     width: 280px;
     left: 34.1%;
+    top: 20%;
+  }
+
+  .diseñoResponde{
+    left: 75.5%;
+    bottom: 24%;
+    height: 85px;
+    width: 115px;
   }
 }
 
@@ -1137,19 +1422,30 @@ footer {
   .requisitos {
     font-size: 14px;
     left: 24.75%;
-    bottom: 33%;
+    bottom: 34%;
+  }
+
+  .aTrailer{
+    left: 43.9%;
+    bottom: 29%;
+  }
+
+  .trailer {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
   }
 
   .contacto {
     bottom: 22.4%;
     font-size: 16px;
-    left: 46.35%;
+    left: 46.2%;
   }
 
   .contactoEmail {
     bottom: 21.8%;
     font-size: 14px;
-    left: 37.85%;
+    left: 37.35%;
   }
 
   .fb, .ig{
@@ -1172,10 +1468,26 @@ footer {
     height: 100px;
   }
 
+  .bitbang{
+    left: 15%;
+    bottom: 0%;
+    height: 145px;
+    width: 135px;
+  }
+
+
   .metropolitano {
-    height: 70px;
-    width: 280px;
-    left: 34.1%;
+    height: 60px;
+    width: 250px;
+    left: 34.65%;
+    top: 23%;
+  }
+
+  .diseñoResponde{
+    left: 75%;
+    bottom: 26%;
+    height: 85px;
+    width: 115px;
   }
 }
 
@@ -1269,7 +1581,137 @@ footer {
     width: 80vw;
   }
 }
+@media screen and (min-width: 421px) and (max-width: 444px){
+  body {
+    background-image: url(./Imagenes/Inicio/inicio\ 412x950.png);
+    background-size: 100% 950px;
+  }
 
+  header{
+    width: 205px;
+    font-size: 15px;
+    padding: 7px;
+    height: 20px;
+    left: 24.7%;
+    
+}
+
+  
+
+  main {
+    width: 93vw;
+    height: 810px;
+  }
+
+  .fragmentos {
+    top: 5.5%;
+    font-size: 30px;
+    left: 29.7%;
+  }
+
+  .dolor {
+    top: 12.2%;
+    font-size: 12px;
+    left: 32.8%;
+  }
+
+  .cristal {
+    top: 29%;
+    left: 45.1%;
+    height: 55px;
+    width: 55px;
+  }
+
+  .pFragmentos {
+    font-size: 12px;
+    left: 15.6%;
+    top: 35%;
+  }
+
+  .aDescargar {
+    left: 38%;
+    bottom: 38%;
+  }
+
+  .descargar {
+    height: 32px;
+    width: 110px;
+    font-size: 18px;
+  }
+
+  .requisitos {
+    width: 74vw;
+    font-size: 9px;
+    left: 17.1%;
+    bottom: 30%;
+  }
+
+  .aTrailer{
+    left: 42.5%;
+    bottom: 24.5%;
+  }
+
+  .trailer {
+    height: 25px;
+    width: 75px;
+    font-size: 13px;
+  }
+
+  .contacto {
+    bottom: 18%;
+    font-size: 12px;
+    left: 45.3%;
+  }
+
+  .contactoEmail {
+    bottom: 17.6%;
+    font-size: 10px;
+    left: 33.7%;
+  }
+
+  .fb, .ig{
+    height: 20px;
+    width: 20px;
+  }
+
+  .afb{
+    left: 46.2%;
+    bottom: 14.5%;
+  }
+
+  .aig{
+    left: 52.6%;
+    bottom: 14.5%;
+  }
+
+  footer {
+    width: 80vw;
+    height: 50px;
+  }
+
+
+  .bitbang{
+    left: 9.5%;
+    bottom: 0%;
+    height: 85px;
+    width: 75px;
+  }
+
+
+  .metropolitano {
+    height: 50px;
+    width: 200px;
+    left: 27.8%;
+    top: 25%;
+  }
+
+  .diseñoResponde{
+    left: 81%;
+    bottom: 21%;
+    height: 50px;
+    width: 60px;
+  }
+}
 @media screen and (min-width: 405px) and (max-width: 420px) and (orientation: portrait){
   body {
     background-image: url(./Imagenes/Inicio/inicio\ 412x950.png);
@@ -1277,11 +1719,11 @@ footer {
   }
 
   header{
-    width: 210px;
+    width: 205px;
     font-size: 15px;
     padding: 7px;
     height: 20px;
-    left: 22.8%;
+    left: 23.3%;
     
 }
 
@@ -1299,7 +1741,7 @@ footer {
   }
 
   .dolor {
-    top: 11.8%;
+    top: 12.2%;
     font-size: 12px;
     left: 32%;
   }
@@ -1332,7 +1774,18 @@ footer {
     width: 74vw;
     font-size: 9px;
     left: 15.6%;
-    bottom: 29%;
+    bottom: 30%;
+  }
+
+  .aTrailer{
+    left: 41.8%;
+    bottom: 24.5%;
+  }
+
+  .trailer {
+    height: 25px;
+    width: 75px;
+    font-size: 13px;
   }
 
   .contacto {
@@ -1342,9 +1795,9 @@ footer {
   }
 
   .contactoEmail {
-    bottom: 17%;
+    bottom: 17.6%;
     font-size: 10px;
-    left: 32.6%;
+    left: 32.8%;
   }
 
   .fb, .ig{
@@ -1354,12 +1807,12 @@ footer {
 
   .afb{
     left: 46%;
-    bottom: 12%;
+    bottom: 14.5%;
   }
 
   .aig{
     left: 52.4%;
-    bottom: 12%;
+    bottom: 14.5%;
   }
 
   footer {
@@ -1367,10 +1820,27 @@ footer {
     height: 50px;
   }
 
+
+  .bitbang{
+    left: 8%;
+    bottom: 0%;
+    height: 85px;
+    width: 75px;
+  }
+
+
   .metropolitano {
     height: 50px;
     width: 200px;
     left: 26.3%;
+    top: 25%;
+  }
+
+  .diseñoResponde{
+    left: 81%;
+    bottom: 21%;
+    height: 50px;
+    width: 60px;
   }
 }
 
@@ -1421,7 +1891,7 @@ footer {
 
   .aDescargar {
     left: 36%;
-    bottom: 41%;
+    bottom: 39%;
   }
 
   .descargar {
@@ -1434,7 +1904,18 @@ footer {
     width: 74vw;
     font-size: 9px;
     left: 12.8%;
-    bottom: 28%;
+    bottom: 30%;
+  }
+
+  .aTrailer{
+    left: 41.05%;
+    bottom: 24%;
+  }
+
+  .trailer {
+    height: 25px;
+    width: 75px;
+    font-size: 13px;
   }
 
   .contacto {
@@ -1444,9 +1925,9 @@ footer {
   }
 
   .contactoEmail {
-    bottom: 16%;
+    bottom: 16.6%;
     font-size: 10px;
-    left: 31.2%;
+    left: 31.35%;
   }
 
   .fb, .ig{
@@ -1456,12 +1937,12 @@ footer {
 
   .afb{
     left: 45.2%;
-    bottom: 9%;
+    bottom: 12%;
   }
 
   .aig{
     left: 52.3%;
-    bottom: 9%;
+    bottom: 12%;
   }
 
   footer {
@@ -1469,11 +1950,27 @@ footer {
     height: 100px;
   }
 
+
+  .bitbang{
+    left: 8%;
+    bottom: 0%;
+    height: 85px;
+    width: 75px;
+  }
+
+
   .metropolitano {
     height: 45px;
     width: 180px;
     left: 27.3%;
-    top: 60%;
+    top: 52%;
+  }
+
+  .diseñoResponde{
+    left: 80%;
+    bottom: 14%;
+    height: 50px;
+    width: 60px;
   }
 }
 
@@ -1526,7 +2023,7 @@ footer {
 
   .aDescargar {
     left: 35.5%;
-    bottom: 41%;
+    bottom: 37%;
   }
 
   .descargar {
@@ -1542,14 +2039,25 @@ footer {
     bottom: 27%;
   }
 
+  .aTrailer{
+    left: 41.2%;
+    bottom: 18.5%;
+  }
+
+  .trailer {
+    height: 25px;
+    width: 75px;
+    font-size: 13px;
+  }
+
   .contacto {
-    bottom: 16%;
+    bottom: 10%;
     font-size: 12px;
     left: 43.5%;
   }
 
   .contactoEmail {
-    bottom: 15%;
+    bottom: 9.6%;
     font-size: 10px;
     left: 30%;
   }
@@ -1561,12 +2069,12 @@ footer {
 
   .afb{
     left: 44.5%;
-    bottom: 10%;
+    bottom: 6%;
   }
 
   .aig{
     left: 52.3%;
-    bottom: 10%;
+    bottom: 6%;
   }
 
   footer {
@@ -1578,5 +2086,29 @@ footer {
     height: 40px;
     width: 160px;
     left: 27.7%;
+    top: 65%;
+  }
+
+  .bitbang{
+    position: relative;
+    left: 1%;
+    bottom: -43%;
+    height: 85px;
+    width: 75px;
+  }
+
+
+  .metropolitano {
+    height: 40px;
+    width: 160px;
+    left: 27.7%;
+    top: 60%;
+  }
+
+  .diseñoResponde{
+    left: 77.5%;
+    bottom: 7.7%;
+    height: 55px;
+    width: 65px;
   }
 }
